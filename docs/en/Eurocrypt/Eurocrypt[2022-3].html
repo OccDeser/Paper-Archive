@@ -1,0 +1,568 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Paper Archive</title>
+    <link rel="stylesheet" href="/assets/vue.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="/assets/load.js"></script>
+</head>
+<body>
+<div class="main">
+<h1>Eurocrypt[2022-3]</h1>
+<h2 id="key-guessing-strategies-for-linear-key-schedule-algorithms-in-rectangle-attacks">Key Guessing Strategies for Linear Key-Schedule Algorithms in Rectangle Attacks.</h2>
+<p>🌍 <strong><a href="../../../docs/en/Eurocrypt/Eurocrypt[2022-3].html#key-guessing-strategies-for-linear-key-schedule-algorithms-in-rectangle-attacks">English</a></strong> | <a href="../../../docs/zh-CN/Eurocrypt/Eurocrypt[2022-3].html#key-guessing-strategies-for-linear-key-schedule-algorithms-in-rectangle-attacks">简体中文</a></p>
+<h3 id="authors">Authors</h3>
+<ul>
+<li>Xiaoyang Dong, Institute for Advanced Study, BNRist, Tsinghua University, Beijing, China</li>
+<li>Lingyue Qin, Institute for Advanced Study, BNRist, Tsinghua University, Beijing, China</li>
+<li>Xiaoyun Wang, Institute for Advanced Study, BNRist, Tsinghua University, Beijing, China</li>
+<li>Siwei Sun, School of Cryptology, University of Chinese Academy of Sciences, Beijing, China</li>
+<li>Siwei Sun, State Key Laboratory of Cryptology, Beijing, China</li>
+<li>Xiaoyun Wang, Key Laboratory of Cryptologic Technology and Information Security, Ministry of Education, Shandong University, Jinan, China</li>
+<li>Xiaoyun Wang, School of Cyber Science and Technology, Shandong University, Qingdao, China</li>
+</ul>
+<h3 id="abstract">Abstract</h3>
+<blockquote>
+<p>When generating quartets for the rectangle attacks on ciphers with linear key-schedule, we find the right quartets which may suggest key candidates have to satisfy some nonlinear relations. However, some quartets generated always violate these relations, so that they will never suggest any key candidates. Inspired by previous rectangle frameworks, we find that guessing certain key cells before generating quartets may reduce the number of invalid quartets. However, guessing a lot of key cells at once may lose the benefit from the early abort technique, which may lead to a higher overall complexity. To get better tradeoff, we build a new rectangle framework on ciphers with linear key-schedule with the purpose of reducing overall complexity or attacking more rounds.</p>
+<p>In the tradeoff model, there are many parameters affecting the overall complexity, especially for the choices of the number and positions of key guessing cells before generating quartets. To identify optimal parameters, we build a uniform automatic tool on SKINNY as an example, which includes the optimal rectangle distinguishers for key-recovery phase, the number and positions of key guessing cells before generating quartets, the size of key counters to build that affecting the exhaustive search step, etc. Based on the automatic tool, we identify a 32-round key-recovery attack on SKINNY-128-384 in the related-key setting, which extends the best previous attack by 2 rounds. For other versions with n-2n or n-3n, we also achieve one more round than before. In addition, using the previous rectangle distinguishers, we achieve better attacks on round-reduced ForkSkinny, Deoxys-BC-384 and GIFT-64. At last, we discuss the conversion of our rectangle framework from related-key setting into single-key setting and give new single-key rectangle attack on 10-round Serpent.</p>
+</blockquote>
+<h3 id="links">Links</h3>
+<ul>
+<li><strong>URL:</strong> <a href="https://doi.org/10.1007/978-3-031-07082-2_1">https://doi.org/10.1007/978-3-031-07082-2_1</a></li>
+</ul>
+<h2 id="a-correlation-attack-on-full-snow-v-and-snow-vi">A Correlation Attack on Full SNOW-V and SNOW-Vi.</h2>
+<p>🌍 <strong><a href="../../../docs/en/Eurocrypt/Eurocrypt[2022-3].html#a-correlation-attack-on-full-snow-v-and-snow-vi">English</a></strong> | <a href="../../../docs/zh-CN/Eurocrypt/Eurocrypt[2022-3].html#a-correlation-attack-on-full-snow-v-and-snow-vi">简体中文</a></p>
+<h3 id="authors">Authors</h3>
+<ul>
+<li>Zhen Shi, PLA SSF Information Engineering University, Zhengzhou, 450000, China</li>
+<li>Chenhui Jin, PLA SSF Information Engineering University, Zhengzhou, 450000, China</li>
+<li>Jiyan Zhang, PLA SSF Information Engineering University, Zhengzhou, 450000, China</li>
+<li>Ting Cui, PLA SSF Information Engineering University, Zhengzhou, 450000, China</li>
+<li>Lin Ding, PLA SSF Information Engineering University, Zhengzhou, 450000, China</li>
+<li>Yu Jin, PLA SSF Information Engineering University, Zhengzhou, 450000, China</li>
+</ul>
+<h3 id="abstract">Abstract</h3>
+<blockquote>
+<p>In this paper, a method for searching correlations between the binary stream of Linear Feedback Shift Register (LFSR) and the keystream of SNOW-V and SNOW-Vi is presented based on the technique of approximation to composite functions. With the aid of the linear relationship between the four taps of LFSR input into Finite State Machine (FSM) at three consecutive clocks, we present an automatic search model based on the SAT/SMT technique and search out a series of linear approximation trails with high correlation. By exhausting the intermediate masks, we find a binary linear approximation with a correlation (-2^{-47.76}). Using such approximation, we propose a correlation attack on SNOW-V with an expected time complexity (2^{246.53}), a memory complexity (2^{238.77}) and (2^{237.5}) keystream words generated by the same key and Initial Vector (IV). For SNOW-Vi, we provide a binary linear approximation with the same correlation and mount a correlation attack with the same complexity as that of SNOW-V. To the best of our knowledge, this is the first known attack on full SNOW-V and SNOW-Vi, which is better than the exhaustive key search with respect to time complexity. The results indicate that neither SNOW-V nor SNOW-Vi can guarantee the 256-bit security level if we ignore the design constraint that the maximum length of keystream for a single pair of key and IV is less than (2^{64}).</p>
+</blockquote>
+<h3 id="links">Links</h3>
+<ul>
+<li><strong>URL:</strong> <a href="https://doi.org/10.1007/978-3-031-07082-2_2">https://doi.org/10.1007/978-3-031-07082-2_2</a></li>
+</ul>
+<h2 id="refined-cryptanalysis-of-the-gprs-ciphers-gea-1-and-gea-2">Refined Cryptanalysis of the GPRS Ciphers GEA-1 and GEA-2.</h2>
+<p>🌍 <strong><a href="../../../docs/en/Eurocrypt/Eurocrypt[2022-3].html#refined-cryptanalysis-of-the-gprs-ciphers-gea-1-and-gea-2">English</a></strong> | <a href="../../../docs/zh-CN/Eurocrypt/Eurocrypt[2022-3].html#refined-cryptanalysis-of-the-gprs-ciphers-gea-1-and-gea-2">简体中文</a></p>
+<h3 id="authors">Authors</h3>
+<ul>
+<li>Dor Amzaleg, Department of Computer Science, Ben-Gurion University, Beersheba, Israel</li>
+<li>Itai Dinur, Department of Computer Science, Ben-Gurion University, Beersheba, Israel</li>
+</ul>
+<h3 id="abstract">Abstract</h3>
+<blockquote>
+<p>At EUROCRYPT 2021, Beierle et al. presented the first public analysis of the GPRS ciphers GEA-1 and GEA-2. They showed that although GEA-1 uses a 64-bit session key, it can be recovered with the knowledge of only 65 bits of keystream in time (2^{40}) using 44 GiB of memory. The attack exploits a weakness in the initialization process of the cipher that was presumably hidden intentionally by the designers to reduce its security.</p>
+<p>While no such weakness was found for GEA-2, the authors presented an attack on this cipher with time complexity of about (2^{45}). The main practical obstacle is the required knowledge of 12800 bits of keystream used to encrypt a full GPRS frame. Variants of the attack are applicable (but more expensive) when given less consecutive keystream bits, or when the available keystream is fragmented (it contains no long consecutive block).</p>
+<p>In this paper, we improve and complement the previous analysis of GEA-1 and GEA-2. For GEA-1, we devise an attack in which the memory complexity is reduced by a factor of about (2^{13} = 8192) from 44 GiB to about 4 MiB, while the time complexity remains (2^{40}). Our implementation recovers the GEA-1 session key in average time of 2.5 h on a modern laptop.</p>
+<p>For GEA-2, we describe two attacks that complement the analysis of Beierle et al. The first attack obtains a linear tradeoff between the number of consecutive keystream bits available to the attacker (denoted by (\ell )) and the time complexity. It improves upon the previous attack in the range of (roughly) (\ell \le 7000). Specifically, for (\ell = 1100) the complexity of our attack is about (2^{54}), while the previous one is not faster than the (2^{64}) brute force complexity. In case the available keystream is fragmented, our second attack reduces the memory complexity of the previous attack by a factor of 512 from 32 GiB to 64 MiB with no time complexity penalty.</p>
+<p>Our attacks are based on new combinations of stream cipher cryptanalytic techniques and algorithmic techniques used in other contexts (such as solving the k-XOR problem).</p>
+</blockquote>
+<h3 id="links">Links</h3>
+<ul>
+<li><strong>URL:</strong> <a href="https://doi.org/10.1007/978-3-031-07082-2_3">https://doi.org/10.1007/978-3-031-07082-2_3</a></li>
+</ul>
+<h2 id="revamped-differential-linear-cryptanalysis-on-reduced-round-chacha">Revamped Differential-Linear Cryptanalysis on Reduced Round ChaCha.</h2>
+<p>🌍 <strong><a href="../../../docs/en/Eurocrypt/Eurocrypt[2022-3].html#revamped-differential-linear-cryptanalysis-on-reduced-round-chacha">English</a></strong> | <a href="../../../docs/zh-CN/Eurocrypt/Eurocrypt[2022-3].html#revamped-differential-linear-cryptanalysis-on-reduced-round-chacha">简体中文</a></p>
+<h3 id="authors">Authors</h3>
+<ul>
+<li>Sabyasachi Dey, Department of Mathematics, Birla Institute of Technology and Science Pilani, Hyderabad, Jawahar Nagar, Hyderabad, 500078, India</li>
+<li>Hirendra Kumar Garai, Department of Mathematics, Birla Institute of Technology and Science Pilani, Hyderabad, Jawahar Nagar, Hyderabad, 500078, India</li>
+<li>Nitin Kumar Sharma, Department of Mathematics, Birla Institute of Technology and Science Pilani, Hyderabad, Jawahar Nagar, Hyderabad, 500078, India</li>
+<li>Santanu Sarkar, Department of Mathematics, Indian Institute of Technology Madras, Chennai, India</li>
+</ul>
+<h3 id="abstract">Abstract</h3>
+<blockquote>
+<p>In this paper, we provide several improvements over the existing differential-linear attacks on ChaCha. ChaCha is a stream cipher which has 20 rounds. At CRYPTO 2020, Beierle et al. observed a differential in the 3.5-th round if the right pairs are chosen. They produced an improved attack using this, but showed that to achieve a right pair, we need (2^5) iterations on average. In this direction, we provide a technique to find the right pairs with the help of listing. Also, we provide a strategical improvement in PNB construction, modification of complexity calculation and an alternative attack method using two input-output pairs. Using these, we improve the time complexity, reducing it to (2^{221.95}) from (2^{230.86}) reported by Beierle et al. for 256 bit version of ChaCha. Also, after a decade, we improve existing complexity (Shi et al. ICISC 2012) for a 6-round of 128 bit version of ChaCha by more than 11 million times and produce the first-ever attack on 6.5-round ChaCha128 with time complexity (2^{123.04}.)</p>
+</blockquote>
+<h3 id="links">Links</h3>
+<ul>
+<li><strong>URL:</strong> <a href="https://doi.org/10.1007/978-3-031-07082-2_4">https://doi.org/10.1007/978-3-031-07082-2_4</a></li>
+</ul>
+<h2 id="a-greater-gift-strengthening-gift-against-statistical-cryptanalysis">A Greater GIFT: Strengthening GIFT Against Statistical Cryptanalysis.</h2>
+<p>🌍 <strong><a href="../../../docs/en/Eurocrypt/Eurocrypt[2022-3].html#a-greater-gift-strengthening-gift-against-statistical-cryptanalysis">English</a></strong> | <a href="../../../docs/zh-CN/Eurocrypt/Eurocrypt[2022-3].html#a-greater-gift-strengthening-gift-against-statistical-cryptanalysis">简体中文</a></p>
+<h3 id="authors">Authors</h3>
+<ul>
+<li>Ling Sun, Key Laboratory of Cryptologic Technology and Information Security, Ministry of Education, Shandong University, Jinan, China</li>
+<li>Wei Wang, Key Laboratory of Cryptologic Technology and Information Security, Ministry of Education, Shandong University, Jinan, China</li>
+<li>Meiqin Wang, Key Laboratory of Cryptologic Technology and Information Security, Ministry of Education, Shandong University, Jinan, China</li>
+<li>Ling Sun, State Key Laboratory of Cryptology, P.O.Box 5159, Beijing, 100878, China</li>
+<li>Ling Sun, School of Cyber Science and Technology, Shandong University, Qingdao, China</li>
+<li>Wei Wang, School of Cyber Science and Technology, Shandong University, Qingdao, China</li>
+<li>Meiqin Wang, School of Cyber Science and Technology, Shandong University, Qingdao, China</li>
+<li>Bart Preneel, Department of Electrical Engineering-ESAT, KU Leuven and imec, Leuven, Belgium</li>
+<li>Meiqin Wang, Quan Cheng Shandong Laboratory, Jinan, China</li>
+</ul>
+<h3 id="abstract">Abstract</h3>
+<blockquote>
+<p>GIFT-64 is a 64-bit block cipher with a 128-bit key that is more lightweight than PRESENT. This paper provides a detailed analysis of GIFT-64 against differential and linear attacks. Our work complements automatic search methods for the best differential and linear characteristics with a careful manual analysis. This hybrid approach leads to new insights. In the differential setting, we theoretically explain the existence of differential characteristics with two active S-boxes per round and derive some novel properties of these characteristics. Furthermore, we prove that all optimal differential characteristics of GIFT-64 covering more than seven rounds must activate two S-boxes per round. We can construct all optimal characteristics by hand. In parallel to the work in the differential setting, we conduct a similar analysis in the linear setting. However, unlike the clear view in differential setting, the optimal linear characteristics of GIFT-64 must have at least one round activating only one S-box. Moreover, with the assistance of automatic searching methods, we identify 24 GIFT-64 variants achieving better resistance against differential attack while maintaining a similar security level against a linear attack. Since the new variants strengthen GIFT-64 against statistical cryptanalysis, we claim that the number of rounds could be reduced from 28 to 26 for the variants. This observation enables us to create a cipher with lower energy consumption than GIFT-64. Similarly to the case in GIFT-64, we do not claim any related-key security for the round-reduced variant as this is not relevant for most applications.</p>
+</blockquote>
+<h3 id="links">Links</h3>
+<ul>
+<li><strong>URL:</strong> <a href="https://doi.org/10.1007/978-3-031-07082-2_5">https://doi.org/10.1007/978-3-031-07082-2_5</a></li>
+</ul>
+<h2 id="approximate-divisor-multiples-factoring-with-only-a-third-of-the-secret-crt-exponents">Approximate Divisor Multiples - Factoring with Only a Third of the Secret CRT-Exponents.</h2>
+<p>🌍 <strong><a href="../../../docs/en/Eurocrypt/Eurocrypt[2022-3].html#approximate-divisor-multiples-factoring-with-only-a-third-of-the-secret-crt-exponents">English</a></strong> | <a href="../../../docs/zh-CN/Eurocrypt/Eurocrypt[2022-3].html#approximate-divisor-multiples-factoring-with-only-a-third-of-the-secret-crt-exponents">简体中文</a></p>
+<h3 id="authors">Authors</h3>
+<ul>
+<li>Alexander May, Ruhr-University Bochum, Bochum, Germany</li>
+<li>Julian Nowakowski, Ruhr-University Bochum, Bochum, Germany</li>
+<li>Santanu Sarkar, Indian Institute of Technology Madras, Chennai, India</li>
+</ul>
+<h3 id="abstract">Abstract</h3>
+<blockquote>
+<p>We address Partial Key Exposure attacks on CRT-RSA on secret exponents (d_p, d_q) with small public exponent e. For constant e it is known that the knowledge of half of the bits of one of (d_p, d_q) suffices to factor the RSA modulus N by Coppersmith’s famous factoring with a hint result. We extend this setting to non-constant e. Somewhat surprisingly, our attack shows that RSA with e of size (N^{\frac{1}{12}}) is most vulnerable to Partial Key Exposure, since in this case only a third of the bits of both (d_p, d_q) suffices to factor N in polynomial time, knowing either most significant bits (MSB) or least significant bits (LSB).</p>
+<p>Let (ed_p = 1 + k(p-1)) and (ed_q = 1 + \ell (q-1)). On the technical side, we find the factorization of N in a novel two-step approach. In a first step we recover k and (\ell ) in polynomial time, in the MSB case completely elementary and in the LSB case using Coppersmith’s lattice-based method. We then obtain the prime factorization of N by computing the root of a univariate polynomial modulo kp for our known k. This can be seen as an extension of Howgrave-Graham’s approximate divisor algorithm to the case of approximate divisor multiples for some known multiple k of an unknown divisor p of N. The point of approximate divisor multiples is that the unknown that is recoverable in polynomial time grows linearly with the size of the multiple k.</p>
+<p>Our resulting Partial Key Exposure attack with known MSBs is completely rigorous, whereas in the LSB case we rely on a standard Coppersmith-type heuristic. We experimentally verify our heuristic, thereby showing that in practice we reach our asymptotic bounds already using small lattice dimensions. Thus, our attack is highly efficient.</p>
+</blockquote>
+<h3 id="links">Links</h3>
+<ul>
+<li><strong>URL:</strong> <a href="https://doi.org/10.1007/978-3-031-07082-2_6">https://doi.org/10.1007/978-3-031-07082-2_6</a></li>
+</ul>
+<h2 id="information-combining-differential-fault-attacks-on-default">Information-Combining Differential Fault Attacks on DEFAULT.</h2>
+<p>🌍 <strong><a href="../../../docs/en/Eurocrypt/Eurocrypt[2022-3].html#information-combining-differential-fault-attacks-on-default">English</a></strong> | <a href="../../../docs/zh-CN/Eurocrypt/Eurocrypt[2022-3].html#information-combining-differential-fault-attacks-on-default">简体中文</a></p>
+<h3 id="authors">Authors</h3>
+<ul>
+<li>Marcel Nageler, Graz University of Technology, Graz, Austria</li>
+<li>Maria Eichlseder, Graz University of Technology, Graz, Austria</li>
+<li>Christoph Dobraunig, Lamarr Security Research, Graz, Austria</li>
+</ul>
+<h3 id="abstract">Abstract</h3>
+<blockquote>
+<p>Differential fault analysis (DFA) is a very powerful attack vector for implementations of symmetric cryptography. Most countermeasures are applied at the implementation level. At ASIACRYPT 2021, Baksi et al. proposed a design strategy that aims to provide inherent cipher level resistance against DFA by using S-boxes with linear structures. They argue that in their instantiation, the block cipher DEFAULT, a DFA adversary can learn at most 64 of the 128 key bits, so the remaining brute-force complexity of (2^{64}) is impractical.</p>
+<p>In this paper, we show that a DFA adversary can combine information across rounds to recover the full key, invalidating their security claim. In particular, we observe that such ciphers exhibit large classes of equivalent keys that can be represented efficiently in normalized form using linear equations. We exploit this in combination with the specifics of DEFAULT’s strong key schedule to recover the key using less than 100 faulty computation and negligible time complexity. Moreover, we show that even an idealized version of DEFAULT with independent round keys is vulnerable to our information-combining attacks based on normalized keys.</p>
+</blockquote>
+<h3 id="links">Links</h3>
+<ul>
+<li><strong>URL:</strong> <a href="https://doi.org/10.1007/978-3-031-07082-2_7">https://doi.org/10.1007/978-3-031-07082-2_7</a></li>
+</ul>
+<h2 id="private-circuits-with-quasilinear-randomness">Private Circuits with Quasilinear Randomness.</h2>
+<p>🌍 <strong><a href="../../../docs/en/Eurocrypt/Eurocrypt[2022-3].html#private-circuits-with-quasilinear-randomness">English</a></strong> | <a href="../../../docs/zh-CN/Eurocrypt/Eurocrypt[2022-3].html#private-circuits-with-quasilinear-randomness">简体中文</a></p>
+<h3 id="authors">Authors</h3>
+<ul>
+<li>Vipul Goyal, Carnegie Mellon University, Pittsburgh, USA</li>
+<li>Yifan Song, Carnegie Mellon University, Pittsburgh, USA</li>
+<li>Vipul Goyal, NTT Research, Palo Alto, USA</li>
+<li>Yuval Ishai, Technion, Haifa, Israel</li>
+</ul>
+<h3 id="abstract">Abstract</h3>
+<blockquote>
+<p>A t-private circuit for a function f is a randomized Boolean circuit C that maps a randomized encoding of an input x to an encoding of the output f(x), such that probing t wires anywhere in C reveals nothing about x. Private circuits can be used to protect embedded devices against side-channel attacks. Motivated by the high cost of generating fresh randomness in such devices, several works have studied the question of minimizing the randomness complexity of private circuits.</p>
+<p>The best known upper bound, due to Coron et al. (Eurocrypt 2020), is (O(t^2\cdot \log ts)) random bits, where s is the circuit size of f. We improve this to (O(t\cdot \log ts)), including the randomness used by the input encoder, and extend this bound to the stateful variant of private circuits. Our constructions are semi-explicit in the sense that there is an efficient randomized algorithm that generates the private circuit C from a circuit for f with negligible failure probability.</p>
+</blockquote>
+<h3 id="links">Links</h3>
+<ul>
+<li><strong>URL:</strong> <a href="https://doi.org/10.1007/978-3-031-07082-2_8">https://doi.org/10.1007/978-3-031-07082-2_8</a></li>
+</ul>
+<h2 id="mitaka-a-simpler-parallelizable-maskable-variant-of-falcon">Mitaka: A Simpler, Parallelizable, Maskable Variant of Falcon.</h2>
+<p>🌍 <strong><a href="../../../docs/en/Eurocrypt/Eurocrypt[2022-3].html#mitaka-a-simpler-parallelizable-maskable-variant-of-falcon">English</a></strong> | <a href="../../../docs/zh-CN/Eurocrypt/Eurocrypt[2022-3].html#mitaka-a-simpler-parallelizable-maskable-variant-of-falcon">简体中文</a></p>
+<h3 id="authors">Authors</h3>
+<ul>
+<li>Thomas Espitau, NTT Corporation, Tokyo, Japan</li>
+<li>Mehdi Tibouchi, NTT Corporation, Tokyo, Japan</li>
+<li>Pierre-Alain Fouque, IRISA, Univ Rennes 1, Inria, Rennes Bretagne-Atlantique Center, Rennes, France</li>
+<li>Alexandre Wallet, IRISA, Univ Rennes 1, Inria, Rennes Bretagne-Atlantique Center, Rennes, France</li>
+<li>François Gérard, University of Luxembourg, Esch-sur-Alzette, Luxembourg</li>
+<li>Mélissa Rossi, ANSSI, Paris, France</li>
+<li>Akira Takahashi, Aarhus University, Aarhus, Denmark</li>
+<li>Yang Yu, BNRist, Tsinghua University, Beijing, China</li>
+</ul>
+<h3 id="abstract">Abstract</h3>
+<blockquote>
+<p>This work describes the Mitaka signature scheme: a new hash-and-sign signature scheme over NTRU lattices which can be seen as a variant of NIST finalist Falcon. It achieves comparable efficiency but is considerably simpler, online/offline, and easier to parallelize and protect against side-channels, thus offering significant advantages from an implementation standpoint. It is also much more versatile in terms of parameter selection.</p>
+<p>We obtain this signature scheme by replacing the FFO lattice Gaussian sampler in Falcon by the “hybrid” sampler of Ducas and Prest, for which we carry out a detailed and corrected security analysis. In principle, such a change can result in a substantial security loss, but we show that this loss can be largely mitigated using new techniques in key generation that allow us to construct much higher quality lattice trapdoors for the hybrid sampler relatively cheaply. This new approach can also be instantiated on a wide variety of base fields, in contrast with Falcon’s restriction to power-of-two cyclotomics.</p>
+<p>We also introduce a new lattice Gaussian sampler with the same quality and efficiency, but which is moreover compatible with the integral matrix Gram root technique of Ducas et al., allowing us to avoid floating point arithmetic. This makes it possible to realize the same signature scheme as Mitaka efficiently on platforms with poor support for floating point numbers.</p>
+<p>Finally, we describe a provably secure masking of Mitaka. More precisely, we introduce novel gadgets that allow provable masking at any order at much lower cost than previous masking techniques for Gaussian sampling-based signature schemes, for cheap and dependable side-channel protection.</p>
+</blockquote>
+<h3 id="links">Links</h3>
+<ul>
+<li><strong>URL:</strong> <a href="https://doi.org/10.1007/978-3-031-07082-2_9">https://doi.org/10.1007/978-3-031-07082-2_9</a></li>
+</ul>
+<h2 id="a-novel-completeness-test-for-leakage-models-and-its-application-to-side-channel-attacks-and-responsibly-engineered-simulators">A Novel Completeness Test for Leakage Models and Its Application to Side Channel Attacks and Responsibly Engineered Simulators.</h2>
+<p>🌍 <strong><a href="../../../docs/en/Eurocrypt/Eurocrypt[2022-3].html#a-novel-completeness-test-for-leakage-models-and-its-application-to-side-channel-attacks-and-responsibly-engineered-simulators">English</a></strong> | <a href="../../../docs/zh-CN/Eurocrypt/Eurocrypt[2022-3].html#a-novel-completeness-test-for-leakage-models-and-its-application-to-side-channel-attacks-and-responsibly-engineered-simulators">简体中文</a></p>
+<h3 id="authors">Authors</h3>
+<ul>
+<li>Si Gao, Digital Age Research Center (D!ARC), University of Klagenfurt, Klagenfurt, Austria</li>
+<li>Elisabeth Oswald, Digital Age Research Center (D!ARC), University of Klagenfurt, Klagenfurt, Austria</li>
+</ul>
+<h3 id="abstract">Abstract</h3>
+<blockquote>
+<p>Today’s side channel attack targets are often complex devices in which instructions are processed in parallel and work on 32-bit data words. Consequently, the state that is involved in producing leakage in these modern devices is not only large, but also hard to predict due to various micro-architectural factors that users might not be aware of. On the other hand, security evaluations—basing on worst case attacks or simulators—explicitly rely on the underlying state: a potentially incomplete state can easily lead to wrong conclusions.</p>
+<p>We put forward a novel notion for the “completeness” of an assumed state, together with an efficient statistical test that is based on “collapsed models”. Our novel test can be used to recover a state that contains multiple 32-bit variables in a grey box setting. We illustrate how our novel test can help to guide side channel attacks and we reveal new attack vectors for existing implementations. We then demonstrate the application of this test in the context of leakage modelling for leakage simulators and confirm that even the most recent leakage simulators do not capture all available leakage of their respective target devices. Our new test enables finding nominal models that capture all available leakage but do not give a helping hand to adversaries. Thereby we make a first step towards leakage simulators that are responsibly engineered.</p>
+</blockquote>
+<h3 id="links">Links</h3>
+<ul>
+<li><strong>URL:</strong> <a href="https://doi.org/10.1007/978-3-031-07082-2_10">https://doi.org/10.1007/978-3-031-07082-2_10</a></li>
+</ul>
+<h2 id="towards-micro-architectural-leakage-simulators-reverse-engineering-micro-architectural-leakage-features-is-practical">Towards Micro-architectural Leakage Simulators: Reverse Engineering Micro-architectural Leakage Features Is Practical.</h2>
+<p>🌍 <strong><a href="../../../docs/en/Eurocrypt/Eurocrypt[2022-3].html#towards-micro-architectural-leakage-simulators-reverse-engineering-micro-architectural-leakage-features-is-practical">English</a></strong> | <a href="../../../docs/zh-CN/Eurocrypt/Eurocrypt[2022-3].html#towards-micro-architectural-leakage-simulators-reverse-engineering-micro-architectural-leakage-features-is-practical">简体中文</a></p>
+<h3 id="authors">Authors</h3>
+<ul>
+<li>Si Gao, Digital Age Research Center (D!ARC), University of Klagenfurt, Klagenfurt, Austria</li>
+<li>Elisabeth Oswald, Digital Age Research Center (D!ARC), University of Klagenfurt, Klagenfurt, Austria</li>
+<li>Dan Page, Department of Computer Science, University of Bristol, Bristol, UK</li>
+</ul>
+<h3 id="abstract">Abstract</h3>
+<blockquote>
+<p>Leakage simulators offer the tantalising promise of easy and quick testing of software with respect to the presence of side channel leakage. The quality of their build in leakage models is therefore crucial, this includes the faithful inclusion of micro-architectural leakage. Micro-architectural leakage is a reality even on low- to mid-range commercial processors, such as the ARM Cortex M series. Dealing with it seems initially infeasible in a “grey box” setting: how should we describe it if micro-architectural elements are not publicly known?</p>
+<p>We demonstrate, for the first time, that it is feasible, using a recent leakage modelling technique, to reverse engineer significant elements of the micro-architectural leakage of a commercial processor. Our approach first recovers the micro-architectural leakage of each stage in the pipeline, and the leakage of elements that are known to produce glitches. Using the reverse engineered leakage features we build an enhanced version of the popular leakage simulator ELMO.</p>
+</blockquote>
+<h3 id="links">Links</h3>
+<ul>
+<li><strong>URL:</strong> <a href="https://doi.org/10.1007/978-3-031-07082-2_11">https://doi.org/10.1007/978-3-031-07082-2_11</a></li>
+</ul>
+<h2 id="beyond-quadratic-speedups-in-quantum-attacks-on-symmetric-schemes">Beyond Quadratic Speedups in Quantum Attacks on Symmetric Schemes.</h2>
+<p>🌍 <strong><a href="../../../docs/en/Eurocrypt/Eurocrypt[2022-3].html#beyond-quadratic-speedups-in-quantum-attacks-on-symmetric-schemes">English</a></strong> | <a href="../../../docs/zh-CN/Eurocrypt/Eurocrypt[2022-3].html#beyond-quadratic-speedups-in-quantum-attacks-on-symmetric-schemes">简体中文</a></p>
+<h3 id="authors">Authors</h3>
+<ul>
+<li>Xavier Bonnetain, Université de Lorraine, CNRS, Inria, Nancy, France</li>
+<li>André Schrottenloher, Cryptology Group, CWI, Amsterdam, The Netherlands</li>
+<li>Ferdinand Sibleyras, NTT Social Informatics Laboratories, Tokyo, Japan</li>
+</ul>
+<h3 id="abstract">Abstract</h3>
+<blockquote>
+<p>In this paper, we report the first quantum key-recovery attack on a symmetric block cipher design, using classical queries only, with a more than quadratic time speedup compared to the best classical attack.</p>
+<p>We study the 2XOR-Cascade construction of Gaži and Tessaro (EUROCRYPT 2012). It is a key length extension technique which provides an n-bit block cipher with (\frac{5n}{2}) bits of security out of an n-bit block cipher with 2n bits of key, with a security proof in the ideal model. We show that the offline-Simon algorithm of Bonnetain et al. (ASIACRYPT 2019) can be extended to, in particular, attack this construction in quantum time (\widetilde{\mathcal {O}}\left( 2^n \right) ), providing a 2.5 quantum speedup over the best classical attack.</p>
+<p>Regarding post-quantum security of symmetric ciphers, it is commonly assumed that doubling the key sizes is a sufficient precaution. This is because Grover’s quantum search algorithm, and its derivatives, can only reach a quadratic speedup at most. Our attack shows that the structure of some symmetric constructions can be exploited to overcome this limit. In particular, the 2XOR-Cascade cannot be used to generically strengthen block ciphers against quantum adversaries, as it would offer only the same security as the block cipher itself.</p>
+</blockquote>
+<h3 id="links">Links</h3>
+<ul>
+<li><strong>URL:</strong> <a href="https://doi.org/10.1007/978-3-031-07082-2_12">https://doi.org/10.1007/978-3-031-07082-2_12</a></li>
+</ul>
+<h2 id="orientations-and-the-supersingular-endomorphism-ring-problem">Orientations and the Supersingular Endomorphism Ring Problem.</h2>
+<p>🌍 <strong><a href="../../../docs/en/Eurocrypt/Eurocrypt[2022-3].html#orientations-and-the-supersingular-endomorphism-ring-problem">English</a></strong> | <a href="../../../docs/zh-CN/Eurocrypt/Eurocrypt[2022-3].html#orientations-and-the-supersingular-endomorphism-ring-problem">简体中文</a></p>
+<h3 id="authors">Authors</h3>
+<ul>
+<li>Benjamin Wesolowski, Univ. Bordeaux, CNRS, Bordeaux INP, IMB, UMR 5251, 33400, Talence, France</li>
+<li>Benjamin Wesolowski, INRIA, IMB, UMR 5251, 33400, Talence, France</li>
+</ul>
+<h3 id="abstract">Abstract</h3>
+<blockquote>
+<p>We study two important families of problems in isogeny-based cryptography and how they relate to each other: computing the endomorphism ring of supersingular elliptic curves, and inverting the action of class groups on oriented supersingular curves. We prove that these two families of problems are closely related through polynomial-time reductions, assuming the generalised Riemann hypothesis.</p>
+<p>We identify two classes of essentially equivalent problems. The first class corresponds to the problem of computing the endomorphism ring of oriented curves. The security of a large family of cryptosystems (such as CSIDH) reduces to (and sometimes from) this class, for which there are heuristic quantum algorithms running in subexponential time. The second class corresponds to computing the endomorphism ring of orientable curves. The security of essentially all isogeny-based cryptosystems reduces to (and sometimes from) this second class, for which the best known algorithms are still exponential.</p>
+<p>Some of our reductions not only generalise, but also strengthen previously known results. For instance, it was known that in the particular case of curves defined over (\mathbf {F}_p), the security of CSIDH reduces to the endomorphism ring problem in subexponential time. Our reductions imply that the security of CSIDH is actually equivalent to the endomorphism ring problem, under polynomial time reductions (circumventing arguments that proved such reductions unlikely).</p>
+</blockquote>
+<h3 id="links">Links</h3>
+<ul>
+<li><strong>URL:</strong> <a href="https://doi.org/10.1007/978-3-031-07082-2_13">https://doi.org/10.1007/978-3-031-07082-2_13</a></li>
+</ul>
+<h2 id="quantum-algorithms-for-variants-of-average-case-lattice-problems-via-filtering">Quantum Algorithms for Variants of Average-Case Lattice Problems via Filtering.</h2>
+<p>🌍 <strong><a href="../../../docs/en/Eurocrypt/Eurocrypt[2022-3].html#quantum-algorithms-for-variants-of-average-case-lattice-problems-via-filtering">English</a></strong> | <a href="../../../docs/zh-CN/Eurocrypt/Eurocrypt[2022-3].html#quantum-algorithms-for-variants-of-average-case-lattice-problems-via-filtering">简体中文</a></p>
+<h3 id="authors">Authors</h3>
+<ul>
+<li>Yilei Chen, Tsinghua University, Beijing, 100084, China</li>
+<li>Qipeng Liu, Simons Institute for the Theory of Computing, Berkeley, USA</li>
+<li>Mark Zhandry, NTT Research, Palo Alto, USA</li>
+<li>Mark Zhandry, Princeton University, Princeton, USA</li>
+</ul>
+<h3 id="abstract">Abstract</h3>
+<blockquote>
+<p>We show polynomial-time quantum algorithms for the following problems:</p>
+<ol>
+<li>
+<p>Short integer solution (SIS) problem under the infinity norm, where the public matrix is very wide, the modulus is a polynomially large prime, and the bound of infinity norm is set to be half of the modulus minus a constant.</p>
+</li>
+<li>
+<p>Learning with errors (LWE) problem given LWE-like quantum states with polynomially large moduli and certain error distributions, including bounded uniform distributions and Laplace distributions.</p>
+</li>
+<li>
+<p>Extrapolated dihedral coset problem (EDCP) with certain parameters.</p>
+</li>
+</ol>
+<p>The SIS, LWE, and EDCP problems in their standard forms are as hard as solving lattice problems in the worst case. However, the variants that we can solve are not in the parameter regimes known to be as hard as solving worst-case lattice problems. Still, no classical or quantum polynomial-time algorithms were known for the variants of SIS and LWE we consider. For EDCP, our quantum algorithm slightly extends the result of Ivanyos et al. (2018).</p>
+<p>Our algorithms for variants of SIS and EDCP use the existing quantum reductions from those problems to LWE, or more precisely, to the problem of solving LWE given LWE-like quantum states. Our main contribution is solving LWE given LWE-like quantum states with interesting parameters using a filtering technique.</p>
+</blockquote>
+<h3 id="links">Links</h3>
+<ul>
+<li><strong>URL:</strong> <a href="https://doi.org/10.1007/978-3-031-07082-2_14">https://doi.org/10.1007/978-3-031-07082-2_14</a></li>
+</ul>
+<h2 id="anonymous-robust-post-quantum-public-key-encryption">Anonymous, Robust Post-quantum Public Key Encryption.</h2>
+<p>🌍 <strong><a href="../../../docs/en/Eurocrypt/Eurocrypt[2022-3].html#anonymous-robust-post-quantum-public-key-encryption">English</a></strong> | <a href="../../../docs/zh-CN/Eurocrypt/Eurocrypt[2022-3].html#anonymous-robust-post-quantum-public-key-encryption">简体中文</a></p>
+<h3 id="authors">Authors</h3>
+<ul>
+<li>Paul Grubbs, University of Michigan, Ann Arbor, USA</li>
+<li>Varun Maram, Department of Computer Science, ETH Zurich, Zurich, Switzerland</li>
+<li>Kenneth G. Paterson, Department of Computer Science, ETH Zurich, Zurich, Switzerland</li>
+</ul>
+<h3 id="abstract">Abstract</h3>
+<blockquote>
+<p>A core goal of the NIST PQC competition is to produce PKE schemes which, even if attacked with a large-scale quantum computer, maintain the security guarantees needed by applications. The main security focus in the NIST PQC context has been IND-CCA security, but other applications demand that PKE schemes provide anonymity (Bellare et al., ASIACRYPT 2001), and robustness (Abdalla et al., TCC 2010). Examples of such applications include anonymous cryptocurrencies, searchable encryption, and auction protocols. However, almost nothing is known about how to build post-quantum PKE schemes offering these security properties. In particular, the status of the NIST PQC candidates with respect to anonymity and robustness is unknown.</p>
+<p>This paper initiates a systematic study of anonymity and robustness for post-quantum PKE schemes. Firstly, we identify implicit rejection as a crucial design choice shared by most post-quantum KEMs, show that implicit rejection renders prior results on anonymity and robustness for KEM-DEM PKEs inapplicable, and transfer prior results to the implicit-rejection setting where possible. Secondly, since they are widely used to build post-quantum PKEs, we examine how the Fujisaki-Okamoto (FO) transforms (Fujisaki and Okamoto, Journal of Cryptology 2013) confer robustness and enhance weak anonymity of a base PKE.</p>
+<p>We then leverage our theoretical results to study the anonymity and robustness of three NIST KEM finalists—Saber, Kyber, and Classic McEliece—and one alternate, FrodoKEM. Overall, our findings for robustness are definitive: we provide positive robustness results for Saber, Kyber, and FrodoKEM, and a negative result for Classic McEliece. Our negative result stems from a striking property of KEM-DEM PKE schemes built with the Classic McEliece KEM: for any message m, we can construct a single hybrid ciphertext c which decrypts to the chosen m under any Classic McEliece private key.</p>
+<p>Our findings for anonymity are more mixed: we identify barriers to proving anonymity for Saber, Kyber, and Classic McEliece. We also found that in the case of Saber and Kyber, these barriers lead to issues with their IND-CCA security claims. We have worked with the Saber and Kyber teams to fix these issues, but they remain unresolved. On the positive side, we were able to prove anonymity for FrodoKEM and a variant of Saber introduced by D’Anvers et al. (AFRICACRYPT 2018). Our analyses of these two schemes also identified technical gaps in their IND-CCA security claims, but we were able to fix them.</p>
+</blockquote>
+<h3 id="links">Links</h3>
+<ul>
+<li><strong>URL:</strong> <a href="https://doi.org/10.1007/978-3-031-07082-2_15">https://doi.org/10.1007/978-3-031-07082-2_15</a></li>
+</ul>
+<h2 id="mceliece-needs-a-break-solving-mceliece-1284-and-quasi-cyclic-2918-with-modern-isd">McEliece Needs a Break - Solving McEliece-1284 and Quasi-Cyclic-2918 with Modern ISD.</h2>
+<p>🌍 <strong><a href="../../../docs/en/Eurocrypt/Eurocrypt[2022-3].html#mceliece-needs-a-break-solving-mceliece-1284-and-quasi-cyclic-2918-with-modern-isd">English</a></strong> | <a href="../../../docs/zh-CN/Eurocrypt/Eurocrypt[2022-3].html#mceliece-needs-a-break-solving-mceliece-1284-and-quasi-cyclic-2918-with-modern-isd">简体中文</a></p>
+<h3 id="authors">Authors</h3>
+<ul>
+<li>Andre Esser, Cryptography Research Center, Technology Innovation Institute, Abu Dhabi, UAE</li>
+<li>Alexander May, Ruhr University Bochum, Bochum, Germany</li>
+<li>Floyd Zweydinger, Ruhr University Bochum, Bochum, Germany</li>
+</ul>
+<h3 id="abstract">Abstract</h3>
+<blockquote>
+<p>With the recent shift to post-quantum algorithms it becomes increasingly important to provide precise bit-security estimates for code-based cryptography such as McEliece and quasi-cyclic schemes like BIKE and HQC. While there has been significant progress on information set decoding (ISD) algorithms within the last decade, it is still unclear to which extent this affects current cryptographic security estimates.</p>
+<p>We provide the first concrete implementations for representation-based ISD, such as May-Meurer-Thomae (MMT) or Becker-Joux-May-Meurer (BJMM), that are parameter-optimized for the McEliece and quasi-cyclic setting. Although MMT and BJMM consume more memory than naive ISD algorithms like Prange, we demonstrate that these algorithms lead to significant speedups for practical cryptanalysis on medium-sized instances (around 60 bit). More concretely, we provide data for the record computations of McEliece-1223 and McEliece-1284 (old record: 1161), and for the quasi-cyclic setting up to code length 2918 (before: 1938).</p>
+<p>Based on our record computations we extrapolate to the bit-security level of the proposed BIKE, HQC and McEliece parameters in NIST’s standardization process. For BIKE/HQC, we also show how to transfer the Decoding-One-Out-of-Many (DOOM) technique to MMT/BJMM. Although we achieve significant DOOM speedups, our estimates confirm the bit-security levels of BIKE and HQC.</p>
+<p>For the proposed McEliece round-3 192 bit and two out of three 256 bit parameter sets, however, our extrapolation indicates a security level overestimate by roughly 20 and 10 bits, respectively, i.e., the high-security McEliece instantiations may be a bit less secure than desired.</p>
+</blockquote>
+<h3 id="links">Links</h3>
+<ul>
+<li><strong>URL:</strong> <a href="https://doi.org/10.1007/978-3-031-07082-2_16">https://doi.org/10.1007/978-3-031-07082-2_16</a></li>
+</ul>
+<h2 id="post-quantum-security-of-the-even-mansour-cipher">Post-Quantum Security of the Even-Mansour Cipher.</h2>
+<p>🌍 <strong><a href="../../../docs/en/Eurocrypt/Eurocrypt[2022-3].html#post-quantum-security-of-the-even-mansour-cipher">English</a></strong> | <a href="../../../docs/zh-CN/Eurocrypt/Eurocrypt[2022-3].html#post-quantum-security-of-the-even-mansour-cipher">简体中文</a></p>
+<h3 id="authors">Authors</h3>
+<ul>
+<li>Gorjan Alagic, QuICS, University of Maryland, and NIST, College Park, USA</li>
+<li>Chen Bai, Department of Electrical and Computer Engineering, University of Maryland, College Park, USA</li>
+<li>Jonathan Katz, Department of Computer Science, University of Maryland, College Park, USA</li>
+<li>Christian Majenz, Department of Applied Mathematics and Computer Science, Technical University of Denmark, Kongens Lyngby, Denmark</li>
+</ul>
+<h3 id="abstract">Abstract</h3>
+<blockquote>
+<p>The Even-Mansour cipher is a simple method for constructing a (keyed) pseudorandom permutation E from a public random permutation (P:{0,1}^n \rightarrow {0,1}^n). It is secure against classical attacks, with optimal attacks requiring (q_E) queries to E and (q_P) queries to P such that (q_E \cdot q_P \approx 2^n). If the attacker is given quantum access to both E and P, however, the cipher is completely insecure, with attacks using (q_E, q_P = O(n)) queries known.</p>
+<p>In any plausible real-world setting, however, a quantum attacker would have only classical access to the keyed permutation E implemented by honest parties, while retaining quantum access to P. Attacks in this setting with (q_E \cdot q_P^2 \approx 2^n) are known, showing that security degrades as compared to the purely classical case, but leaving open the question as to whether the Even-Mansour cipher can still be proven secure in that natural, “post-quantum” setting.</p>
+<p>We resolve this question, showing that any attack in that setting requires (q_E \cdot q^2_P + q_P \cdot q_E^2 \approx 2^n). Our results apply to both the two-key and single-key variants of Even-Mansour. Along the way, we establish several generalizations of results from prior work on quantum-query lower bounds that may be of independent interest.</p>
+</blockquote>
+<h3 id="links">Links</h3>
+<ul>
+<li><strong>URL:</strong> <a href="https://doi.org/10.1007/978-3-031-07082-2_17">https://doi.org/10.1007/978-3-031-07082-2_17</a></li>
+</ul>
+<h2 id="watermarking-prfs-against-quantum-adversaries">Watermarking PRFs Against Quantum Adversaries.</h2>
+<p>🌍 <strong><a href="../../../docs/en/Eurocrypt/Eurocrypt[2022-3].html#watermarking-prfs-against-quantum-adversaries">English</a></strong> | <a href="../../../docs/zh-CN/Eurocrypt/Eurocrypt[2022-3].html#watermarking-prfs-against-quantum-adversaries">简体中文</a></p>
+<h3 id="authors">Authors</h3>
+<ul>
+<li>Fuyuki Kitagawa, NTT Corporation, Tokyo, Japan</li>
+<li>Ryo Nishimaki, NTT Corporation, Tokyo, Japan</li>
+</ul>
+<h3 id="abstract">Abstract</h3>
+<blockquote>
+<p>We initiate the study of software watermarking against quantum adversaries. A quantum adversary generates a quantum state as a pirate software that potentially removes an embedded message from a classical marked software. Extracting an embedded message from quantum pirate software is difficult since measurement could irreversibly alter the quantum state. In software watermarking against classical adversaries, a message extraction algorithm crucially uses the (input-output) behavior of a classical pirate software to extract an embedded message. Even if we instantiate existing watermarking PRFs with quantum-safe building blocks, it is not clear whether they are secure against quantum adversaries due to the quantum-specific property above. Thus, we need entirely new techniques to achieve software watermarking against quantum adversaries.</p>
+<p>In this work, we define secure watermarking PRFs for quantum adversaries (unremovability against quantum adversaries). We also present two watermarking PRFs as follows.</p>
+<p>We construct a privately extractable watermarking PRF against quantum adversaries from the quantum hardness of the learning with errors (LWE) problem. The marking and extraction algorithms use a public parameter and a private extraction key, respectively. The watermarking PRF is unremovable even if adversaries have (the public parameter and) access to the extraction oracle, which returns a result of extraction for a queried quantum circuit.</p>
+<p>We construct a publicly extractable watermarking PRF against quantum adversaries from indistinguishability obfuscation (IO) and the quantum hardness of the LWE problem. The marking and extraction algorithms use a public parameter and a public extraction key, respectively. The watermarking PRF is unremovable even if adversaries have the extraction key (and the public parameter).</p>
+<p>We develop a quantum extraction technique to extract information (a classical string) from a quantum state without destroying the state too much. We also introduce the notion of extraction-less watermarking PRFs as a crucial building block to achieve the results above by combining the tool with our quantum extraction technique.</p>
+</blockquote>
+<h3 id="links">Links</h3>
+<ul>
+<li><strong>URL:</strong> <a href="https://doi.org/10.1007/978-3-031-07082-2_18">https://doi.org/10.1007/978-3-031-07082-2_18</a></li>
+</ul>
+<h2 id="non-malleable-commitments-against-quantum-attacks">Non-malleable Commitments Against Quantum Attacks.</h2>
+<p>🌍 <strong><a href="../../../docs/en/Eurocrypt/Eurocrypt[2022-3].html#non-malleable-commitments-against-quantum-attacks">English</a></strong> | <a href="../../../docs/zh-CN/Eurocrypt/Eurocrypt[2022-3].html#non-malleable-commitments-against-quantum-attacks">简体中文</a></p>
+<h3 id="authors">Authors</h3>
+<ul>
+<li>Nir Bitansky, Tel Aviv University, Tel Aviv, Israel</li>
+<li>Omri Shmueli, Tel Aviv University, Tel Aviv, Israel</li>
+<li>Huijia Lin, Washington University, Seattle, WA, USA</li>
+</ul>
+<h3 id="abstract">Abstract</h3>
+<blockquote>
+<p>We construct, under standard hardness assumptions, the first non-malleable commitments secure against quantum attacks. Our commitments are statistically binding and satisfy the standard notion of non-malleability with respect to commitment. We obtain a (\log ^\star (\lambda ))-round classical protocol, assuming the existence of post-quantum one-way functions.</p>
+<p>Previously, non-malleable commitments with quantum security were only known against a restricted class of adversaries known as synchronizing adversaries. At the heart of our results is a new general technique that allows to modularly obtain non-malleable commitments from any extractable commitment protocol, obliviously of the underlying extraction strategy (black-box or non-black-box) or round complexity. The transformation may also be of interest in the classical setting.</p>
+</blockquote>
+<h3 id="links">Links</h3>
+<ul>
+<li><strong>URL:</strong> <a href="https://doi.org/10.1007/978-3-031-07082-2_19">https://doi.org/10.1007/978-3-031-07082-2_19</a></li>
+</ul>
+<h2 id="anonymity-of-nist-pqc-round-3-kems">Anonymity of NIST PQC Round 3 KEMs.</h2>
+<p>🌍 <strong><a href="../../../docs/en/Eurocrypt/Eurocrypt[2022-3].html#anonymity-of-nist-pqc-round-3-kems">English</a></strong> | <a href="../../../docs/zh-CN/Eurocrypt/Eurocrypt[2022-3].html#anonymity-of-nist-pqc-round-3-kems">简体中文</a></p>
+<h3 id="authors">Authors</h3>
+<ul>
+<li>Keita Xagawa, NTT Social Informatics Laboratories, Tokyo, Japan</li>
+</ul>
+<h3 id="abstract">Abstract</h3>
+<blockquote>
+<p>This paper investigates anonymity of all NIST PQC Round 3 KEMs: Classic McEliece, Kyber, NTRU, Saber, BIKE, FrodoKEM, HQC, NTRU Prime (Streamlined NTRU Prime and NTRU LPRime), and SIKE. We show the following results:</p>
+<p>NTRU is anonymous in the quantum random oracle model (QROM) if the underlying deterministic PKE is strongly disjoint-simulatable. NTRU is collision-free in the QROM. A hybrid PKE scheme constructed from NTRU as KEM and appropriate DEM is anonymous and robust. (Similar results for BIKE, FrodoKEM, HQC, NTRU LPRime, and SIKE hold except one of three parameter sets of HQC.)</p>
+<p>Classic McEliece is anonymous in the QROM if the underlying PKE is strongly disjoint-simulatable and a hybrid PKE scheme constructed from it as KEM and appropriate DEM is anonymous.</p>
+<p>Grubbs, Maram, and Paterson pointed out that Kyber and Saber have a gap in the current IND-CCA security proof in the QROM (EUROCRYPT 2022). We found that Streamlined NTRU Prime has another technical obstacle for the IND-CCA security proof in the QROM.</p>
+<p>Those answer the open problem to investigate the anonymity and robustness of NIST PQC Round 3 KEMs posed by Grubbs, Maram, and Paterson (EUROCRYPT 2022).</p>
+<p>We use strong disjoint-simulatability of the underlying PKE of KEM and strong pseudorandomness and smoothness/sparseness of KEM as the main tools, which will be of independent interest.</p>
+</blockquote>
+<h3 id="links">Links</h3>
+<ul>
+<li><strong>URL:</strong> <a href="https://doi.org/10.1007/978-3-031-07082-2_20">https://doi.org/10.1007/978-3-031-07082-2_20</a></li>
+</ul>
+<h2 id="practical-post-quantum-signature-schemes-from-isomorphism-problems-of-trilinear-forms">Practical Post-Quantum Signature Schemes from Isomorphism Problems of Trilinear Forms.</h2>
+<p>🌍 <strong><a href="../../../docs/en/Eurocrypt/Eurocrypt[2022-3].html#practical-post-quantum-signature-schemes-from-isomorphism-problems-of-trilinear-forms">English</a></strong> | <a href="../../../docs/zh-CN/Eurocrypt/Eurocrypt[2022-3].html#practical-post-quantum-signature-schemes-from-isomorphism-problems-of-trilinear-forms">简体中文</a></p>
+<h3 id="authors">Authors</h3>
+<ul>
+<li>Gang Tang, Centre for Quantum Software and Information, School of Computer Science, Faculty of Engineering and Information Technology, University of Technology Sydney, Ultimo, NSW, Australia</li>
+<li>Youming Qiao, Centre for Quantum Software and Information, School of Computer Science, Faculty of Engineering and Information Technology, University of Technology Sydney, Ultimo, NSW, Australia</li>
+<li>Dung Hoang Duong, Institute of Cybersecurity and Cryptology, School of Computing and Information Technology, University of Wollongong, Northfields Avenue, Wollongong, NSW, 2522, Australia</li>
+<li>Willy Susilo, Institute of Cybersecurity and Cryptology, School of Computing and Information Technology, University of Wollongong, Northfields Avenue, Wollongong, NSW, 2522, Australia</li>
+<li>Antoine Joux, CISPA Helmholtz Center for Information Security, Saarbrücken, Germany</li>
+<li>Thomas Plantard, Emerging Technology Research Group, PayPal, San Jose, USA</li>
+</ul>
+<h3 id="abstract">Abstract</h3>
+<blockquote>
+<p>In this paper, we propose a practical signature scheme based on the alternating trilinear form equivalence problem. Our scheme is inspired by the Goldreich-Micali-Wigderson’s zero-knowledge protocol for graph isomorphism, and can be served as an alternative candidate for the NIST’s post-quantum digital signatures.</p>
+<p>First, we present theoretical evidences to support its security, especially in the post-quantum cryptography context. The evidences are drawn from several research lines, including hidden subgroup problems, multivariate cryptography, cryptography based on group actions, the quantum random oracle model, and recent advances on isomorphism problems for algebraic structures in algorithms and complexity.</p>
+<p>Second, we demonstrate its potential for practical uses. Based on algorithm studies, we propose concrete parameter choices, and then implement a prototype. One concrete scheme achieves 128 bit security with public key size (\approx 4100) bytes, signature size (\approx 6800) bytes, and running times (key generation, sign, verify) (\approx 0.8) ms on a common laptop computer.</p>
+</blockquote>
+<h3 id="links">Links</h3>
+<ul>
+<li><strong>URL:</strong> <a href="https://doi.org/10.1007/978-3-031-07082-2_21">https://doi.org/10.1007/978-3-031-07082-2_21</a></li>
+</ul>
+<h2 id="on-ind-qcca-security-in-the-rom-and-its-applications-cpa-security-is-sufficient-for-tls-1-3">On IND-qCCA Security in the ROM and Its Applications - CPA Security Is Sufficient for TLS 1.3.</h2>
+<p>🌍 <strong><a href="../../../docs/en/Eurocrypt/Eurocrypt[2022-3].html#on-ind-qcca-security-in-the-rom-and-its-applications-cpa-security-is-sufficient-for-tls-1-3">English</a></strong> | <a href="../../../docs/zh-CN/Eurocrypt/Eurocrypt[2022-3].html#on-ind-qcca-security-in-the-rom-and-its-applications-cpa-security-is-sufficient-for-tls-1-3">简体中文</a></p>
+<h3 id="authors">Authors</h3>
+<ul>
+<li>Loïs Huguenin-Dumittan, EPFL, Lausanne, Switzerland</li>
+<li>Serge Vaudenay, EPFL, Lausanne, Switzerland</li>
+</ul>
+<h3 id="abstract">Abstract</h3>
+<blockquote>
+<p>Bounded IND-CCA security (IND-qCCA) is a notion similar to the traditional IND-CCA security, except the adversary is restricted to a constant number q of decryption/decapsulation queries. We show in this work that IND-qCCA is easily obtained from any passively secure PKE in the (Q)ROM. That is, simply adding a confirmation hash or computing the key as the hash of the plaintext and ciphertext holds an IND-qCCA KEM. In particular, there is no need for derandomization or re-encryption as in the Fujisaki-Okamoto (FO) transform [15]. This makes the decapsulation process of such IND-qCCA KEM much more efficient than its FO-derived counterpart. In addition, IND-qCCA KEMs could be used in the recently proposed KEMTLS protocol [29] that requires IND-1CCA ephemeral key-exchange mechanisms, or in TLS 1.3. Then, using similar proof techniques, we show that CPA-secure KEMs are sufficient for the TLS 1.3 handshake to be secure, solving an open problem in the ROM. In turn, this implies that the PRF-ODH assumption used to prove the security of TLS 1.3 is not necessary and can be replaced by the CDH assumption in the ROM. We also highlight and briefly discuss several use cases of IND-1CCA KEMs in protocols and ratcheting primitives.</p>
+</blockquote>
+<h3 id="links">Links</h3>
+<ul>
+<li><strong>URL:</strong> <a href="https://doi.org/10.1007/978-3-031-07082-2_22">https://doi.org/10.1007/978-3-031-07082-2_22</a></li>
+</ul>
+<h2 id="on-the-lattice-isomorphism-problem-quadratic-forms-remarkable-lattices-and-cryptography">On the Lattice Isomorphism Problem, Quadratic Forms, Remarkable Lattices, and Cryptography.</h2>
+<p>🌍 <strong><a href="../../../docs/en/Eurocrypt/Eurocrypt[2022-3].html#on-the-lattice-isomorphism-problem-quadratic-forms-remarkable-lattices-and-cryptography">English</a></strong> | <a href="../../../docs/zh-CN/Eurocrypt/Eurocrypt[2022-3].html#on-the-lattice-isomorphism-problem-quadratic-forms-remarkable-lattices-and-cryptography">简体中文</a></p>
+<h3 id="authors">Authors</h3>
+<ul>
+<li>Léo Ducas, CWI, Cryptology Group, Amsterdam, The Netherlands</li>
+<li>Wessel van Woerden, CWI, Cryptology Group, Amsterdam, The Netherlands</li>
+<li>Léo Ducas, Mathematical Institute, Leiden University, Leiden, The Netherlands</li>
+</ul>
+<h3 id="abstract">Abstract</h3>
+<blockquote>
+<p>A natural and recurring idea in the knapsack/lattice cryptography literature is to start from a lattice with remarkable decoding capability as your private key, and hide it somehow to make a public key. This is also how the code-based encryption scheme of McEliece (1978) proceeds.</p>
+<p>This idea has never worked out very well for lattices: ad-hoc approaches have been proposed, but they have been subject to ad-hoc attacks, using tricks beyond lattice reduction algorithms. On the other hand the framework offered by the Short Integer Solution (SIS) and Learning With Errors (LWE) problems, while convenient and well founded, remains frustrating from a coding perspective: the underlying decoding algorithms are rather trivial, with poor decoding performance.</p>
+<p>In this work, we provide generic realizations of this natural idea (independently of the chosen remarkable lattice) by basing cryptography on the lattice isomorphism problem (LIP). More specifically, we provide:</p>
+<p>a worst-case to average-case reduction for search-LIP and distinguish-LIP within an isomorphism class, by extending techniques of Haviv and Regev (SODA 2014).</p>
+<p>a zero-knowledge proof of knowledge (ZKPoK) of an isomorphism. This implies an identification scheme based on search-LIP.</p>
+<p>a key encapsulation mechanism (KEM) scheme and a hash-then-sign signature scheme, both based on distinguish-LIP.</p>
+<p>The purpose of this approach is for remarkable lattices to improve the security and performance of lattice-based cryptography. For example, decoding within poly-logarithmic factor from Minkowski’s bound in a remarkable lattice would lead to a KEM resisting lattice attacks down to poly-logarithmic approximation factor, provided that the dual lattice is also close to Minkowski’s bound. Recent works have indeed reached such decoders for certain lattices (Chor-Rivest, Barnes-Sloan), but these do not perfectly fit our need as their duals have poor minimal distance.</p>
+</blockquote>
+<h3 id="links">Links</h3>
+<ul>
+<li><strong>URL:</strong> <a href="https://doi.org/10.1007/978-3-031-07082-2_23">https://doi.org/10.1007/978-3-031-07082-2_23</a></li>
+</ul>
+<h2 id="online-extractability-in-the-quantum-random-oracle-model">Online-Extractability in the Quantum Random-Oracle Model.</h2>
+<p>🌍 <strong><a href="../../../docs/en/Eurocrypt/Eurocrypt[2022-3].html#online-extractability-in-the-quantum-random-oracle-model">English</a></strong> | <a href="../../../docs/zh-CN/Eurocrypt/Eurocrypt[2022-3].html#online-extractability-in-the-quantum-random-oracle-model">简体中文</a></p>
+<h3 id="authors">Authors</h3>
+<ul>
+<li>Jelle Don, Centrum Wiskunde and Informatica (CWI), Amsterdam, Netherlands</li>
+<li>Serge Fehr, Centrum Wiskunde and Informatica (CWI), Amsterdam, Netherlands</li>
+<li>Serge Fehr, Mathematical Institute, Leiden University, Leiden, Netherlands</li>
+<li>Christian Majenz, Cyber Security Section, Department of Applied Mathematics and Computer Science, Technical University of Denmark, Kgs. Lyngby, Denmark</li>
+<li>Christian Schaffner, Informatics Institute, University of Amsterdam, Amsterdam, Netherlands</li>
+<li>Christian Schaffner, QuSoft, Amsterdam, Netherlands</li>
+</ul>
+<h3 id="abstract">Abstract</h3>
+<blockquote>
+<p>We show the following generic result: When a quantum query algorithm in the quantum random-oracle model outputs a classical value t that is promised to be in some tight relation with H(x) for some x, then x can be efficiently extracted with almost certainty. The extraction is by means of a suitable simulation of the random oracle and works online, meaning that it is straightline, i.e., without rewinding, and on-the-fly, i.e., during the protocol execution and (almost) without disturbing it.</p>
+<p>The technical core of our result is a new commutator bound that bounds the operator norm of the commutator of the unitary operator that describes the evolution of the compressed oracle (which is used to simulate the random oracle above) and of the measurement that extracts x.</p>
+<p>We show two applications of our generic online extractability result. We show tight online extractability of commit-and-open (\Sigma )-protocols in the quantum setting, and we offer the first complete post-quantum security proof of the textbook Fujisaki-Okamoto transformation, i.e., without adjustments to facilitate the proof, including concrete security bounds.</p>
+</blockquote>
+<h3 id="links">Links</h3>
+<ul>
+<li><strong>URL:</strong> <a href="https://doi.org/10.1007/978-3-031-07082-2_24">https://doi.org/10.1007/978-3-031-07082-2_24</a></li>
+</ul>
+<h2 id="constant-round-blind-classical-verification-of-quantum-sampling">Constant-Round Blind Classical Verification of Quantum Sampling.</h2>
+<p>🌍 <strong><a href="../../../docs/en/Eurocrypt/Eurocrypt[2022-3].html#constant-round-blind-classical-verification-of-quantum-sampling">English</a></strong> | <a href="../../../docs/zh-CN/Eurocrypt/Eurocrypt[2022-3].html#constant-round-blind-classical-verification-of-quantum-sampling">简体中文</a></p>
+<h3 id="authors">Authors</h3>
+<ul>
+<li>Kai-Min Chung, Institute of Information Science, Academia Sinica, Taipei, Taiwan</li>
+<li>Yi Lee, Department of Computer Science, University of Maryland, College Park, USA</li>
+<li>Xiaodi Wu, Department of Computer Science, University of Maryland, College Park, USA</li>
+<li>Han-Hsuan Lin, Department of Computer Science, National Tsing Hua University, Hsinchu, Taiwan</li>
+<li>Xiaodi Wu, Joint Center for Quantum Information and Computer Science, University of Maryland, College Park, USA</li>
+</ul>
+<h3 id="abstract">Abstract</h3>
+<blockquote>
+<p>In a recent breakthrough, Mahadev constructed a classical verification of quantum computation (CVQC) protocol for a classical client to delegate decision problems in (\mathsf {BQP}) to an untrusted quantum prover under computational assumptions. In this work, we explore further the feasibility of CVQC with the more general sampling problems in BQP and with the desirable blindness property. We contribute affirmative solutions to both as follows.</p>
+<p>Motivated by the sampling nature of many quantum applications (e.g., quantum algorithms for machine learning and quantum supremacy tasks), we initiate the study of CVQC for quantum sampling problems (denoted by (\mathsf {SampBQP})). More precisely, in a CVQC protocol for a (\mathsf {SampBQP}) problem, the prover and the verifier are given an input (x\in {0,1}^n) and a quantum circuit C, and the goal of the classical client is to learn a sample from the output (z \leftarrow C(x)) up to a small error, from its interaction with an untrusted prover. We demonstrate its feasibility by constructing a four-message CVQC protocol for (\mathsf {SampBQP}) based on the quantum Learning With Errors assumption.</p>
+<p>The blindness of CVQC protocols refers to a property of the protocol where the prover learns nothing, and hence is blind, about the client’s input. It is a highly desirable property that has been intensively studied for the delegation of quantum computation. We provide a simple yet powerful generic compiler that transforms any CVQC protocol to a blind one while preserving its completeness and soundness errors as well as the number of rounds.</p>
+<p>Applying our compiler to (a parallel repetition of) Mahadev’s CVQC protocol for (\mathsf {BQP}) and our CVQC protocol for (\mathsf {SampBQP}) yields the first constant-round blind CVQC protocol for (\mathsf {BQP}) and (\mathsf {SampBQP}) respectively, with negligible and inverse polynomial soundness errors respectively, and negligible completeness errors.</p>
+</blockquote>
+<h3 id="links">Links</h3>
+<ul>
+<li><strong>URL:</strong> <a href="https://doi.org/10.1007/978-3-031-07082-2_25">https://doi.org/10.1007/978-3-031-07082-2_25</a></li>
+</ul>
+<h2 id="authentication-in-the-bounded-storage-model">Authentication in the Bounded Storage Model.</h2>
+<p>🌍 <strong><a href="../../../docs/en/Eurocrypt/Eurocrypt[2022-3].html#authentication-in-the-bounded-storage-model">English</a></strong> | <a href="../../../docs/zh-CN/Eurocrypt/Eurocrypt[2022-3].html#authentication-in-the-bounded-storage-model">简体中文</a></p>
+<h3 id="authors">Authors</h3>
+<ul>
+<li>Yevgeniy Dodis, NYU, New York, USA</li>
+<li>Willy Quach, Northeastern University, Boston, USA</li>
+<li>Daniel Wichs, Northeastern and NTT Research, Boston, USA</li>
+</ul>
+<h3 id="abstract">Abstract</h3>
+<blockquote>
+<p>We consider the streaming variant of the Bounded Storage Model (BSM), where the honest parties can stream large amounts of data to each other, while only maintaining a small memory of size n. The adversary also operates as a streaming algorithm, but has a much larger memory size (m \gg n). The goal is to construct unconditionally secure cryptographic schemes in the BSM, and prior works did so for symmetric-key encryption, key agreement, oblivious transfer and multiparty computation. In this work, we construct message authentication and signatures in the BSM.</p>
+<p>First, we consider the symmetric-key setting, where Alice and Bob share a small secret key. Alice can authenticate arbitrarily many messages to Bob by streaming long authentication tags of size (k \gg m), while ensuring that the tags can be generated and verified using only n bits of memory. We show a solution using local extractors (Vadhan; JoC ’04), which allows for up to exponentially large adversarial memory (m = 2^{O(n)}), and has tags of size (k= O(m)).</p>
+<p>Second, we consider the same setting as above, but now additionally require each individual tag to be small, of size (k \le n). We show a solution is still possible when the adversary’s memory is (m = O(n^2)), which is optimal. Our solution relies on a space lower bound for leaning parities (Raz; FOCS ’16).</p>
+<p>Third, we consider the public-key signature setting. A signer Alice initially streams a long verification key over an authentic channel, while only keeping a short signing key in her memory. A verifier Bob receives the streamed verification key and generates a short verification digest that he keeps in his memory. Later, Alice can sign arbitrarily many messages using her signing key by streaming large signatures to Bob, who can verify them using his verification digest. We show a solution for (m= O(n^2)), which we show to be optimal. Our solution relies on a novel entropy lemma, of independent interest. We show that, if a sequence of blocks has sufficiently high min-entropy, then a large fraction of individual blocks must have high min-entropy. Naive versions of this lemma are false, but we show how to patch it to make it hold.</p>
+</blockquote>
+<h3 id="links">Links</h3>
+<ul>
+<li><strong>URL:</strong> <a href="https://doi.org/10.1007/978-3-031-07082-2_26">https://doi.org/10.1007/978-3-031-07082-2_26</a></li>
+</ul>
+<h2 id="secure-non-interactive-simulation-feasibility-and-rate">Secure Non-interactive Simulation: Feasibility and Rate.</h2>
+<p>🌍 <strong><a href="../../../docs/en/Eurocrypt/Eurocrypt[2022-3].html#secure-non-interactive-simulation-feasibility-and-rate">English</a></strong> | <a href="../../../docs/zh-CN/Eurocrypt/Eurocrypt[2022-3].html#secure-non-interactive-simulation-feasibility-and-rate">简体中文</a></p>
+<h3 id="authors">Authors</h3>
+<ul>
+<li>Hamidreza Amini Khorasgani, Department of Computer Science, Purdue University, West Lafayette, USA</li>
+<li>Hemanta K. Maji, Department of Computer Science, Purdue University, West Lafayette, USA</li>
+<li>Hai H. Nguyen, Department of Computer Science, Purdue University, West Lafayette, USA</li>
+</ul>
+<h3 id="abstract">Abstract</h3>
+<blockquote>
+<p>A natural solution to increase the efficiency of secure computation will be to non-interactively and securely transform diverse inexpensive-to-generate correlated randomness, like, joint samples from noise sources, into correlations useful for secure computation protocols. Motivated by this general application for secure computation, our work introduces the notion of secure non-interactive simulation (SNIS). Parties receive samples of correlated randomness, and they, without any interaction, securely convert them into samples from another correlated randomness.</p>
+<p>Our work presents a simulation-based security definition for SNIS and initiates the study of the feasibility and efficiency of SNIS. We also study SNIS among fundamental correlated randomnesses like random samples from the binary symmetric and binary erasure channels, represented by (\mathsf {BSS}) and (\mathsf {BES}), respectively. We show the impossibility of interconversion between (\mathsf {BSS}) and (\mathsf {BES}) samples.</p>
+<p>Next, we prove that a SNIS of a (\mathsf {BES} (\varepsilon ')) sample (a (\mathsf {BES}) with noise characteristic (\varepsilon ')) from (\mathsf {BES} (\varepsilon )) is feasible if and only if ((1-\varepsilon ') = (1-\varepsilon )^k), for some (k\in \mathbb {N}). In this context, we prove that all SNIS constructions must be linear. Furthermore, if ((1-\varepsilon ') = (1-\varepsilon )^k), then the rate of simulating multiple independent (\mathsf {BES} (\varepsilon ')) samples is at most 1/k, which is also achievable using (block) linear constructions.</p>
+<p>Finally, we show that a SNIS of a (\mathsf {BSS} (\varepsilon ')) sample from (\mathsf {BSS} (\varepsilon )) samples is feasible if and only if ((1-2\varepsilon ')=(1-2\varepsilon )^k), for some (k\in \mathbb {N}). Interestingly, there are linear as well as non-linear SNIS constructions. When ((1-2\varepsilon ')=(1-2\varepsilon )^k), we prove that the rate of a perfectly secure SNIS is at most 1/k, which is achievable using linear and non-linear constructions.</p>
+<p>Our technical approach algebraizes the definition of SNIS and proceeds via Fourier analysis. Our work develops general analysis methodologies for Boolean functions, explicitly incorporating cryptographic security constraints. Our work also proves strong forms of statistical-to-perfect security transformations: one can error-correct a statistically secure SNIS to make it perfectly secure. We show a connection of our research with homogeneous Boolean functions and distance-invariant codes, which may be of independent interest.</p>
+</blockquote>
+<h3 id="links">Links</h3>
+<ul>
+<li><strong>URL:</strong> <a href="https://doi.org/10.1007/978-3-031-07082-2_27">https://doi.org/10.1007/978-3-031-07082-2_27</a></li>
+</ul>
+<h2 id="secure-non-interactive-reduction-and-spectral-analysis-of-correlations">Secure Non-interactive Reduction and Spectral Analysis of Correlations.</h2>
+<p>🌍 <strong><a href="../../../docs/en/Eurocrypt/Eurocrypt[2022-3].html#secure-non-interactive-reduction-and-spectral-analysis-of-correlations">English</a></strong> | <a href="../../../docs/zh-CN/Eurocrypt/Eurocrypt[2022-3].html#secure-non-interactive-reduction-and-spectral-analysis-of-correlations">简体中文</a></p>
+<h3 id="authors">Authors</h3>
+<ul>
+<li>Pratyush Agarwal, Indian Institute of Technology Bombay, Mumbai, India</li>
+<li>Shreya Pathak, Indian Institute of Technology Bombay, Mumbai, India</li>
+<li>Manoj Prabhakaran, Indian Institute of Technology Bombay, Mumbai, India</li>
+<li>Mohammad Ali Rehan, Indian Institute of Technology Bombay, Mumbai, India</li>
+<li>Varun Narayanan, Technion, Haifa, Israel</li>
+<li>Vinod M. Prabhakaran, Tata Institute of Fundamental Research, Mumbai, India</li>
+</ul>
+<h3 id="abstract">Abstract</h3>
+<blockquote>
+<p>Correlated pairs of random variables are a central concept in information-theoretically secure cryptography. Secure reductions between different correlations have been studied, and completeness results are known. Further, the complexity of such reductions is intimately connected with circuit complexity and efficiency of locally decodable codes. As such, making progress on these complexity questions faces strong barriers. Motivated by this, in this work, we study a restricted form of secure reductions—namely, Secure Non-Interactive Reductions (SNIR)—which is still closely related to the original problem, and establish several fundamental results and relevant techniques for it.</p>
+<p>We uncover striking connections between SNIR and linear algebraic properties of correlations. Specifically, we define the spectrum of a correlation, and show that a target correlation has a SNIR to a source correlation only if the spectrum of the latter contains the entire spectrum of the former. We also establish a “mirroring lemma” that shows an unexpected symmetry between the two parties in a SNIR, when viewed through the lens of spectral analysis. We also use cryptographic insights and elementary linear algebraic analysis to fully characterize the role of common randomness as well as local randomness in SNIRs. We employ these results to resolve several fundamental questions about SNIRs, and to define future directions.</p>
+</blockquote>
+<h3 id="links">Links</h3>
+<ul>
+<li><strong>URL:</strong> <a href="https://doi.org/10.1007/978-3-031-07082-2_28">https://doi.org/10.1007/978-3-031-07082-2_28</a></li>
+</ul>
+</div>
+<div id="floating-component">
+    <div class="float-button" onclick="goToTop()">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+    <div class="float-button" onclick="goToRoot()">
+        <i class="fas fa-home"></i>
+    </div>
+</div>
+</body>
+</html>
