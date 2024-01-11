@@ -22,5 +22,5 @@ function goToTop() {
 }
 
 function goToRoot() {
-    window.location.href = '/';
+    window.location.href = '/Paper-Archive';
 }
