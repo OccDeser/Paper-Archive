@@ -1,4 +1,172 @@
 # USENIX Security Symposium[2020]
+## A Formal Analysis of IEEE 802.11's WPA2: Countering the Kracks Caused by Cracking the Counters.
+🌍 [English](../../../docs/en/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#a-formal-analysis-of-ieee-802-11s-wpa2-countering-the-kracks-caused-by-cracking-the-counters) | **[简体中文](../../../docs/zh-CN/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#a-formal-analysis-of-ieee-802-11s-wpa2-countering-the-kracks-caused-by-cracking-the-counters)**
+### 作者
+* Cas Cremers, CISPA Helmholtz Center for Information Security
+* Benjamin Kiesl, CISPA Helmholtz Center for Information Security
+* Niklas Medinger, CISPA Helmholtz Center for Information Security
+### 摘要
+> IEEE 802.11 WPA2协议广泛用于全球网络连接的保护。该协议在三千多页的规范中规定，并且多年来已经接受了各种修补程序，因此非常复杂，难以分析。特别是它涉及各种以微妙方式相互作用的机制，这使得模块化推理几乎不可能。或许正因为如此，至今没有任何形式或密码学论证表明对核心协议的修补程序确实能够阻止相应的攻击，例如2017年臭名昭著的KRACK攻击。
+> 
+> 在这项工作中，我们解决了这个问题，并对WPA2协议设计进行了广泛的形式化分析。我们的模型是第一个足够详细以侦测到KRACK攻击的模型；它包括四方握手、组密钥握手、WNM睡眠模式、数据机密协议以及它们复杂的相互作用。
+> 
+> 我们的分析提供了第一个关于修补后的WPA2协议在面对复杂的现代攻击时是否满足其所声称的安全保证的安全论证，无论在任何形式上。
+
+### 链接
+- **URL:** [https://www.usenix.org/conference/usenixsecurity20/presentation/cremers](https://www.usenix.org/conference/usenixsecurity20/presentation/cremers)
+- **PDF:** [https://www.usenix.org/system/files/sec20-cremers.pdf](https://www.usenix.org/system/files/sec20-cremers.pdf)
+## Frankenstein: Advanced Wireless Fuzzing to Exploit New Bluetooth Escalation Targets.
+🌍 [English](../../../docs/en/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#frankenstein-advanced-wireless-fuzzing-to-exploit-new-bluetooth-escalation-targets) | **[简体中文](../../../docs/zh-CN/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#frankenstein-advanced-wireless-fuzzing-to-exploit-new-bluetooth-escalation-targets)**
+### 作者
+* Jan Ruge, Secure Mobile Networking Lab, TU Darmstadt
+* Jiska Classen, Secure Mobile Networking Lab, TU Darmstadt
+* Francesco Gringoli, Dept. of Information Engineering, University of Brescia
+* Matthias Hollick, Secure Mobile Networking Lab, TU Darmstadt
+### 摘要
+> 无线通信标准和实现在安全方面存在许多问题。由于大多数实现和固件都是闭源的，模糊测试仍然是发现已部署系统中远程代码执行（RCE）漏洞的主要方法之一。通用无线模糊测试存在几个缺点，如速度受限，重复性有限，以及调试能力受限。在本文中，我们介绍了基于先进固件仿真的模糊测试框架Frankenstein，以解决这些问题。Frankenstein使固件转储“复活”，并向芯片的虚拟调制解调器提供模糊输入。我们的新模糊测试方法的加速足以保持与附加操作系统的互操作性，从而引发逼真的全栈行为。我们通过在广泛使用于大多数苹果设备、许多三星智能手机、树莓派等设备中的Broadcom和Cypress蓝牙堆栈中发现了三个零点击漏洞来展示Frankenstein的潜力。
+> 
+> 在蓝牙芯片上存在RCE的情况下，攻击者可能会超越芯片的边界升级其权限。我们发现了一个Wi-Fi/蓝牙共存问题，可以导致多个操作系统内核崩溃，以及蓝牙5.2规范中的设计缺陷，允许从主机中提取链接密钥。关闭蓝牙并不能完全禁用芯片，这使得防御RCE攻击变得困难。此外，当在这些设备上测试我们基于芯片的漏洞时，我们发现了BlueFrag，这是一个与芯片无关的Android RCE漏洞。
+
+### 链接
+- **URL:** [https://www.usenix.org/conference/usenixsecurity20/presentation/ruge](https://www.usenix.org/conference/usenixsecurity20/presentation/ruge)
+## Breaking Secure Pairing of Bluetooth Low Energy Using Downgrade Attacks.
+🌍 [English](../../../docs/en/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#breaking-secure-pairing-of-bluetooth-low-energy-using-downgrade-attacks) | **[简体中文](../../../docs/zh-CN/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#breaking-secure-pairing-of-bluetooth-low-energy-using-downgrade-attacks)**
+### 作者
+* Yue Zhang, College of Information Science and Technology, Jinan University (Department of Computer Science, University of Central Florida)
+* Jian Weng, College of Information Science and Technology, Jinan University
+* Rajib Dey, Department of Computer Science, University of Central Florida
+* Yier Jin, Department of Electrical and Computer Engineering, University of Florida
+* Zhiqiang Lin, Computer Science and Engineering, The Ohio State University
+* Xinwen Fu, Department of Computer Science, University of Central Florida
+### 摘要
+> 为了击败诸如中间人（MITM）攻击之类的安全威胁，蓝牙低功耗（BLE）4.2和5.x引入了仅安全连接（SCO）模式。在此模式下，BLE设备只能接受发起者（如Android手机）的安全配对，如Passkey输入和数字比较。然而，BLE规范并不要求发起者采用SCO模式，并且没有说明BLE编程框架应该如何实现此模式。本文中，我们展示了发起者的BLE编程框架必须正确处理SCO初始化、状态管理、错误处理和绑定管理，否则严重漏洞可以被利用进行降级攻击，迫使BLE配对协议在用户不知情的情况下运行在不安全模式下。为了验证我们的发现，我们使用5部Android手机测试了18个受欢迎的BLE商业产品。我们的实验结果证明了MITM攻击（由于降级）对所有这些产品都是可能的。更重要的是，由于BLE编程框架存在的系统性缺陷，所有Android上的BLE应用程序都容易受到我们的降级攻击。为了抵御我们的攻击，我们在Android开放源代码项目（AOSP）之上建立了一个用于SCO模式的原型。最后，除了Android之外，我们还发现包括iOS、macOS、Windows和Linux在内的所有主要操作系统都没有正确支持SCO模式。我们已向蓝牙特别兴趣小组、谷歌、苹果、德州仪器和微软报告了所发现的BLE配对漏洞。
+
+### 链接
+- **URL:** [https://www.usenix.org/conference/usenixsecurity20/presentation/zhang-yue](https://www.usenix.org/conference/usenixsecurity20/presentation/zhang-yue)
+- **PDF:** [https://www.usenix.org/system/files/sec20-zhang-yue.pdf](https://www.usenix.org/system/files/sec20-zhang-yue.pdf)
+## You Are What You Broadcast: Identification of Mobile and IoT Devices from (Public) WiFi.
+🌍 [English](../../../docs/en/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#you-are-what-you-broadcast-identification-of-mobile-and-iot-devices-from-public-wifi) | **[简体中文](../../../docs/zh-CN/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#you-are-what-you-broadcast-identification-of-mobile-and-iot-devices-from-public-wifi)**
+### 作者
+* Lingjing Yu, Institute of Information Engineering, Chinese Academy of Sciences; School of Cybersecurity, University of the Chinese Academy of Sciences
+* Bo Luo, The University of Kansas
+* Jun Ma, Tsinghua University
+* Zhaoyu Zhou, Institute of Information Engineering, Chinese Academy of Sciences
+* Qingyun Liu, Institute of Information Engineering, Chinese Academy of Sciences
+### 摘要
+> 随着移动设备和WiFi热点的快速增长，安全风险不断出现。在实践中，对企业和公共无线网络的管理员来说，识别连接到网络的设备类型和/或型号非常重要，以设置访问/防火墙规则，检查已知漏洞或相应地配置入侵检测系统（IDS）。当移动设备加入（公共）无线网络时，并不必报告它们的详细身份，而攻击者可以轻易伪造设备属性。在文献中，已经做出了一些工作来利用网络流量特征进行设备识别。在本文中，我们提出了一种针对网络管理员和普通用户的新型设备识别机制——OWL。我们首先从被动接收的广播和组播（BC / MC）数据包中提取网络流量特征。学习嵌入表示以将特征建模为六个独立且互补的视图。然后，我们提出了一种新的多视图宽深度学习（MvWDL）框架，该框架在泛化性能和标签视图交互性能上进行了优化。同时，设计了一种恶意设备检测机制，以评估多视图分类器的一致性，以识别异常。最后，我们通过实验、案例研究和定性分析来展示OWL的性能。
+
+### 链接
+- **URL:** [https://www.usenix.org/conference/usenixsecurity20/presentation/yu](https://www.usenix.org/conference/usenixsecurity20/presentation/yu)
+- **PDF:** [https://www.usenix.org/system/files/sec20-yu.pdf](https://www.usenix.org/system/files/sec20-yu.pdf)
+## Call Me Maybe: Eavesdropping Encrypted LTE Calls With ReVoLTE.
+🌍 [English](../../../docs/en/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#call-me-maybe-eavesdropping-encrypted-lte-calls-with-revolte) | **[简体中文](../../../docs/zh-CN/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#call-me-maybe-eavesdropping-encrypted-lte-calls-with-revolte)**
+### 作者
+* David Rupprecht, Ruhr University Bochum
+* Katharina Kohls, Ruhr University Bochum
+* Thorsten Holz, Ruhr University Bochum
+* Christina Pöpper, NYU Abu Dhabi
+### 摘要
+> Voice over LTE（VoLTE）是一种基于分组的电话服务，无缝集成到长期演进（LTE）标准中，并由大多数电信供应商实际部署。由于广泛使用，成功攻击VoLTE可能会影响全球大量用户。在这项研究中，我们介绍了ReVoLTE，一种利用LTE实现漏洞恢复加密VoLTE通话内容的攻击方法，从而使对手能够窃听电话通话。ReVoLTE利用无线电层上的可预测键流重用，使对手能够以最小的资源解密录音通话。通过一系列初步实验和实际世界实验，我们成功证明了ReVoLTE的可行性，并分析了影响我们在商业网络中进行攻击的各种关键因素。为了缓解ReVoLTE攻击，我们提出并讨论了供应商和设备供应商可以部署的短期和长期对策。
+
+### 链接
+- **URL:** [https://www.usenix.org/conference/usenixsecurity20/presentation/rupprecht](https://www.usenix.org/conference/usenixsecurity20/presentation/rupprecht)
+- **PDF:** [https://www.usenix.org/system/files/sec20-rupprecht.pdf](https://www.usenix.org/system/files/sec20-rupprecht.pdf)
+## A Comprehensive Quality Evaluation of Security and Privacy Advice on the Web.
+🌍 [English](../../../docs/en/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#a-comprehensive-quality-evaluation-of-security-and-privacy-advice-on-the-web) | **[简体中文](../../../docs/zh-CN/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#a-comprehensive-quality-evaluation-of-security-and-privacy-advice-on-the-web)**
+### 作者
+* Elissa M. Redmiles, University of Maryland
+* Noel Warford, University of Maryland
+* Amritha Jayanti, University of Maryland
+* Aravind Koneru, University of Maryland
+* Sean Kross, University of California, San Diego
+* Miraida Morales, Rutgers University
+* Rock Stevens, University of Maryland
+* Michelle L. Mazurek, University of Maryland
+### 摘要
+> 最终用户从各种渠道学习防御性安全行为，包括大量在线文章中提供的安全建议。人们花费了大量精力来让用户遵循这些建议。令人惊讶的是，关于这些建议的质量很少有人了解：它是否易懂？是否可行？是否有效？为了回答这些问题，我们首先进行了一项大规模的用户驱动测量研究，以确定在1,264篇在线安全与隐私建议文档中包含的374个独特的推荐行为。其次，我们开发并验证了用于评估安全建议质量的测量方法，包括易懂性、可行性和可感知功效。第三，我们使用这些测量方法，在1,586名用户和41名专业安全专家参与的用户研究中评估了这374个独特的安全建议。我们的研究结果表明存在建议优先级的危机。大多数建议被大多数用户认为至少在某种程度上可行，并且在某种程度上易懂。然而，用户和专家都难以确定这些建议的优先级。例如，专家认为数百种研究行为中的89%是有效的，并将其中的118种列为用户应该做的“前五件事”，这使得最终用户必须自行确定优先级并采取行动来保护自己。
+
+### 链接
+- **URL:** [https://www.usenix.org/conference/usenixsecurity20/presentation/redmiles](https://www.usenix.org/conference/usenixsecurity20/presentation/redmiles)
+- **PDF:** [https://www.usenix.org/system/files/sec20-redmiles.pdf](https://www.usenix.org/system/files/sec20-redmiles.pdf)
+## Understanding security mistakes developers make: Qualitative analysis from Build It, Break It, Fix It.
+🌍 [English](../../../docs/en/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#understanding-security-mistakes-developers-make-qualitative-analysis-from-build-it-break-it-fix-it) | **[简体中文](../../../docs/zh-CN/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#understanding-security-mistakes-developers-make-qualitative-analysis-from-build-it-break-it-fix-it)**
+### 作者
+* Daniel Votipka, University of Maryland
+* Kelsey R. Fulton, University of Maryland
+* James Parker, University of Maryland
+* Matthew Hou, University of Maryland
+* Michelle L. Mazurek, University of Maryland
+* Michael Hicks, University of Maryland
+### 摘要
+> 安全软件开发是一项具有挑战性的任务，需要考虑许多可能的威胁和缓解措施。本文调查了程序员为什么会在有一定安全经验的情况下产生与安全相关的错误。为了做到这一点，我们对参加一个模拟真实约束条件（正确性、性能和安全性）的安全编程竞赛的94个提交进行了深入分析。除了编写安全代码外，参与者还被要求在其他团队的程序中搜索漏洞；总共，团队提交了866个针对我们考虑的提交的攻击。在为期六个月的密集期间，我们使用迭代式的开放编码方法对每个提交的项目和漏洞进行了人工但系统化的表征（包括我们自己发现的漏洞）。我们根据类型、攻击者控制允许程度和易于利用程度为漏洞打上标签，根据安全实施策略为项目打上标签。出现了几种模式。例如，简单错误最不常见：只有21%的项目引入了这样的错误。相反，由于对安全概念的误解而导致的漏洞明显更常见，出现在78%的项目中。我们的研究结果对改进安全编程API、API文档、漏洞发现工具和安全教育具有重要意义。
+
+### 链接
+- **URL:** [https://www.usenix.org/conference/usenixsecurity20/presentation/votipka-understanding](https://www.usenix.org/conference/usenixsecurity20/presentation/votipka-understanding)
+- **PDF:** [https://www.usenix.org/system/files/sec20-votipka-understanding.pdf](https://www.usenix.org/system/files/sec20-votipka-understanding.pdf)
+## Empirical Measurement of Systemic 2FA Usability.
+🌍 [English](../../../docs/en/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#empirical-measurement-of-systemic-2fa-usability) | **[简体中文](../../../docs/zh-CN/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#empirical-measurement-of-systemic-2fa-usability)**
+### 作者
+* Joshua Reynolds, University of Illinois at Urbana-Champaign and University of California, Berkeley and International Computer Science Institute
+* Nikita Samarin, University of California, Berkeley and International Computer Science Institute
+* Joseph Barnes, University of Illinois at Urbana-Champaign
+* Taylor Judd, University of Illinois at Urbana-Champaign
+* Joshua Mason, University of Illinois at Urbana-Champaign
+* Michael Bailey, University of Illinois at Urbana-Champaign
+* Serge Egelman, University of California, Berkeley and International Computer Science Institute
+### 摘要
+> 双因素认证（2FA）加强了组织对用户账户被攻破的防护，但也在组织的关键任务中增加了一个额外步骤。我们研究了对2FA系统操作日志进行定量分析的程度，看是否支持并挑战了最近用户研究和调查所确定的2FA系统可用性挑战的结果。通过使用保存在两所公立大学的数千万个日志和记录，我们量化了强制性2FA实施对组织及其员工的规模影响。我们展示了设备记忆、碎片化的登录服务以及认证超时对用户负担的乘法效应。我们发现用户负担与其他大型组织普遍存在的合规性和风险管理时间要求并没有太大差异。我们调查了超过二十分之一的2FA操作被中止或失败的原因，以及用户体验在不同用户之间的差异。我们希望我们的分析能赋予更多组织使用2FA来保护自身的能力。
+
+### 链接
+- **URL:** [https://www.usenix.org/conference/usenixsecurity20/presentation/reynolds](https://www.usenix.org/conference/usenixsecurity20/presentation/reynolds)
+- **PDF:** [https://www.usenix.org/system/files/sec20-reynolds.pdf](https://www.usenix.org/system/files/sec20-reynolds.pdf)
+## What Twitter Knows: Characterizing Ad Targeting Practices, User Perceptions, and Ad Explanations Through Users' Own Twitter Data.
+🌍 [English](../../../docs/en/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#what-twitter-knows-characterizing-ad-targeting-practices-user-perceptions-and-ad-explanations-through-users-own-twitter-data) | **[简体中文](../../../docs/zh-CN/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#what-twitter-knows-characterizing-ad-targeting-practices-user-perceptions-and-ad-explanations-through-users-own-twitter-data)**
+### 作者
+* Mir, University of Washington / University of Chicago
+* a Wei, University of Washington / University of Chicago
+* Madison Stamos, University of Chicago
+* Sophie Veys, University of Chicago
+* Nathan Reitinger, University of Maryland
+* Justin Goodman, University of Maryland
+* Margot Herman, University of Chicago
+* Dorota Filipczuk, University of Southampton
+* Ben Weinshel, University of Chicago
+* Michelle L. Mazurek, University of Maryland
+* Blase Ur, University of Chicago
+### 摘要
+> 虽然有针对性的广告受到隐私研究人员的重视，但仍存在许多关键的实证问题。特别是，目前只有少数几种主要广告平台使用的定向机制被很好地理解，而研究用户对广告定向的看法通常依赖于假设情境。此外，现有的透明度机制，从数据访问权到广告解释，实际上对于其目标用户的服务程度尚不清楚。为了深入了解当前定向广告生态系统，本文使用了231个参与者的个人Twitter数据，包括他们展示的广告和相关的定向标准，进行了测量和用户研究。我们发现在之前的研究中忽视了许多定向机制，包括广告主上传的特定用户列表、类似受众和再营销活动，这些在Twitter上被广泛使用。关键是，参与者发现这些未经研究的实践对隐私的侵犯程度最大。参与者还发现，该研究设计的广告解释比Twitter当前的广告解释更有用、更易理解，并且总体上更受欢迎。我们的研究结果强调了数据访问的好处，描述了未被研究的定向广告方面，并确定了改善定向广告透明度的潜在方向。
+
+### 链接
+- **URL:** [https://www.usenix.org/conference/usenixsecurity20/presentation/wei](https://www.usenix.org/conference/usenixsecurity20/presentation/wei)
+- **PDF:** [https://www.usenix.org/system/files/sec20-wei.pdf](https://www.usenix.org/system/files/sec20-wei.pdf)
+## The Impact of Ad-Blockers on Product Search and Purchase Behavior: A Lab Experiment.
+🌍 [English](../../../docs/en/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#the-impact-of-ad-blockers-on-product-search-and-purchase-behavior-a-lab-experiment) | **[简体中文](../../../docs/zh-CN/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#the-impact-of-ad-blockers-on-product-search-and-purchase-behavior-a-lab-experiment)**
+### 作者
+* Alisa Frik, International Computer Science Institute / UC Berkeley
+* Amelia Havil, Heinz College, Carnegie Mellon University
+* Aless, Heinz College, Carnegie Mellon University
+* ro Acquisti, Heinz College, Carnegie Mellon University
+### 摘要
+> 广告拦截应用程序在互联网用户中越来越受欢迎。广告拦截器提供各种隐私和安全增强功能：它们可以减少个人数据收集和恶意广告曝光，帮助保护用户的决策自主权，降低用户成本（通过提高页面加载速度），并提升浏览体验（通过减少视觉干扰）。另一方面，网络广告业声称广告可以通过帮助用户更快地找到更好、更便宜的交易来增加消费者的经济福祉。如果确实如此，使用广告拦截器将会剥夺消费者享受这些好处的机会。然而，关于广告拦截器实际对经济影响的了解很少。
+> 
+> 我们设计了一个带有真实经济激励的实验室实验（N=212），以了解广告拦截器对消费者产品搜索和购买行为，以及由此产生的消费者结果的影响。我们重点研究拦截情境广告（针对个别、潜在敏感的情境，如搜索引擎中的搜索查询或网页内容）对参与者在线搜索和购买各种产品，以及由此产生的消费者福祉的影响。
+> 
+> 我们发现，拦截情境广告对参与者选择购买产品的价格、搜索这些产品所花费的时间以及对所选择的产品、价格和感知质量的满意度没有统计学显著影响。因此，我们不拒绝当这些广告被拦截或显示时，消费者行为和结果保持不变的零假设。我们得出结论，在保护隐私和安全方面获得益处的情况下，使用广告拦截器似乎不会损害消费者的经济福祉（根据实验中捕获的指标）。我们讨论了这项工作在终端用户隐私、研究局限性以及未来工作中延伸这些结果方面的意义。
+
+### 链接
+- **URL:** [https://www.usenix.org/conference/usenixsecurity20/presentation/frik](https://www.usenix.org/conference/usenixsecurity20/presentation/frik)
+- **PDF:** [https://www.usenix.org/system/files/sec20-frik.pdf](https://www.usenix.org/system/files/sec20-frik.pdf)
+## Symbolic execution with SymCC: Don't interpret, compile!
+🌍 [English](../../../docs/en/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#symbolic-execution-with-symcc-dont-interpret-compile) | **[简体中文](../../../docs/zh-CN/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#symbolic-execution-with-symcc-dont-interpret-compile)**
+### 作者
+* Sebastian Poeplau, EURECOM
+* Aurélien Francillon, EURECOM
+### 摘要
+> 实用符号执行的一个主要障碍是速度，特别是与模糊测试等接近原生速度的解决方案相比。我们提出了一种编译为基础的符号执行方法，其性能比最先进的实现提高了数个数量级。我们介绍了SymCC，一种基于LLVM的C和C++编译器，可以将符号执行直接嵌入二进制文件中。软件开发人员可以将其作为clang和clang++的替代品使用，并且我们展示了如何轻松地为其他语言添加支持。与KLEE相比，SymCC的速度提高了高达三个数量级，并且平均因子为12。它还优于Qsym，这是一个最近在其他实现上显示出巨大性能改进的系统，其速度提高了高达两个数量级，并且平均因子为10。在真实世界的软件上使用它，我们发现我们的方法始终可以实现更高的覆盖率，并且我们发现了在经过大量测试的OpenJPEG项目中的两个漏洞，这些漏洞已被项目维护人员确认并分配了CVE标识符。
+
+### 链接
+- **URL:** [https://www.usenix.org/conference/usenixsecurity20/presentation/poeplau](https://www.usenix.org/conference/usenixsecurity20/presentation/poeplau)
+- **PDF:** [https://www.usenix.org/system/files/sec20-poeplau.pdf](https://www.usenix.org/system/files/sec20-poeplau.pdf)
 ## Sys: A Static/Symbolic Tool for Finding Good Bugs in Good (Browser) Code.
 🌍 [English](../../../docs/en/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#sys-a-static-symbolic-tool-for-finding-good-bugs-in-good-browser-code) | **[简体中文](../../../docs/zh-CN/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#sys-a-static-symbolic-tool-for-finding-good-bugs-in-good-browser-code)**
 ### 作者
@@ -566,14 +734,6 @@
 ### 链接
 - **URL:** [https://www.usenix.org/conference/usenixsecurity20/presentation/cloosters](https://www.usenix.org/conference/usenixsecurity20/presentation/cloosters)
 - **PDF:** [https://www.usenix.org/system/files/sec20-cloosters.pdf](https://www.usenix.org/system/files/sec20-cloosters.pdf)
-## The 2020 Election: Remote Voting, Disinformation, and Audit.
-🌍 [English](../../../docs/en/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#the-2020-election-remote-voting-disinformation-and-audit) | **[简体中文](../../../docs/zh-CN/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#the-2020-election-remote-voting-disinformation-and-audit)**
-### 作者
-### 摘要
-> 据各种说法，2020年的选举将是历史性的。美国历史上最具情感冲击力的选举可能会在全球大流行病的背景下进行。以前从未有过关于投票过程的错误信息直接来自白宫。选举结果很可能会受到质疑，结果的合法性也会受到质疑。在保障公众对公正和诚信的看法的同时，COVID19将对选举官员顺利进行选举的能力提出更大的挑战。邮寄投票将得到广泛采用，并面临远程电子投票的压力。本专题讨论如何保护选举过程的合法性。专题将与选举官员共享他们与选举官员合作的经验，并讨论诸如端到端投票和风险限制审计等技术。
-
-### 链接
-- **URL:** [https://www.usenix.org/conference/usenixsecurity20/presentation/panel-voting](https://www.usenix.org/conference/usenixsecurity20/presentation/panel-voting)
 ## Stealthy Tracking of Autonomous Vehicles with Cache Side Channels.
 🌍 [English](../../../docs/en/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#stealthy-tracking-of-autonomous-vehicles-with-cache-side-channels) | **[简体中文](../../../docs/zh-CN/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#stealthy-tracking-of-autonomous-vehicles-with-cache-side-channels)**
 ### 作者
@@ -1128,14 +1288,6 @@
 ### 链接
 - **URL:** [https://www.usenix.org/conference/usenixsecurity20/presentation/oleksenko](https://www.usenix.org/conference/usenixsecurity20/presentation/oleksenko)
 - **PDF:** [https://www.usenix.org/system/files/sec20-oleksenko.pdf](https://www.usenix.org/system/files/sec20-oleksenko.pdf)
-## Digital Contact Tracing.
-🌍 [English](../../../docs/en/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#digital-contact-tracing) | **[简体中文](../../../docs/zh-CN/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#digital-contact-tracing)**
-### 作者
-### 摘要
-> 新冠病毒肺炎（COVID-19）是由严重急性呼吸系统综合征冠状病毒2（SARS-CoV-2）引起的大流行病，导致了许多死亡，并且使世界经济的大部分陷入停滞。由于该病毒在人与人之间通过密切接触传播，追踪接触者成为抗击COVID-19疫情的主要工具之一，其目的是追踪和隔离与病毒阳性者接触的人员。为了促进这一过程，近期提出并在一些国家部署了数字接触追踪解决方案。谷歌和苹果还在Android和iOS中进一步支持接触追踪。此类大规模追踪基础设施的部署引发了一系列安全、隐私、伦理和法律问题。在论文中，专家们将就这些问题进行讨论，并描述他们在构建和分析数字接触追踪系统方面的经验。
-
-### 链接
-- **URL:** [https://www.usenix.org/conference/usenixsecurity20/presentation/panel-contact-tracing](https://www.usenix.org/conference/usenixsecurity20/presentation/panel-contact-tracing)
 ## Security Analysis of Unified Payments Interface and Payment Apps in India.
 🌍 [English](../../../docs/en/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#security-analysis-of-unified-payments-interface-and-payment-apps-in-india) | **[简体中文](../../../docs/zh-CN/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#security-analysis-of-unified-payments-interface-and-payment-apps-in-india)**
 ### 作者
@@ -2237,171 +2389,19 @@
 ### 链接
 - **URL:** [https://www.usenix.org/conference/usenixsecurity20/presentation/zhou-shunfan](https://www.usenix.org/conference/usenixsecurity20/presentation/zhou-shunfan)
 - **PDF:** [https://www.usenix.org/system/files/sec20-zhou-shunfan.pdf](https://www.usenix.org/system/files/sec20-zhou-shunfan.pdf)
-## A Formal Analysis of IEEE 802.11's WPA2: Countering the Kracks Caused by Cracking the Counters.
-🌍 [English](../../../docs/en/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#a-formal-analysis-of-ieee-802-11s-wpa2-countering-the-kracks-caused-by-cracking-the-counters) | **[简体中文](../../../docs/zh-CN/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#a-formal-analysis-of-ieee-802-11s-wpa2-countering-the-kracks-caused-by-cracking-the-counters)**
+## The 2020 Election: Remote Voting, Disinformation, and Audit.
+🌍 [English](../../../docs/en/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#the-2020-election-remote-voting-disinformation-and-audit) | **[简体中文](../../../docs/zh-CN/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#the-2020-election-remote-voting-disinformation-and-audit)**
 ### 作者
-* Cas Cremers, CISPA Helmholtz Center for Information Security
-* Benjamin Kiesl, CISPA Helmholtz Center for Information Security
-* Niklas Medinger, CISPA Helmholtz Center for Information Security
 ### 摘要
-> IEEE 802.11 WPA2协议广泛用于全球网络连接的保护。该协议在三千多页的规范中规定，并且多年来已经接受了各种修补程序，因此非常复杂，难以分析。特别是它涉及各种以微妙方式相互作用的机制，这使得模块化推理几乎不可能。或许正因为如此，至今没有任何形式或密码学论证表明对核心协议的修补程序确实能够阻止相应的攻击，例如2017年臭名昭著的KRACK攻击。
-> 
-> 在这项工作中，我们解决了这个问题，并对WPA2协议设计进行了广泛的形式化分析。我们的模型是第一个足够详细以侦测到KRACK攻击的模型；它包括四方握手、组密钥握手、WNM睡眠模式、数据机密协议以及它们复杂的相互作用。
-> 
-> 我们的分析提供了第一个关于修补后的WPA2协议在面对复杂的现代攻击时是否满足其所声称的安全保证的安全论证，无论在任何形式上。
+> 据各种说法，2020年的选举将是历史性的。美国历史上最具情感冲击力的选举可能会在全球大流行病的背景下进行。以前从未有过关于投票过程的错误信息直接来自白宫。选举结果很可能会受到质疑，结果的合法性也会受到质疑。在保障公众对公正和诚信的看法的同时，COVID19将对选举官员顺利进行选举的能力提出更大的挑战。邮寄投票将得到广泛采用，并面临远程电子投票的压力。本专题讨论如何保护选举过程的合法性。专题将与选举官员共享他们与选举官员合作的经验，并讨论诸如端到端投票和风险限制审计等技术。
 
 ### 链接
-- **URL:** [https://www.usenix.org/conference/usenixsecurity20/presentation/cremers](https://www.usenix.org/conference/usenixsecurity20/presentation/cremers)
-- **PDF:** [https://www.usenix.org/system/files/sec20-cremers.pdf](https://www.usenix.org/system/files/sec20-cremers.pdf)
-## Frankenstein: Advanced Wireless Fuzzing to Exploit New Bluetooth Escalation Targets.
-🌍 [English](../../../docs/en/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#frankenstein-advanced-wireless-fuzzing-to-exploit-new-bluetooth-escalation-targets) | **[简体中文](../../../docs/zh-CN/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#frankenstein-advanced-wireless-fuzzing-to-exploit-new-bluetooth-escalation-targets)**
+- **URL:** [https://www.usenix.org/conference/usenixsecurity20/presentation/panel-voting](https://www.usenix.org/conference/usenixsecurity20/presentation/panel-voting)
+## Digital Contact Tracing.
+🌍 [English](../../../docs/en/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#digital-contact-tracing) | **[简体中文](../../../docs/zh-CN/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#digital-contact-tracing)**
 ### 作者
-* Jan Ruge, Secure Mobile Networking Lab, TU Darmstadt
-* Jiska Classen, Secure Mobile Networking Lab, TU Darmstadt
-* Francesco Gringoli, Dept. of Information Engineering, University of Brescia
-* Matthias Hollick, Secure Mobile Networking Lab, TU Darmstadt
 ### 摘要
-> 无线通信标准和实现在安全方面存在许多问题。由于大多数实现和固件都是闭源的，模糊测试仍然是发现已部署系统中远程代码执行（RCE）漏洞的主要方法之一。通用无线模糊测试存在几个缺点，如速度受限，重复性有限，以及调试能力受限。在本文中，我们介绍了基于先进固件仿真的模糊测试框架Frankenstein，以解决这些问题。Frankenstein使固件转储“复活”，并向芯片的虚拟调制解调器提供模糊输入。我们的新模糊测试方法的加速足以保持与附加操作系统的互操作性，从而引发逼真的全栈行为。我们通过在广泛使用于大多数苹果设备、许多三星智能手机、树莓派等设备中的Broadcom和Cypress蓝牙堆栈中发现了三个零点击漏洞来展示Frankenstein的潜力。
-> 
-> 在蓝牙芯片上存在RCE的情况下，攻击者可能会超越芯片的边界升级其权限。我们发现了一个Wi-Fi/蓝牙共存问题，可以导致多个操作系统内核崩溃，以及蓝牙5.2规范中的设计缺陷，允许从主机中提取链接密钥。关闭蓝牙并不能完全禁用芯片，这使得防御RCE攻击变得困难。此外，当在这些设备上测试我们基于芯片的漏洞时，我们发现了BlueFrag，这是一个与芯片无关的Android RCE漏洞。
+> 新冠病毒肺炎（COVID-19）是由严重急性呼吸系统综合征冠状病毒2（SARS-CoV-2）引起的大流行病，导致了许多死亡，并且使世界经济的大部分陷入停滞。由于该病毒在人与人之间通过密切接触传播，追踪接触者成为抗击COVID-19疫情的主要工具之一，其目的是追踪和隔离与病毒阳性者接触的人员。为了促进这一过程，近期提出并在一些国家部署了数字接触追踪解决方案。谷歌和苹果还在Android和iOS中进一步支持接触追踪。此类大规模追踪基础设施的部署引发了一系列安全、隐私、伦理和法律问题。在论文中，专家们将就这些问题进行讨论，并描述他们在构建和分析数字接触追踪系统方面的经验。
 
 ### 链接
-- **URL:** [https://www.usenix.org/conference/usenixsecurity20/presentation/ruge](https://www.usenix.org/conference/usenixsecurity20/presentation/ruge)
-## Breaking Secure Pairing of Bluetooth Low Energy Using Downgrade Attacks.
-🌍 [English](../../../docs/en/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#breaking-secure-pairing-of-bluetooth-low-energy-using-downgrade-attacks) | **[简体中文](../../../docs/zh-CN/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#breaking-secure-pairing-of-bluetooth-low-energy-using-downgrade-attacks)**
-### 作者
-* Yue Zhang, College of Information Science and Technology, Jinan University (Department of Computer Science, University of Central Florida)
-* Jian Weng, College of Information Science and Technology, Jinan University
-* Rajib Dey, Department of Computer Science, University of Central Florida
-* Yier Jin, Department of Electrical and Computer Engineering, University of Florida
-* Zhiqiang Lin, Computer Science and Engineering, The Ohio State University
-* Xinwen Fu, Department of Computer Science, University of Central Florida
-### 摘要
-> 为了击败诸如中间人（MITM）攻击之类的安全威胁，蓝牙低功耗（BLE）4.2和5.x引入了仅安全连接（SCO）模式。在此模式下，BLE设备只能接受发起者（如Android手机）的安全配对，如Passkey输入和数字比较。然而，BLE规范并不要求发起者采用SCO模式，并且没有说明BLE编程框架应该如何实现此模式。本文中，我们展示了发起者的BLE编程框架必须正确处理SCO初始化、状态管理、错误处理和绑定管理，否则严重漏洞可以被利用进行降级攻击，迫使BLE配对协议在用户不知情的情况下运行在不安全模式下。为了验证我们的发现，我们使用5部Android手机测试了18个受欢迎的BLE商业产品。我们的实验结果证明了MITM攻击（由于降级）对所有这些产品都是可能的。更重要的是，由于BLE编程框架存在的系统性缺陷，所有Android上的BLE应用程序都容易受到我们的降级攻击。为了抵御我们的攻击，我们在Android开放源代码项目（AOSP）之上建立了一个用于SCO模式的原型。最后，除了Android之外，我们还发现包括iOS、macOS、Windows和Linux在内的所有主要操作系统都没有正确支持SCO模式。我们已向蓝牙特别兴趣小组、谷歌、苹果、德州仪器和微软报告了所发现的BLE配对漏洞。
-
-### 链接
-- **URL:** [https://www.usenix.org/conference/usenixsecurity20/presentation/zhang-yue](https://www.usenix.org/conference/usenixsecurity20/presentation/zhang-yue)
-- **PDF:** [https://www.usenix.org/system/files/sec20-zhang-yue.pdf](https://www.usenix.org/system/files/sec20-zhang-yue.pdf)
-## You Are What You Broadcast: Identification of Mobile and IoT Devices from (Public) WiFi.
-🌍 [English](../../../docs/en/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#you-are-what-you-broadcast-identification-of-mobile-and-iot-devices-from-public-wifi) | **[简体中文](../../../docs/zh-CN/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#you-are-what-you-broadcast-identification-of-mobile-and-iot-devices-from-public-wifi)**
-### 作者
-* Lingjing Yu, Institute of Information Engineering, Chinese Academy of Sciences; School of Cybersecurity, University of the Chinese Academy of Sciences
-* Bo Luo, The University of Kansas
-* Jun Ma, Tsinghua University
-* Zhaoyu Zhou, Institute of Information Engineering, Chinese Academy of Sciences
-* Qingyun Liu, Institute of Information Engineering, Chinese Academy of Sciences
-### 摘要
-> 随着移动设备和WiFi热点的快速增长，安全风险不断出现。在实践中，对企业和公共无线网络的管理员来说，识别连接到网络的设备类型和/或型号非常重要，以设置访问/防火墙规则，检查已知漏洞或相应地配置入侵检测系统（IDS）。当移动设备加入（公共）无线网络时，并不必报告它们的详细身份，而攻击者可以轻易伪造设备属性。在文献中，已经做出了一些工作来利用网络流量特征进行设备识别。在本文中，我们提出了一种针对网络管理员和普通用户的新型设备识别机制——OWL。我们首先从被动接收的广播和组播（BC / MC）数据包中提取网络流量特征。学习嵌入表示以将特征建模为六个独立且互补的视图。然后，我们提出了一种新的多视图宽深度学习（MvWDL）框架，该框架在泛化性能和标签视图交互性能上进行了优化。同时，设计了一种恶意设备检测机制，以评估多视图分类器的一致性，以识别异常。最后，我们通过实验、案例研究和定性分析来展示OWL的性能。
-
-### 链接
-- **URL:** [https://www.usenix.org/conference/usenixsecurity20/presentation/yu](https://www.usenix.org/conference/usenixsecurity20/presentation/yu)
-- **PDF:** [https://www.usenix.org/system/files/sec20-yu.pdf](https://www.usenix.org/system/files/sec20-yu.pdf)
-## Call Me Maybe: Eavesdropping Encrypted LTE Calls With ReVoLTE.
-🌍 [English](../../../docs/en/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#call-me-maybe-eavesdropping-encrypted-lte-calls-with-revolte) | **[简体中文](../../../docs/zh-CN/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#call-me-maybe-eavesdropping-encrypted-lte-calls-with-revolte)**
-### 作者
-* David Rupprecht, Ruhr University Bochum
-* Katharina Kohls, Ruhr University Bochum
-* Thorsten Holz, Ruhr University Bochum
-* Christina Pöpper, NYU Abu Dhabi
-### 摘要
-> Voice over LTE（VoLTE）是一种基于分组的电话服务，无缝集成到长期演进（LTE）标准中，并由大多数电信供应商实际部署。由于广泛使用，成功攻击VoLTE可能会影响全球大量用户。在这项研究中，我们介绍了ReVoLTE，一种利用LTE实现漏洞恢复加密VoLTE通话内容的攻击方法，从而使对手能够窃听电话通话。ReVoLTE利用无线电层上的可预测键流重用，使对手能够以最小的资源解密录音通话。通过一系列初步实验和实际世界实验，我们成功证明了ReVoLTE的可行性，并分析了影响我们在商业网络中进行攻击的各种关键因素。为了缓解ReVoLTE攻击，我们提出并讨论了供应商和设备供应商可以部署的短期和长期对策。
-
-### 链接
-- **URL:** [https://www.usenix.org/conference/usenixsecurity20/presentation/rupprecht](https://www.usenix.org/conference/usenixsecurity20/presentation/rupprecht)
-- **PDF:** [https://www.usenix.org/system/files/sec20-rupprecht.pdf](https://www.usenix.org/system/files/sec20-rupprecht.pdf)
-## A Comprehensive Quality Evaluation of Security and Privacy Advice on the Web.
-🌍 [English](../../../docs/en/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#a-comprehensive-quality-evaluation-of-security-and-privacy-advice-on-the-web) | **[简体中文](../../../docs/zh-CN/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#a-comprehensive-quality-evaluation-of-security-and-privacy-advice-on-the-web)**
-### 作者
-* Elissa M. Redmiles, University of Maryland
-* Noel Warford, University of Maryland
-* Amritha Jayanti, University of Maryland
-* Aravind Koneru, University of Maryland
-* Sean Kross, University of California, San Diego
-* Miraida Morales, Rutgers University
-* Rock Stevens, University of Maryland
-* Michelle L. Mazurek, University of Maryland
-### 摘要
-> 最终用户从各种渠道学习防御性安全行为，包括大量在线文章中提供的安全建议。人们花费了大量精力来让用户遵循这些建议。令人惊讶的是，关于这些建议的质量很少有人了解：它是否易懂？是否可行？是否有效？为了回答这些问题，我们首先进行了一项大规模的用户驱动测量研究，以确定在1,264篇在线安全与隐私建议文档中包含的374个独特的推荐行为。其次，我们开发并验证了用于评估安全建议质量的测量方法，包括易懂性、可行性和可感知功效。第三，我们使用这些测量方法，在1,586名用户和41名专业安全专家参与的用户研究中评估了这374个独特的安全建议。我们的研究结果表明存在建议优先级的危机。大多数建议被大多数用户认为至少在某种程度上可行，并且在某种程度上易懂。然而，用户和专家都难以确定这些建议的优先级。例如，专家认为数百种研究行为中的89%是有效的，并将其中的118种列为用户应该做的“前五件事”，这使得最终用户必须自行确定优先级并采取行动来保护自己。
-
-### 链接
-- **URL:** [https://www.usenix.org/conference/usenixsecurity20/presentation/redmiles](https://www.usenix.org/conference/usenixsecurity20/presentation/redmiles)
-- **PDF:** [https://www.usenix.org/system/files/sec20-redmiles.pdf](https://www.usenix.org/system/files/sec20-redmiles.pdf)
-## Understanding security mistakes developers make: Qualitative analysis from Build It, Break It, Fix It.
-🌍 [English](../../../docs/en/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#understanding-security-mistakes-developers-make-qualitative-analysis-from-build-it-break-it-fix-it) | **[简体中文](../../../docs/zh-CN/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#understanding-security-mistakes-developers-make-qualitative-analysis-from-build-it-break-it-fix-it)**
-### 作者
-* Daniel Votipka, University of Maryland
-* Kelsey R. Fulton, University of Maryland
-* James Parker, University of Maryland
-* Matthew Hou, University of Maryland
-* Michelle L. Mazurek, University of Maryland
-* Michael Hicks, University of Maryland
-### 摘要
-> 安全软件开发是一项具有挑战性的任务，需要考虑许多可能的威胁和缓解措施。本文调查了程序员为什么会在有一定安全经验的情况下产生与安全相关的错误。为了做到这一点，我们对参加一个模拟真实约束条件（正确性、性能和安全性）的安全编程竞赛的94个提交进行了深入分析。除了编写安全代码外，参与者还被要求在其他团队的程序中搜索漏洞；总共，团队提交了866个针对我们考虑的提交的攻击。在为期六个月的密集期间，我们使用迭代式的开放编码方法对每个提交的项目和漏洞进行了人工但系统化的表征（包括我们自己发现的漏洞）。我们根据类型、攻击者控制允许程度和易于利用程度为漏洞打上标签，根据安全实施策略为项目打上标签。出现了几种模式。例如，简单错误最不常见：只有21%的项目引入了这样的错误。相反，由于对安全概念的误解而导致的漏洞明显更常见，出现在78%的项目中。我们的研究结果对改进安全编程API、API文档、漏洞发现工具和安全教育具有重要意义。
-
-### 链接
-- **URL:** [https://www.usenix.org/conference/usenixsecurity20/presentation/votipka-understanding](https://www.usenix.org/conference/usenixsecurity20/presentation/votipka-understanding)
-- **PDF:** [https://www.usenix.org/system/files/sec20-votipka-understanding.pdf](https://www.usenix.org/system/files/sec20-votipka-understanding.pdf)
-## Empirical Measurement of Systemic 2FA Usability.
-🌍 [English](../../../docs/en/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#empirical-measurement-of-systemic-2fa-usability) | **[简体中文](../../../docs/zh-CN/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#empirical-measurement-of-systemic-2fa-usability)**
-### 作者
-* Joshua Reynolds, University of Illinois at Urbana-Champaign and University of California, Berkeley and International Computer Science Institute
-* Nikita Samarin, University of California, Berkeley and International Computer Science Institute
-* Joseph Barnes, University of Illinois at Urbana-Champaign
-* Taylor Judd, University of Illinois at Urbana-Champaign
-* Joshua Mason, University of Illinois at Urbana-Champaign
-* Michael Bailey, University of Illinois at Urbana-Champaign
-* Serge Egelman, University of California, Berkeley and International Computer Science Institute
-### 摘要
-> 双因素认证（2FA）加强了组织对用户账户被攻破的防护，但也在组织的关键任务中增加了一个额外步骤。我们研究了对2FA系统操作日志进行定量分析的程度，看是否支持并挑战了最近用户研究和调查所确定的2FA系统可用性挑战的结果。通过使用保存在两所公立大学的数千万个日志和记录，我们量化了强制性2FA实施对组织及其员工的规模影响。我们展示了设备记忆、碎片化的登录服务以及认证超时对用户负担的乘法效应。我们发现用户负担与其他大型组织普遍存在的合规性和风险管理时间要求并没有太大差异。我们调查了超过二十分之一的2FA操作被中止或失败的原因，以及用户体验在不同用户之间的差异。我们希望我们的分析能赋予更多组织使用2FA来保护自身的能力。
-
-### 链接
-- **URL:** [https://www.usenix.org/conference/usenixsecurity20/presentation/reynolds](https://www.usenix.org/conference/usenixsecurity20/presentation/reynolds)
-- **PDF:** [https://www.usenix.org/system/files/sec20-reynolds.pdf](https://www.usenix.org/system/files/sec20-reynolds.pdf)
-## What Twitter Knows: Characterizing Ad Targeting Practices, User Perceptions, and Ad Explanations Through Users' Own Twitter Data.
-🌍 [English](../../../docs/en/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#what-twitter-knows-characterizing-ad-targeting-practices-user-perceptions-and-ad-explanations-through-users-own-twitter-data) | **[简体中文](../../../docs/zh-CN/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#what-twitter-knows-characterizing-ad-targeting-practices-user-perceptions-and-ad-explanations-through-users-own-twitter-data)**
-### 作者
-* Mir, University of Washington / University of Chicago
-* a Wei, University of Washington / University of Chicago
-* Madison Stamos, University of Chicago
-* Sophie Veys, University of Chicago
-* Nathan Reitinger, University of Maryland
-* Justin Goodman, University of Maryland
-* Margot Herman, University of Chicago
-* Dorota Filipczuk, University of Southampton
-* Ben Weinshel, University of Chicago
-* Michelle L. Mazurek, University of Maryland
-* Blase Ur, University of Chicago
-### 摘要
-> 虽然有针对性的广告受到隐私研究人员的重视，但仍存在许多关键的实证问题。特别是，目前只有少数几种主要广告平台使用的定向机制被很好地理解，而研究用户对广告定向的看法通常依赖于假设情境。此外，现有的透明度机制，从数据访问权到广告解释，实际上对于其目标用户的服务程度尚不清楚。为了深入了解当前定向广告生态系统，本文使用了231个参与者的个人Twitter数据，包括他们展示的广告和相关的定向标准，进行了测量和用户研究。我们发现在之前的研究中忽视了许多定向机制，包括广告主上传的特定用户列表、类似受众和再营销活动，这些在Twitter上被广泛使用。关键是，参与者发现这些未经研究的实践对隐私的侵犯程度最大。参与者还发现，该研究设计的广告解释比Twitter当前的广告解释更有用、更易理解，并且总体上更受欢迎。我们的研究结果强调了数据访问的好处，描述了未被研究的定向广告方面，并确定了改善定向广告透明度的潜在方向。
-
-### 链接
-- **URL:** [https://www.usenix.org/conference/usenixsecurity20/presentation/wei](https://www.usenix.org/conference/usenixsecurity20/presentation/wei)
-- **PDF:** [https://www.usenix.org/system/files/sec20-wei.pdf](https://www.usenix.org/system/files/sec20-wei.pdf)
-## The Impact of Ad-Blockers on Product Search and Purchase Behavior: A Lab Experiment.
-🌍 [English](../../../docs/en/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#the-impact-of-ad-blockers-on-product-search-and-purchase-behavior-a-lab-experiment) | **[简体中文](../../../docs/zh-CN/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#the-impact-of-ad-blockers-on-product-search-and-purchase-behavior-a-lab-experiment)**
-### 作者
-* Alisa Frik, International Computer Science Institute / UC Berkeley
-* Amelia Havil, Heinz College, Carnegie Mellon University
-* Aless, Heinz College, Carnegie Mellon University
-* ro Acquisti, Heinz College, Carnegie Mellon University
-### 摘要
-> 广告拦截应用程序在互联网用户中越来越受欢迎。广告拦截器提供各种隐私和安全增强功能：它们可以减少个人数据收集和恶意广告曝光，帮助保护用户的决策自主权，降低用户成本（通过提高页面加载速度），并提升浏览体验（通过减少视觉干扰）。另一方面，网络广告业声称广告可以通过帮助用户更快地找到更好、更便宜的交易来增加消费者的经济福祉。如果确实如此，使用广告拦截器将会剥夺消费者享受这些好处的机会。然而，关于广告拦截器实际对经济影响的了解很少。
-> 
-> 我们设计了一个带有真实经济激励的实验室实验（N=212），以了解广告拦截器对消费者产品搜索和购买行为，以及由此产生的消费者结果的影响。我们重点研究拦截情境广告（针对个别、潜在敏感的情境，如搜索引擎中的搜索查询或网页内容）对参与者在线搜索和购买各种产品，以及由此产生的消费者福祉的影响。
-> 
-> 我们发现，拦截情境广告对参与者选择购买产品的价格、搜索这些产品所花费的时间以及对所选择的产品、价格和感知质量的满意度没有统计学显著影响。因此，我们不拒绝当这些广告被拦截或显示时，消费者行为和结果保持不变的零假设。我们得出结论，在保护隐私和安全方面获得益处的情况下，使用广告拦截器似乎不会损害消费者的经济福祉（根据实验中捕获的指标）。我们讨论了这项工作在终端用户隐私、研究局限性以及未来工作中延伸这些结果方面的意义。
-
-### 链接
-- **URL:** [https://www.usenix.org/conference/usenixsecurity20/presentation/frik](https://www.usenix.org/conference/usenixsecurity20/presentation/frik)
-- **PDF:** [https://www.usenix.org/system/files/sec20-frik.pdf](https://www.usenix.org/system/files/sec20-frik.pdf)
-## Symbolic execution with SymCC: Don't interpret, compile!
-🌍 [English](../../../docs/en/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#symbolic-execution-with-symcc-dont-interpret-compile) | **[简体中文](../../../docs/zh-CN/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2020].md#symbolic-execution-with-symcc-dont-interpret-compile)**
-### 作者
-* Sebastian Poeplau, EURECOM
-* Aurélien Francillon, EURECOM
-### 摘要
-> 实用符号执行的一个主要障碍是速度，特别是与模糊测试等接近原生速度的解决方案相比。我们提出了一种编译为基础的符号执行方法，其性能比最先进的实现提高了数个数量级。我们介绍了SymCC，一种基于LLVM的C和C++编译器，可以将符号执行直接嵌入二进制文件中。软件开发人员可以将其作为clang和clang++的替代品使用，并且我们展示了如何轻松地为其他语言添加支持。与KLEE相比，SymCC的速度提高了高达三个数量级，并且平均因子为12。它还优于Qsym，这是一个最近在其他实现上显示出巨大性能改进的系统，其速度提高了高达两个数量级，并且平均因子为10。在真实世界的软件上使用它，我们发现我们的方法始终可以实现更高的覆盖率，并且我们发现了在经过大量测试的OpenJPEG项目中的两个漏洞，这些漏洞已被项目维护人员确认并分配了CVE标识符。
-
-### 链接
-- **URL:** [https://www.usenix.org/conference/usenixsecurity20/presentation/poeplau](https://www.usenix.org/conference/usenixsecurity20/presentation/poeplau)
-- **PDF:** [https://www.usenix.org/system/files/sec20-poeplau.pdf](https://www.usenix.org/system/files/sec20-poeplau.pdf)
+- **URL:** [https://www.usenix.org/conference/usenixsecurity20/presentation/panel-contact-tracing](https://www.usenix.org/conference/usenixsecurity20/presentation/panel-contact-tracing)

@@ -8,7 +8,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/flexsealing-bgp-against-route-leaks-peerlock-active-measurement-and-analysis/](https://www.ndss-symposium.org/ndss-paper/flexsealing-bgp-against-route-leaks-peerlock-active-measurement-and-analysis/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/ndss2021_1A-1_23080_paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_1A-1_23080_paper.pdf)
 ## A Devil of a Time: How Vulnerable is NTP to Malicious Timeservers?
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2021].md#a-devil-of-a-time-how-vulnerable-is-ntp-to-malicious-timeservers) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2021].md#a-devil-of-a-time-how-vulnerable-is-ntp-to-malicious-timeservers)**
 ### 作者
@@ -37,7 +36,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/oblivsketch-oblivious-network-measurement-as-a-cloud-service/](https://www.ndss-symposium.org/ndss-paper/oblivsketch-oblivious-network-measurement-as-a-cloud-service/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/ndss2021_1A-3_24330_paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_1A-3_24330_paper.pdf)
 ## ROV++: Improved Deployable Defense against BGP Hijacking.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2021].md#rov-improved-deployable-defense-against-bgp-hijacking) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2021].md#rov-improved-deployable-defense-against-bgp-hijacking)**
 ### 作者
@@ -237,7 +235,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/from-whois-to-whowas-a-large-scale-measurement-study-of-domain-registration-privacy-under-the-gdpr/](https://www.ndss-symposium.org/ndss-paper/from-whois-to-whowas-a-large-scale-measurement-study-of-domain-registration-privacy-under-the-gdpr/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/ndss2021_2A-2_23134_paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_2A-2_23134_paper.pdf)
 ## Understanding the Growth and Security Considerations of ECS.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2021].md#understanding-the-growth-and-security-considerations-of-ecs) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2021].md#understanding-the-growth-and-security-considerations-of-ecs)**
 ### 作者
@@ -377,7 +374,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/practical-non-interactive-searchable-encryption-with-forward-and-backward-privacy/](https://www.ndss-symposium.org/ndss-paper/practical-non-interactive-searchable-encryption-with-forward-and-backward-privacy/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/ndss2021_2C-4_24162_paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_2C-4_24162_paper.pdf)
 ## Zoom on the Keystrokes: Exploiting Video Calls for Keystroke Inference Attacks.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2021].md#zoom-on-the-keystrokes-exploiting-video-calls-for-keystroke-inference-attacks) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2021].md#zoom-on-the-keystrokes-exploiting-video-calls-for-keystroke-inference-attacks)**
 ### 作者
@@ -561,7 +557,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/randrunner-distributed-randomness-from-trapdoor-vdfs-with-strong-uniqueness/](https://www.ndss-symposium.org/ndss-paper/randrunner-distributed-randomness-from-trapdoor-vdfs-with-strong-uniqueness/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/ndss2021_3C-2_24116_paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_3C-2_24116_paper.pdf)
 ## LaKSA: A Probabilistic Proof-of-Stake Protocol.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2021].md#laksa-a-probabilistic-proof-of-stake-protocol) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2021].md#laksa-a-probabilistic-proof-of-stake-protocol)**
 ### 作者
@@ -585,7 +580,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/squirrl-automating-attack-analysis-on-blockchain-incentive-mechanisms-with-deep-reinforcement-learning/](https://www.ndss-symposium.org/ndss-paper/squirrl-automating-attack-analysis-on-blockchain-incentive-mechanisms-with-deep-reinforcement-learning/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/ndss2021_3C-4_24188_paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_3C-4_24188_paper.pdf)
 ## Bitcontracts: Supporting Smart Contracts in Legacy Blockchains.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2021].md#bitcontracts-supporting-smart-contracts-in-legacy-blockchains) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2021].md#bitcontracts-supporting-smart-contracts-in-legacy-blockchains)**
 ### 作者
@@ -713,7 +707,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/hunting-the-haunter-efficient-relational-symbolic-execution-for-spectre-with-haunted-relse/](https://www.ndss-symposium.org/ndss-paper/hunting-the-haunter-efficient-relational-symbolic-execution-for-spectre-with-haunted-relse/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/ndss2021_4B-4_24286_paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_4B-4_24286_paper.pdf)
 ## SpecTaint: Speculative Taint Analysis for Discovering Spectre Gadgets.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2021].md#spectaint-speculative-taint-analysis-for-discovering-spectre-gadgets) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2021].md#spectaint-speculative-taint-analysis-for-discovering-spectre-gadgets)**
 ### 作者
@@ -850,7 +843,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/pop-and-push-demystifying-and-defending-against-mach-port-oriented-programming/](https://www.ndss-symposium.org/ndss-paper/pop-and-push-demystifying-and-defending-against-mach-port-oriented-programming/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/ndss2021_5B-2_23126_paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_5B-2_23126_paper.pdf)
 ## Доверя'й, но проверя'й: SFI safety for native-compiled Wasm.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2021].md#sfi-safety-for-native-compiled-wasm) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2021].md#sfi-safety-for-native-compiled-wasm)**
 ### 作者
@@ -979,7 +971,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/favocado-fuzzing-the-binding-code-of-javascript-engines-using-semantically-correct-test-cases/](https://www.ndss-symposium.org/ndss-paper/favocado-fuzzing-the-binding-code-of-javascript-engines-using-semantically-correct-test-cases/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/ndss2021_6A-2_24224_paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_6A-2_24224_paper.pdf)
 ## WINNIE : Fuzzing Windows Applications with Harness Synthesis and Fast Cloning.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2021].md#winnie-fuzzing-windows-applications-with-harness-synthesis-and-fast-cloning) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2021].md#winnie-fuzzing-windows-applications-with-harness-synthesis-and-fast-cloning)**
 ### 作者
@@ -1006,7 +997,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/reinforcement-learning-based-hierarchical-seed-scheduling-for-greybox-fuzzing/](https://www.ndss-symposium.org/ndss-paper/reinforcement-learning-based-hierarchical-seed-scheduling-for-greybox-fuzzing/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/ndss2021_6A-4_24486_paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_6A-4_24486_paper.pdf)
 ## Evading Voltage-Based Intrusion Detection on Automotive CAN.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2021].md#evading-voltage-based-intrusion-detection-on-automotive-can) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2021].md#evading-voltage-based-intrusion-detection-on-automotive-can)**
 ### 作者
@@ -1049,7 +1039,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/from-library-portability-to-para-rehosting-natively-executing-microcontroller-software-on-commodity-hardware/](https://www.ndss-symposium.org/ndss-paper/from-library-portability-to-para-rehosting-natively-executing-microcontroller-software-on-commodity-hardware/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/ndss2021_6B-3_24308_paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_6B-3_24308_paper.pdf)
 ## BaseSpec: Comparative Analysis of Baseband Software and Cellular Specifications for L3 Protocols.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2021].md#basespec-comparative-analysis-of-baseband-software-and-cellular-specifications-for-l3-protocols) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2021].md#basespec-comparative-analysis-of-baseband-software-and-cellular-specifications-for-l3-protocols)**
 ### 作者
@@ -1139,7 +1128,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/c2sr-cybercrime-scene-reconstruction-for-post-mortem-forensic-analysis/](https://www.ndss-symposium.org/ndss-paper/c2sr-cybercrime-scene-reconstruction-for-post-mortem-forensic-analysis/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/ndss2021_7A-1_23128_paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_7A-1_23128_paper.pdf)
 ## ALchemist: Fusing Application and Audit Logs for Precise Attack Provenance without Instrumentation.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2021].md#alchemist-fusing-application-and-audit-logs-for-precise-attack-provenance-without-instrumentation) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2021].md#alchemist-fusing-application-and-audit-logs-for-precise-attack-provenance-without-instrumentation)**
 ### 作者
@@ -1234,7 +1222,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/cv-inspector-towards-automating-detection-of-adblock-circumvention/](https://www.ndss-symposium.org/ndss-paper/cv-inspector-towards-automating-detection-of-adblock-circumvention/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/ndss2021_7C-1_24055_paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_7C-1_24055_paper.pdf)
 ## FlowLens: Enabling Efficient Flow Classification for ML-based Network Security Applications.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2021].md#flowlens-enabling-efficient-flow-classification-for-ml-based-network-security-applications) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2021].md#flowlens-enabling-efficient-flow-classification-for-ml-based-network-security-applications)**
 ### 作者
@@ -1244,7 +1231,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/flowlens-enabling-efficient-flow-classification-for-ml-based-network-security-applications/](https://www.ndss-symposium.org/ndss-paper/flowlens-enabling-efficient-flow-classification-for-ml-based-network-security-applications/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/ndss2021_7C-2_24067_paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_7C-2_24067_paper.pdf)
 ## PrivacyFlash Pro: Automating Privacy Policy Generation for Mobile Apps.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2021].md#privacyflash-pro-automating-privacy-policy-generation-for-mobile-apps) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2021].md#privacyflash-pro-automating-privacy-policy-generation-for-mobile-apps)**
 ### 作者

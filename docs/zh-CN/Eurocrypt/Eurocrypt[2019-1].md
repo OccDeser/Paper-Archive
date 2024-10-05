@@ -100,6 +100,19 @@
 
 ### 链接
 - **URL:** [https://doi.org/10.1007/978-3-030-17653-2_7](https://doi.org/10.1007/978-3-030-17653-2_7)
+## Sum-of-Squares Meets Program Obfuscation, Revisited.
+🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2019-1].md#sum-of-squares-meets-program-obfuscation-revisited) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2019-1].md#sum-of-squares-meets-program-obfuscation-revisited)**
+### 作者
+* Boaz Barak, Harvard University, Cambridge, USA
+* Samuel B. Hopkins, University of California, Berkeley, USA
+* Aayush Jain, University of California, Los Angeles, USA
+* Amit Sahai, University of California, Los Angeles, USA
+* Pravesh Kothari, Princeton University and the Institute for Advanced Study, Princeton, USA
+### 摘要
+> 我们研究了由二次多项式计算的伪随机生成器变体的安全性攻击。特别是我们给出了打破单向映射的一般条件，其中每个输出都是输入的二次多项式（在实数域上）。作为推论，我们打破了Ananth，Jain和Sahai（ePrint 2018）以及Agrawal（ePrint 2018）最近提出的用于构建不可区分混淆的安全性假设的二次度候选。我们提出了猜想，说明我们的攻击扩展到更广泛的实例，并特别提供了实验证据表明我们打破了Lin-Matt（ePrint 2018）的假设。我们的算法使用半定规划，具体来说，使用了低秩恢复（Recht，Fazel，Parrilo 2007）和矩阵补全（Gross 2009）的结果。
+
+### 链接
+- **URL:** [https://doi.org/10.1007/978-3-030-17653-2_8](https://doi.org/10.1007/978-3-030-17653-2_8)
 ## How to Leverage Hardness of Constant-Degree Expanding Polynomials over \mathbb R R to build i풪 i O.
 🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2019-1].md#how-to-leverage-hardness-of-constant-degree-expanding-polynomials-over-mathbb-r-r-to-build-i-i-o) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2019-1].md#how-to-leverage-hardness-of-constant-degree-expanding-polynomials-over-mathbb-r-r-to-build-i-i-o)**
 ### 作者
@@ -263,82 +276,6 @@
 
 ### 链接
 - **URL:** [https://doi.org/10.1007/978-3-030-17653-2_19](https://doi.org/10.1007/978-3-030-17653-2_19)
-## Proof-of-Stake Protocols for Privacy-Aware Blockchains.
-🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2019-1].md#proof-of-stake-protocols-for-privacy-aware-blockchains) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2019-1].md#proof-of-stake-protocols-for-privacy-aware-blockchains)**
-### 作者
-* Chaya Ganesh, Department of Computer Science, DIGIT, Aarhus University, Aarhus, Denmark
-* Claudio Orlandi, Department of Computer Science, DIGIT, Aarhus University, Aarhus, Denmark
-* Daniel Tschudi, Department of Computer Science, DIGIT, Aarhus University, Aarhus, Denmark
-* Daniel Tschudi, Concordium, Aarhus, Denmark
-### 摘要
-> 权益证明（PoS）协议正在成为对区块链（或分布式账本）中共识的浪费性的工作证明（PoW）协议最有希望的替代方法之一。然而，当前的PoS协议固有地揭示了利益相关者的身份和财富，因此似乎与保护隐私的加密货币（例如ZCash，Monero等）不兼容。本文对具有隐私属性的PoS协议进行了正式研究。我们的研究结果包括：
-> 
-> 1. 一个（理论上的）可行性结果，表明可以构造一类通用的私密PoS（PPoS）协议，并将隐私添加到一类广泛的PoS协议中，
-> 
-> 2. 一个保护隐私的流行PoS协议Ouroboros Praos的版本。
-> 
-> 为了实现我们的结果，我们定义了匿名可验证的随机函数的概念，我们相信这个概念具有独立的兴趣。
-
-### 链接
-- **URL:** [https://doi.org/10.1007/978-3-030-17653-2_23](https://doi.org/10.1007/978-3-030-17653-2_23)
-## Aggregate Cash Systems: A Cryptographic Investigation of Mimblewimble.
-🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2019-1].md#aggregate-cash-systems-a-cryptographic-investigation-of-mimblewimble) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2019-1].md#aggregate-cash-systems-a-cryptographic-investigation-of-mimblewimble)**
-### 作者
-* Georg Fuchsbauer, Inria, Paris, France
-* Michele Orrù, Inria, Paris, France
-* Georg Fuchsbauer, École normale supérieure, CNRS, PSL, Paris, France
-* Michele Orrù, École normale supérieure, CNRS, PSL, Paris, France
-* Yannick Seurin, ANSSI, Paris, France
-### 摘要
-> Mimblewimble是一个由匿名作者在2016年提出的电子现金系统。它结合了最初为比特币设想的几种增强隐私的技术，如机密交易（Maxwell，2015年）、交易的非交互式合并（Saxena，Misra，Dhar，2014年）和交易输入和输出的剪切（Maxwell，2013年）。作为一个显著的结果，硬币在花费后可以被删除，同时保持账本的公共可验证性，而这在比特币中是不可能的。这导致账本的空间节省巨大，并为新用户提供了效率提升，他们必须验证系统的视图。
-> 
-> 在本文中，我们对Mimblewimble进行了可证明安全性分析。我们为Mimblewimble的一个抽象称为聚合现金系统提供了精确的语法和形式化安全性定义。然后，在这个定义框架下正式证明了Mimblewimble的安全性。我们的结果特别意味着两种自然实例（使用Pedersen承诺和Schnorr或BLS签名）在标准假设下被证明安全，不会发生通胀和硬币被窃取的情况。
-
-### 链接
-- **URL:** [https://doi.org/10.1007/978-3-030-17653-2_22](https://doi.org/10.1007/978-3-030-17653-2_22)
-## Multi-party Virtual State Channels.
-🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2019-1].md#multi-party-virtual-state-channels) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2019-1].md#multi-party-virtual-state-channels)**
-### 作者
-* Stefan Dziembowski, University of Warsaw, Warsaw, Poland
-* Lisa Eckey, Technische Universität Darmstadt, Darmstadt, Germany
-* Sebastian Faust, Technische Universität Darmstadt, Darmstadt, Germany
-* Julia Hesse, Technische Universität Darmstadt, Darmstadt, Germany
-* Kristina Hostáková, Technische Universität Darmstadt, Darmstadt, Germany
-### 摘要
-> 智能合约是以程序代码编写的自动执行协议，被认为是区块链技术的主要应用之一。尽管它们得到了以太坊等知名加密货币的支持，但其进一步推广受到了根本性的可扩展性挑战的阻碍。例如，在以太坊中，合约执行的延迟超过15秒，并且每秒可以执行的合约数量非常有限。状态通道网络是旨在解决这些挑战的核心原语之一。它们在慢且昂贵的区块链之上形成第二层，从而以微不足道的成本实现即时的合约处理。
-> 
-> 在这项工作中，我们提供了第一个完整描述的状态通道网络，具有以下关键特点。首先，它支持虚拟多方状态通道，即可以在没有区块链交互的情况下创建和关闭状态通道，并允许具有任意数量方的合约。其次，我们协议的最坏情况时间复杂度对于任意复杂的通道都是恒定的。这与现有的虚拟状态通道构建相比，其最坏情况时间复杂度与涉及方的数量呈线性关系。除了我们的新构建，我们还提供了一个全面的模块化设计和安全分析模型。
-
-### 链接
-- **URL:** [https://doi.org/10.1007/978-3-030-17653-2_21](https://doi.org/10.1007/978-3-030-17653-2_21)
-## Consensus Through Herding.
-🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2019-1].md#consensus-through-herding) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2019-1].md#consensus-through-herding)**
-### 作者
-* T.-H. Hubert Chan, The University of Hong Kong, Lung Fu Shan, Hong Kong
-* Rafael Pass, Cornell and Thunder Research, New York, USA
-* Elaine Shi, Cornell and Thunder Research, New York, USA
-### 摘要
-> 状态机复制（SMR）是一个关键的抽象概念，用于一组节点达成对不断增长、线性有序的事务记录的协议。在去中心化的加密货币应用中，我们希望设计的SMR协议能够（1）抵抗适应性的腐败；并且（2）实现小的带宽和短的确认时间。在适应性腐败的情况下（没有依赖于强假设，如抹除模型或工作证明），所有过去构建SMR的方法都无法实现短的确认时间或小的带宽。
-> 
-> 我们提出了一个全新的达成共识的范例，这与经典方法有很大的不同。我们的协议受到一种被称为从众的社会现象的启发，人们更倾向于做被视为社会规范的选择。在我们的共识协议中，领导者选举和投票融合为一个（随机）过程：在每一轮中，每个节点都尝试为其认为到目前为止最受欢迎的项目投票：这样的投票尝试并不总是成功的，但成功的概率却是确定的。重要的是，节点被选中为v投票的概率与它被选中为\(v' \ne v\)投票的概率是独立的。我们会展示如何利用适当的，适应性安全的加密构建块，来实现这样一个分布式的，随机的选举过程。
-> 
-> 我们证明，令人惊讶的是，这个新的范例不仅可以达成共识（例如，在加密货币系统中对一批未确认的交易达成共识），而且它还允许我们推导出第一个SMR协议，即使在适应性腐败的情况下，该协议只需要对数级别的许多轮数和对数级别的许多诚实消息进行多播以确认每批交易；而且重要的是，我们在标
-
-### 链接
-- **URL:** [https://doi.org/10.1007/978-3-030-17653-2_24](https://doi.org/10.1007/978-3-030-17653-2_24)
-## Sum-of-Squares Meets Program Obfuscation, Revisited.
-🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2019-1].md#sum-of-squares-meets-program-obfuscation-revisited) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2019-1].md#sum-of-squares-meets-program-obfuscation-revisited)**
-### 作者
-* Boaz Barak, Harvard University, Cambridge, USA
-* Samuel B. Hopkins, University of California, Berkeley, USA
-* Aayush Jain, University of California, Los Angeles, USA
-* Amit Sahai, University of California, Los Angeles, USA
-* Pravesh Kothari, Princeton University and the Institute for Advanced Study, Princeton, USA
-### 摘要
-> 我们研究了由二次多项式计算的伪随机生成器变体的安全性攻击。特别是我们给出了打破单向映射的一般条件，其中每个输出都是输入的二次多项式（在实数域上）。作为推论，我们打破了Ananth，Jain和Sahai（ePrint 2018）以及Agrawal（ePrint 2018）最近提出的用于构建不可区分混淆的安全性假设的二次度候选。我们提出了猜想，说明我们的攻击扩展到更广泛的实例，并特别提供了实验证据表明我们打破了Lin-Matt（ePrint 2018）的假设。我们的算法使用半定规划，具体来说，使用了低秩恢复（Recht，Fazel，Parrilo 2007）和矩阵补全（Gross 2009）的结果。
-
-### 链接
-- **URL:** [https://doi.org/10.1007/978-3-030-17653-2_8](https://doi.org/10.1007/978-3-030-17653-2_8)
 ## Revisiting Non-Malleable Secret Sharing.
 🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2019-1].md#revisiting-non-malleable-secret-sharing) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2019-1].md#revisiting-non-malleable-secret-sharing)**
 ### 作者
@@ -357,3 +294,66 @@
 
 ### 链接
 - **URL:** [https://doi.org/10.1007/978-3-030-17653-2_20](https://doi.org/10.1007/978-3-030-17653-2_20)
+## Multi-party Virtual State Channels.
+🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2019-1].md#multi-party-virtual-state-channels) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2019-1].md#multi-party-virtual-state-channels)**
+### 作者
+* Stefan Dziembowski, University of Warsaw, Warsaw, Poland
+* Lisa Eckey, Technische Universität Darmstadt, Darmstadt, Germany
+* Sebastian Faust, Technische Universität Darmstadt, Darmstadt, Germany
+* Julia Hesse, Technische Universität Darmstadt, Darmstadt, Germany
+* Kristina Hostáková, Technische Universität Darmstadt, Darmstadt, Germany
+### 摘要
+> 智能合约是以程序代码编写的自动执行协议，被认为是区块链技术的主要应用之一。尽管它们得到了以太坊等知名加密货币的支持，但其进一步推广受到了根本性的可扩展性挑战的阻碍。例如，在以太坊中，合约执行的延迟超过15秒，并且每秒可以执行的合约数量非常有限。状态通道网络是旨在解决这些挑战的核心原语之一。它们在慢且昂贵的区块链之上形成第二层，从而以微不足道的成本实现即时的合约处理。
+> 
+> 在这项工作中，我们提供了第一个完整描述的状态通道网络，具有以下关键特点。首先，它支持虚拟多方状态通道，即可以在没有区块链交互的情况下创建和关闭状态通道，并允许具有任意数量方的合约。其次，我们协议的最坏情况时间复杂度对于任意复杂的通道都是恒定的。这与现有的虚拟状态通道构建相比，其最坏情况时间复杂度与涉及方的数量呈线性关系。除了我们的新构建，我们还提供了一个全面的模块化设计和安全分析模型。
+
+### 链接
+- **URL:** [https://doi.org/10.1007/978-3-030-17653-2_21](https://doi.org/10.1007/978-3-030-17653-2_21)
+## Aggregate Cash Systems: A Cryptographic Investigation of Mimblewimble.
+🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2019-1].md#aggregate-cash-systems-a-cryptographic-investigation-of-mimblewimble) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2019-1].md#aggregate-cash-systems-a-cryptographic-investigation-of-mimblewimble)**
+### 作者
+* Georg Fuchsbauer, Inria, Paris, France
+* Michele Orrù, Inria, Paris, France
+* Georg Fuchsbauer, École normale supérieure, CNRS, PSL, Paris, France
+* Michele Orrù, École normale supérieure, CNRS, PSL, Paris, France
+* Yannick Seurin, ANSSI, Paris, France
+### 摘要
+> Mimblewimble是一个由匿名作者在2016年提出的电子现金系统。它结合了最初为比特币设想的几种增强隐私的技术，如机密交易（Maxwell，2015年）、交易的非交互式合并（Saxena，Misra，Dhar，2014年）和交易输入和输出的剪切（Maxwell，2013年）。作为一个显著的结果，硬币在花费后可以被删除，同时保持账本的公共可验证性，而这在比特币中是不可能的。这导致账本的空间节省巨大，并为新用户提供了效率提升，他们必须验证系统的视图。
+> 
+> 在本文中，我们对Mimblewimble进行了可证明安全性分析。我们为Mimblewimble的一个抽象称为聚合现金系统提供了精确的语法和形式化安全性定义。然后，在这个定义框架下正式证明了Mimblewimble的安全性。我们的结果特别意味着两种自然实例（使用Pedersen承诺和Schnorr或BLS签名）在标准假设下被证明安全，不会发生通胀和硬币被窃取的情况。
+
+### 链接
+- **URL:** [https://doi.org/10.1007/978-3-030-17653-2_22](https://doi.org/10.1007/978-3-030-17653-2_22)
+## Proof-of-Stake Protocols for Privacy-Aware Blockchains.
+🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2019-1].md#proof-of-stake-protocols-for-privacy-aware-blockchains) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2019-1].md#proof-of-stake-protocols-for-privacy-aware-blockchains)**
+### 作者
+* Chaya Ganesh, Department of Computer Science, DIGIT, Aarhus University, Aarhus, Denmark
+* Claudio Orlandi, Department of Computer Science, DIGIT, Aarhus University, Aarhus, Denmark
+* Daniel Tschudi, Department of Computer Science, DIGIT, Aarhus University, Aarhus, Denmark
+* Daniel Tschudi, Concordium, Aarhus, Denmark
+### 摘要
+> 权益证明（PoS）协议正在成为对区块链（或分布式账本）中共识的浪费性的工作证明（PoW）协议最有希望的替代方法之一。然而，当前的PoS协议固有地揭示了利益相关者的身份和财富，因此似乎与保护隐私的加密货币（例如ZCash，Monero等）不兼容。本文对具有隐私属性的PoS协议进行了正式研究。我们的研究结果包括：
+> 
+> 1. 一个（理论上的）可行性结果，表明可以构造一类通用的私密PoS（PPoS）协议，并将隐私添加到一类广泛的PoS协议中，
+> 
+> 2. 一个保护隐私的流行PoS协议Ouroboros Praos的版本。
+> 
+> 为了实现我们的结果，我们定义了匿名可验证的随机函数的概念，我们相信这个概念具有独立的兴趣。
+
+### 链接
+- **URL:** [https://doi.org/10.1007/978-3-030-17653-2_23](https://doi.org/10.1007/978-3-030-17653-2_23)
+## Consensus Through Herding.
+🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2019-1].md#consensus-through-herding) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2019-1].md#consensus-through-herding)**
+### 作者
+* T.-H. Hubert Chan, The University of Hong Kong, Lung Fu Shan, Hong Kong
+* Rafael Pass, Cornell and Thunder Research, New York, USA
+* Elaine Shi, Cornell and Thunder Research, New York, USA
+### 摘要
+> 状态机复制（SMR）是一个关键的抽象概念，用于一组节点达成对不断增长、线性有序的事务记录的协议。在去中心化的加密货币应用中，我们希望设计的SMR协议能够（1）抵抗适应性的腐败；并且（2）实现小的带宽和短的确认时间。在适应性腐败的情况下（没有依赖于强假设，如抹除模型或工作证明），所有过去构建SMR的方法都无法实现短的确认时间或小的带宽。
+> 
+> 我们提出了一个全新的达成共识的范例，这与经典方法有很大的不同。我们的协议受到一种被称为从众的社会现象的启发，人们更倾向于做被视为社会规范的选择。在我们的共识协议中，领导者选举和投票融合为一个（随机）过程：在每一轮中，每个节点都尝试为其认为到目前为止最受欢迎的项目投票：这样的投票尝试并不总是成功的，但成功的概率却是确定的。重要的是，节点被选中为v投票的概率与它被选中为\(v' \ne v\)投票的概率是独立的。我们会展示如何利用适当的，适应性安全的加密构建块，来实现这样一个分布式的，随机的选举过程。
+> 
+> 我们证明，令人惊讶的是，这个新的范例不仅可以达成共识（例如，在加密货币系统中对一批未确认的交易达成共识），而且它还允许我们推导出第一个SMR协议，即使在适应性腐败的情况下，该协议只需要对数级别的许多轮数和对数级别的许多诚实消息进行多播以确认每批交易；而且重要的是，我们在标
+
+### 链接
+- **URL:** [https://doi.org/10.1007/978-3-030-17653-2_24](https://doi.org/10.1007/978-3-030-17653-2_24)

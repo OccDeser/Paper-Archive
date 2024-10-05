@@ -29,7 +29,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/let-me-unwind-that-for-you-exceptions-to-backward-edge-protection/](https://www.ndss-symposium.org/ndss-paper/let-me-unwind-that-for-you-exceptions-to-backward-edge-protection/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2023-295-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2023-295-paper.pdf)
 ## VulHawk: Cross-architecture Vulnerability Detection with Entropy-based Binary Code Search.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#vulhawk-cross-architecture-vulnerability-detection-with-entropy-based-binary-code-search) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#vulhawk-cross-architecture-vulnerability-detection-with-entropy-based-binary-code-search)**
 ### 作者
@@ -39,7 +38,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/vulhawk-cross-architecture-vulnerability-detection-with-entropy-based-binary-code-search/](https://www.ndss-symposium.org/ndss-paper/vulhawk-cross-architecture-vulnerability-detection-with-entropy-based-binary-code-search/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2023-415-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2023-415-paper.pdf)
 ## Towards Automatic and Precise Heap Layout Manipulation for General-Purpose Programs.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#towards-automatic-and-precise-heap-layout-manipulation-for-general-purpose-programs) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#towards-automatic-and-precise-heap-layout-manipulation-for-general-purpose-programs)**
 ### 作者
@@ -185,7 +183,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/diffcsp-finding-browser-bugs-in-content-security-policy-enforcement-through-differential-testing/](https://www.ndss-symposium.org/ndss-paper/diffcsp-finding-browser-bugs-in-content-security-policy-enforcement-through-differential-testing/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2023-200-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2023-200-paper.pdf)
 ## Browser Permission Mechanisms Demystified.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#browser-permission-mechanisms-demystified) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#browser-permission-mechanisms-demystified)**
 ### 作者
@@ -236,7 +233,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/the-beatrix-resurrections-robust-backdoor-detection-via-gram-matrices/](https://www.ndss-symposium.org/ndss-paper/the-beatrix-resurrections-robust-backdoor-detection-via-gram-matrices/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2023-69-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2023-69-paper.pdf)
 ## RoVISQ: Reduction of Video Service Quality via Adversarial Attacks on Deep Learning-based Video Compression.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#rovisq-reduction-of-video-service-quality-via-adversarial-attacks-on-deep-learning-based-video-compression) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#rovisq-reduction-of-video-service-quality-via-adversarial-attacks-on-deep-learning-based-video-compression)**
 ### 作者
@@ -252,7 +248,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/rovisq-reduction-of-video-service-quality-via-adversarial-attacks-on-deep-learning-based-video-compression/](https://www.ndss-symposium.org/ndss-paper/rovisq-reduction-of-video-service-quality-via-adversarial-attacks-on-deep-learning-based-video-compression/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2023-165-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2023-165-paper.pdf)
 ## Machine Unlearning of Features and Labels.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#machine-unlearning-of-features-and-labels) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#machine-unlearning-of-features-and-labels)**
 ### 作者
@@ -310,7 +305,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/on-the-anonymity-of-peer-to-peer-network-anonymity-schemes-used-by-cryptocurrencies/](https://www.ndss-symposium.org/ndss-paper/on-the-anonymity-of-peer-to-peer-network-anonymity-schemes-used-by-cryptocurrencies/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2023-241-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2023-241-paper.pdf)
 ## Thwarting Smartphone SMS Attacks at the Radio Interface Layer.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#thwarting-smartphone-sms-attacks-at-the-radio-interface-layer) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#thwarting-smartphone-sms-attacks-at-the-radio-interface-layer)**
 ### 作者
@@ -382,7 +376,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/darwin-survival-of-the-fittest-fuzzing-mutators/](https://www.ndss-symposium.org/ndss-paper/darwin-survival-of-the-fittest-fuzzing-mutators/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2023-159-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2023-159-paper.pdf)
 ## LOKI: State-Aware Fuzzing Framework for the Implementation of Blockchain Consensus Protocols.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#loki-state-aware-fuzzing-framework-for-the-implementation-of-blockchain-consensus-protocols) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#loki-state-aware-fuzzing-framework-for-the-implementation-of-blockchain-consensus-protocols)**
 ### 作者
@@ -401,7 +394,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/loki-state-aware-fuzzing-framework-for-the-implementation-of-blockchain-consensus-protocols/](https://www.ndss-symposium.org/ndss-paper/loki-state-aware-fuzzing-framework-for-the-implementation-of-blockchain-consensus-protocols/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2023-78-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2023-78-paper.pdf)
 ## Securing Federated Sensitive Topic Classification against Poisoning Attacks.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#securing-federated-sensitive-topic-classification-against-poisoning-attacks) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#securing-federated-sensitive-topic-classification-against-poisoning-attacks)**
 ### 作者
@@ -480,7 +472,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/ghost-domain-reloaded-vulnerable-links-in-domain-name-delegation-and-revocation/](https://www.ndss-symposium.org/ndss-paper/ghost-domain-reloaded-vulnerable-links-in-domain-name-delegation-and-revocation/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2023-5-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2023-5-paper.pdf)
 ## QUICforge: Client-side Request Forgery in QUIC.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#quicforge-client-side-request-forgery-in-quic) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#quicforge-client-side-request-forgery-in-quic)**
 ### 作者
@@ -501,7 +492,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/automata-based-automated-detection-of-state-machine-bugs-in-protocol-implementations/](https://www.ndss-symposium.org/ndss-paper/automata-based-automated-detection-of-state-machine-bugs-in-protocol-implementations/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2023-68-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2023-68-paper.pdf)
 ## I Still Know What You Watched Last Sunday: Privacy of the HbbTV Protocol in the European Smart TV Landscape.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#i-still-know-what-you-watched-last-sunday-privacy-of-the-hbbtv-protocol-in-the-european-smart-tv-landscape) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#i-still-know-what-you-watched-last-sunday-privacy-of-the-hbbtv-protocol-in-the-european-smart-tv-landscape)**
 ### 作者
@@ -634,7 +624,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/post-gdpr-threat-hunting-on-android-phones-dissecting-os-level-safeguards-of-user-unresettable-identifiers/](https://www.ndss-symposium.org/ndss-paper/post-gdpr-threat-hunting-on-android-phones-dissecting-os-level-safeguards-of-user-unresettable-identifiers/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2023-176-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2023-176-paper.pdf)
 ## MyTEE: Own the Trusted Execution Environment on Embedded Devices.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#mytee-own-the-trusted-execution-environment-on-embedded-devices) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#mytee-own-the-trusted-execution-environment-on-embedded-devices)**
 ### 作者
@@ -674,7 +663,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/authentisense-a-scalable-behavioral-biometrics-authentication-scheme-using-few-shot-learning-for-mobile-platforms/](https://www.ndss-symposium.org/ndss-paper/authentisense-a-scalable-behavioral-biometrics-authentication-scheme-using-few-shot-learning-for-mobile-platforms/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2023-194-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2023-194-paper.pdf)
 ## Do Not Give a Dog Bread Every Time He Wags His Tail: Stealing Passwords through Content Queries (CONQUER) Attacks.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#do-not-give-a-dog-bread-every-time-he-wags-his-tail-stealing-passwords-through-content-queries-conquer-attacks) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#do-not-give-a-dog-bread-every-time-he-wags-his-tail-stealing-passwords-through-content-queries-conquer-attacks)**
 ### 作者
@@ -730,7 +718,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/extrapolating-formal-analysis-to-uncover-attacks-in-bluetooth-passkey-entry-pairing/](https://www.ndss-symposium.org/ndss-paper/extrapolating-formal-analysis-to-uncover-attacks-in-bluetooth-passkey-entry-pairing/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2023-119-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2023-119-paper.pdf)
 ## Attacks as Defenses: Designing Robust Audio CAPTCHAs Using Attacks on Automatic Speech Recognition Systems.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#attacks-as-defenses-designing-robust-audio-captchas-using-attacks-on-automatic-speech-recognition-systems) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#attacks-as-defenses-designing-robust-audio-captchas-using-attacks-on-automatic-speech-recognition-systems)**
 ### 作者
@@ -810,7 +797,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/he-htlc-revisiting-incentives-in-htlc/](https://www.ndss-symposium.org/ndss-paper/he-htlc-revisiting-incentives-in-htlc/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2023-775-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2023-775-paper.pdf)
 ## Parakeet: Practical Key Transparency for End-to-End Encrypted Messaging.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#parakeet-practical-key-transparency-for-end-to-end-encrypted-messaging) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#parakeet-practical-key-transparency-for-end-to-end-encrypted-messaging)**
 ### 作者
@@ -882,7 +868,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/un-rocking-drones-foundations-of-acoustic-injection-attacks-and-recovery-thereof/](https://www.ndss-symposium.org/ndss-paper/un-rocking-drones-foundations-of-acoustic-injection-attacks-and-recovery-thereof/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_f112_paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_f112_paper.pdf)
 ## EdgeTDC: On the Security of Time Difference of Arrival Measurements in CAN Bus Systems.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#edgetdc-on-the-security-of-time-difference-of-arrival-measurements-in-can-bus-systems) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#edgetdc-on-the-security-of-time-difference-of-arrival-measurements-in-can-bus-systems)**
 ### 作者
@@ -892,7 +877,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/edgetdc-on-the-security-of-time-difference-of-arrival-measurements-in-can-bus-systems/](https://www.ndss-symposium.org/ndss-paper/edgetdc-on-the-security-of-time-difference-of-arrival-measurements-in-can-bus-systems/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2023-271-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2023-271-paper.pdf)
 ## Evasion Attacks and Defenses on Smart Home Physical Event Verification.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#evasion-attacks-and-defenses-on-smart-home-physical-event-verification) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#evasion-attacks-and-defenses-on-smart-home-physical-event-verification)**
 ### 作者
@@ -960,7 +944,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/him-of-many-faces-characterizing-billion-scale-adversarial-and-benign-browser-fingerprints-on-commercial-websites/](https://www.ndss-symposium.org/ndss-paper/him-of-many-faces-characterizing-billion-scale-adversarial-and-benign-browser-fingerprints-on-commercial-websites/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2023-394-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2023-394-paper.pdf)
 ## A Security Study about Electron Applications and a Programming Methodology to Tame DOM Functionalities.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#a-security-study-about-electron-applications-and-a-programming-methodology-to-tame-dom-functionalities) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#a-security-study-about-electron-applications-and-a-programming-methodology-to-tame-dom-functionalities)**
 ### 作者
@@ -1049,7 +1032,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/access-your-tesla-without-your-awareness-compromising-keyless-entry-system-of-model-3/](https://www.ndss-symposium.org/ndss-paper/access-your-tesla-without-your-awareness-compromising-keyless-entry-system-of-model-3/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2023-82-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2023-82-paper.pdf)
 ## MetaWave: Attacking mmWave Sensing with Meta-material-enhanced Tags.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#metawave-attacking-mmwave-sensing-with-meta-material-enhanced-tags) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#metawave-attacking-mmwave-sensing-with-meta-material-enhanced-tags)**
 ### 作者
@@ -1148,7 +1130,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/hope-of-delivery-extracting-user-locations-from-mobile-instant-messengers/](https://www.ndss-symposium.org/ndss-paper/hope-of-delivery-extracting-user-locations-from-mobile-instant-messengers/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2023-188-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2023-188-paper.pdf)
 ## Tactics, Threats & Targets: Modeling Disinformation and its Mitigation.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#tactics-threats-targets-modeling-disinformation-and-its-mitigation) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#tactics-threats-targets-modeling-disinformation-and-its-mitigation)**
 ### 作者
@@ -1249,7 +1230,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/heteroscore-evaluating-and-mitigating-cloud-security-threats-brought-by-heterogeneity/](https://www.ndss-symposium.org/ndss-paper/heteroscore-evaluating-and-mitigating-cloud-security-threats-brought-by-heterogeneity/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2023-996-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2023-996-paper.pdf)
 ## A Robust Counting Sketch for Data Plane Intrusion Detection.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#a-robust-counting-sketch-for-data-plane-intrusion-detection) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#a-robust-counting-sketch-for-data-plane-intrusion-detection)**
 ### 作者
@@ -1285,7 +1265,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/doitrust-dissecting-on-chain-compromised-internet-domains-via-graph-learning/](https://www.ndss-symposium.org/ndss-paper/doitrust-dissecting-on-chain-compromised-internet-domains-via-graph-learning/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2023-322-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2023-322-paper.pdf)
 ## VICEROY: GDPR-/CCPA-compliant Enforcement of Verifiable Accountless Consumer Requests.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#viceroy-gdpr-ccpa-compliant-enforcement-of-verifiable-accountless-consumer-requests) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#viceroy-gdpr-ccpa-compliant-enforcement-of-verifiable-accountless-consumer-requests)**
 ### 作者
@@ -1297,7 +1276,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/auto-draft-336/](https://www.ndss-symposium.org/ndss-paper/auto-draft-336/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2023-74-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2023-74-paper.pdf)
 ## Navigating Murky Waters: Automated Browser Feature Testing for Uncovering Tracking Vectors.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#navigating-murky-waters-automated-browser-feature-testing-for-uncovering-tracking-vectors) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#navigating-murky-waters-automated-browser-feature-testing-for-uncovering-tracking-vectors)**
 ### 作者
@@ -1336,7 +1314,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/a-systematic-study-of-the-consistency-of-two-factor-authentication-user-journeys-on-top-ranked-websites/](https://www.ndss-symposium.org/ndss-paper/a-systematic-study-of-the-consistency-of-two-factor-authentication-user-journeys-on-top-ranked-websites/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2023-362-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2023-362-paper.pdf)
 ## Privacy-Preserving Database Fingerprinting.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#privacy-preserving-database-fingerprinting) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2023].md#privacy-preserving-database-fingerprinting)**
 ### 作者
@@ -1383,4 +1360,3 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/fine-grained-trackability-in-protocol-executions/](https://www.ndss-symposium.org/ndss-paper/fine-grained-trackability-in-protocol-executions/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2023-289-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2023-289-paper.pdf)

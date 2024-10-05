@@ -4114,14 +4114,6 @@
 ### 链接
 - **URL:** [https://www.usenix.org/conference/usenixsecurity23/presentation/zhang-jiawei](https://www.usenix.org/conference/usenixsecurity23/presentation/zhang-jiawei)
 - **PDF:** [https://www.usenix.org/system/files/usenixsecurity23-zhang-jiawei.pdf](https://www.usenix.org/system/files/usenixsecurity23-zhang-jiawei.pdf)
-## ACORN: Input Validation for Secure Aggregation.
-🌍 [English](../../../docs/en/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2023].md#acorn-input-validation-for-secure-aggregation) | **[简体中文](../../../docs/zh-CN/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2023].md#acorn-input-validation-for-secure-aggregation)**
-### 作者
-### 摘要
-> 安全聚合使服务器能够以保护隐私的方式学习客户端持有向量的总和，并已应用于分布式统计分析和机器学习。在本文中，我们不仅介绍了一种更高效的安全聚合协议，还通过启用输入验证来扩展安全聚合功能，其中服务器可以检查客户端的输入是否满足诸如L0、L2和Linfinity限制等约束条件。这可以防止恶意客户端对聚合统计数据或机器学习模型产生不成比例的影响。我们的新安全聚合协议在渐近和具体方面都改进了当前最先进的Bell等人的协议（CCS 2020）的计算效率：通过实验评估，我们展示了在实际场景中客户端计算速度提高了2-8倍。同样，我们的进行了输入验证的扩展协议在客户端通信方面比之前的工作提升了30倍以上（且计算成本相当）。与没有输入验证的基本协议相比，扩展协议仅增加了0.1倍的通信量，并且可以在每个客户端的计算时间不超过80秒的情况下处理长度为1M的二进制指示向量或长度为250K的16位密集向量。
-
-### 链接
-- **URL:** [https://www.usenix.org/conference/usenixsecurity23/presentation/bell](https://www.usenix.org/conference/usenixsecurity23/presentation/bell)
 ## HOLMES: Efficient Distribution Testing for Secure Collaborative Learning.
 🌍 [English](../../../docs/en/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2023].md#holmes-efficient-distribution-testing-for-secure-collaborative-learning) | **[简体中文](../../../docs/zh-CN/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2023].md#holmes-efficient-distribution-testing-for-secure-collaborative-learning)**
 ### 作者
@@ -6513,3 +6505,11 @@
 ### 链接
 - **URL:** [https://www.usenix.org/conference/usenixsecurity23/presentation/le](https://www.usenix.org/conference/usenixsecurity23/presentation/le)
 - **PDF:** [https://www.usenix.org/system/files/usenixsecurity23-le.pdf](https://www.usenix.org/system/files/usenixsecurity23-le.pdf)
+## ACORN: Input Validation for Secure Aggregation.
+🌍 [English](../../../docs/en/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2023].md#acorn-input-validation-for-secure-aggregation) | **[简体中文](../../../docs/zh-CN/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2023].md#acorn-input-validation-for-secure-aggregation)**
+### 作者
+### 摘要
+> 安全聚合使服务器能够以保护隐私的方式学习客户端持有向量的总和，并已应用于分布式统计分析和机器学习。在本文中，我们不仅介绍了一种更高效的安全聚合协议，还通过启用输入验证来扩展安全聚合功能，其中服务器可以检查客户端的输入是否满足诸如L0、L2和Linfinity限制等约束条件。这可以防止恶意客户端对聚合统计数据或机器学习模型产生不成比例的影响。我们的新安全聚合协议在渐近和具体方面都改进了当前最先进的Bell等人的协议（CCS 2020）的计算效率：通过实验评估，我们展示了在实际场景中客户端计算速度提高了2-8倍。同样，我们的进行了输入验证的扩展协议在客户端通信方面比之前的工作提升了30倍以上（且计算成本相当）。与没有输入验证的基本协议相比，扩展协议仅增加了0.1倍的通信量，并且可以在每个客户端的计算时间不超过80秒的情况下处理长度为1M的二进制指示向量或长度为250K的16位密集向量。
+
+### 链接
+- **URL:** [https://www.usenix.org/conference/usenixsecurity23/presentation/bell](https://www.usenix.org/conference/usenixsecurity23/presentation/bell)

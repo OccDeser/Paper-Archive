@@ -2543,20 +2543,6 @@
 ### 链接
 - **URL:** [https://www.usenix.org/conference/usenixsecurity21/presentation/xiao](https://www.usenix.org/conference/usenixsecurity21/presentation/xiao)
 - **PDF:** [https://www.usenix.org/system/files/sec21-xiao.pdf](https://www.usenix.org/system/files/sec21-xiao.pdf)
-## Susan Landau, Tufts University.
-🌍 [English](../../../docs/en/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2021].md#susan-landau-tufts-university) | **[简体中文](../../../docs/zh-CN/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2021].md#susan-landau-tufts-university)**
-### 作者
-### 摘要
-> 安东尼·福奇博士列出了时间线：“12月底首次得知，在1月份进入中国，在2月、3月、4月、5月和6月初传播到世界其他地方。”新冠疫情如火如荼地蔓延开来。这种疾病成了福奇博士的“最大噩梦”。
-> 
-> 大流行的结束途径通常是封锁感染源、根除病毒，或者对其进行疫苗接种。但是如果这些方法行不通，我们就需要进行接触追踪。对于新冠病毒而言，这是一种在无症状感染和通过呼吸传播的疾病，因此接触追踪应用似乎是利用技术来阻止传播的最佳方式。
-> 
-> 从2020年3月开始，新加坡推出了这些应用程序，而在欧洲和美国，保护隐私的应用程序则从6月份开始出现。在一些地区，这些应用程序实际上是必需的，但在其他地方，它们的使用率却很低。这是怎么回事？这些应用程序有效吗？如果有效，为什么没有被使用？
-> 
-> 这是安全上的失误吗？还是隐私问题？还是可用性问题？下一次的大流行将与新冠病毒不同。现在是时候学习我们应该采取哪些医疗和社会干预措施了。
-
-### 链接
-- **URL:** [https://www.usenix.org/conference/usenixsecurity21/presentation/keynote-landau](https://www.usenix.org/conference/usenixsecurity21/presentation/keynote-landau)
 ## mID: Tracing Screen Photos via Moiré Patterns.
 🌍 [English](../../../docs/en/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2021].md#mid-tracing-screen-photos-via-moir-patterns) | **[简体中文](../../../docs/zh-CN/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2021].md#mid-tracing-screen-photos-via-moir-patterns)**
 ### 作者
@@ -3827,3 +3813,17 @@
 ### 链接
 - **URL:** [https://www.usenix.org/conference/usenixsecurity21/presentation/ma](https://www.usenix.org/conference/usenixsecurity21/presentation/ma)
 - **PDF:** [https://www.usenix.org/system/files/sec21-ma.pdf](https://www.usenix.org/system/files/sec21-ma.pdf)
+## Susan Landau, Tufts University.
+🌍 [English](../../../docs/en/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2021].md#susan-landau-tufts-university) | **[简体中文](../../../docs/zh-CN/USENIX%20Security%20Symposium/USENIX%20Security%20Symposium[2021].md#susan-landau-tufts-university)**
+### 作者
+### 摘要
+> 安东尼·福奇博士列出了时间线：“12月底首次得知，在1月份进入中国，在2月、3月、4月、5月和6月初传播到世界其他地方。”新冠疫情如火如荼地蔓延开来。这种疾病成了福奇博士的“最大噩梦”。
+> 
+> 大流行的结束途径通常是封锁感染源、根除病毒，或者对其进行疫苗接种。但是如果这些方法行不通，我们就需要进行接触追踪。对于新冠病毒而言，这是一种在无症状感染和通过呼吸传播的疾病，因此接触追踪应用似乎是利用技术来阻止传播的最佳方式。
+> 
+> 从2020年3月开始，新加坡推出了这些应用程序，而在欧洲和美国，保护隐私的应用程序则从6月份开始出现。在一些地区，这些应用程序实际上是必需的，但在其他地方，它们的使用率却很低。这是怎么回事？这些应用程序有效吗？如果有效，为什么没有被使用？
+> 
+> 这是安全上的失误吗？还是隐私问题？还是可用性问题？下一次的大流行将与新冠病毒不同。现在是时候学习我们应该采取哪些医疗和社会干预措施了。
+
+### 链接
+- **URL:** [https://www.usenix.org/conference/usenixsecurity21/presentation/keynote-landau](https://www.usenix.org/conference/usenixsecurity21/presentation/keynote-landau)

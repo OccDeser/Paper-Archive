@@ -8,7 +8,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/fuse-finding-file-upload-bugs-via-penetration-testing/](https://www.ndss-symposium.org/ndss-paper/fuse-finding-file-upload-bugs-via-penetration-testing/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2020/02/23126-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2020/02/23126-paper.pdf)
 ## Melting Pot of Origins: Compromising the Intermediary Web Services that Rehost Websites.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2020].md#melting-pot-of-origins-compromising-the-intermediary-web-services-that-rehost-websites) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2020].md#melting-pot-of-origins-compromising-the-intermediary-web-services-that-rehost-websites)**
 ### 作者
@@ -21,7 +20,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/melting-pot-of-origins-compromising-the-intermediary-web-services-that-rehost-websites/](https://www.ndss-symposium.org/ndss-paper/melting-pot-of-origins-compromising-the-intermediary-web-services-that-rehost-websites/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2020/02/24140-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2020/02/24140-paper.pdf)
 ## Deceptive Previews: A Study of the Link Preview Trustworthiness in Social Platforms.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2020].md#deceptive-previews-a-study-of-the-link-preview-trustworthiness-in-social-platforms) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2020].md#deceptive-previews-a-study-of-the-link-preview-trustworthiness-in-social-platforms)**
 ### 作者
@@ -132,7 +130,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/not-all-coverage-measurements-are-equal-fuzzing-by-coverage-accounting-for-input-prioritization/](https://www.ndss-symposium.org/ndss-paper/not-all-coverage-measurements-are-equal-fuzzing-by-coverage-accounting-for-input-prioritization/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2020/02/24422-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2020/02/24422-paper.pdf)
 ## Detecting Probe-resistant Proxies.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2020].md#detecting-probe-resistant-proxies) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2020].md#detecting-probe-resistant-proxies)**
 ### 作者
@@ -184,7 +181,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/measuring-the-deployment-of-network-censorship-filters-at-global-scale/](https://www.ndss-symposium.org/ndss-paper/measuring-the-deployment-of-network-censorship-filters-at-global-scale/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2020/02/23099-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2020/02/23099-paper.pdf)
 ## SymTCP: Eluding Stateful Deep Packet Inspection with Automated Discrepancy Discovery.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2020].md#symtcp-eluding-stateful-deep-packet-inspection-with-automated-discrepancy-discovery) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2020].md#symtcp-eluding-stateful-deep-packet-inspection-with-automated-discrepancy-discovery)**
 ### 作者
@@ -194,7 +190,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/symtcp-eluding-stateful-deep-packet-inspection-with-automated-discrepancy-discovery/](https://www.ndss-symposium.org/ndss-paper/symtcp-eluding-stateful-deep-packet-inspection-with-automated-discrepancy-discovery/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2020/02/24083-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2020/02/24083-paper.pdf)
 ## MassBrowser: Unblocking the Censored Web for the Masses, by the Masses.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2020].md#massbrowser-unblocking-the-censored-web-for-the-masses-by-the-masses) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2020].md#massbrowser-unblocking-the-censored-web-for-the-masses-by-the-masses)**
 ### 作者
@@ -272,7 +267,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/packet-level-signatures-for-smart-home-devices/](https://www.ndss-symposium.org/ndss-paper/packet-level-signatures-for-smart-home-devices/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2020/02/24097-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2020/02/24097-paper.pdf)
 ## Learning-based Practical Smartphone Eavesdropping with Built-in Accelerometer.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2020].md#learning-based-practical-smartphone-eavesdropping-with-built-in-accelerometer) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2020].md#learning-based-practical-smartphone-eavesdropping-with-built-in-accelerometer)**
 ### 作者
@@ -300,7 +294,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/automated-cross-platform-reverse-engineering-of-can-bus-commands-from-mobile-apps/](https://www.ndss-symposium.org/ndss-paper/automated-cross-platform-reverse-engineering-of-can-bus-commands-from-mobile-apps/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2020/02/24231-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2020/02/24231-paper.pdf)
 ## Are You Going to Answer That? Measuring User Responses to Anti-Robocall Application Indicators.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2020].md#are-you-going-to-answer-that-measuring-user-responses-to-anti-robocall-application-indicators) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2020].md#are-you-going-to-answer-that-measuring-user-responses-to-anti-robocall-application-indicators)**
 ### 作者
@@ -411,7 +404,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/broken-metre-attacking-resource-metering-in-evm/](https://www.ndss-symposium.org/ndss-paper/broken-metre-attacking-resource-metering-in-evm/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2020/02/24267-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2020/02/24267-paper.pdf)
 ## Finding Safety in Numbers with Secure Allegation Escrows.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2020].md#finding-safety-in-numbers-with-secure-allegation-escrows) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2020].md#finding-safety-in-numbers-with-secure-allegation-escrows)**
 ### 作者
@@ -502,7 +494,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/nojitsu-locking-down-javascript-engines/](https://www.ndss-symposium.org/ndss-paper/nojitsu-locking-down-javascript-engines/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2020/02/24262-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2020/02/24262-paper.pdf)
 ## SODA: A Generic Online Detection Framework for Smart Contracts.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2020].md#soda-a-generic-online-detection-framework-for-smart-contracts) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2020].md#soda-a-generic-online-detection-framework-for-smart-contracts)**
 ### 作者
@@ -538,7 +529,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/a-practical-approach-for-taking-down-avalanche-botnets-under-real-world-constraints/](https://www.ndss-symposium.org/ndss-paper/a-practical-approach-for-taking-down-avalanche-botnets-under-real-world-constraints/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2020/02/24161-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2020/02/24161-paper.pdf)
 ## Designing a Better Browser for Tor with BLAST.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2020].md#designing-a-better-browser-for-tor-with-blast) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2020].md#designing-a-better-browser-for-tor-with-blast)**
 ### 作者
@@ -591,7 +581,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/absynthe-automatic-blackbox-side-channel-synthesis-on-commodity-microarchitectures/](https://www.ndss-symposium.org/ndss-paper/absynthe-automatic-blackbox-side-channel-synthesis-on-commodity-microarchitectures/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2020/02/23018-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2020/02/23018-paper.pdf)
 ## PhantomCache: Obfuscating Cache Conflicts with Localized Randomization.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2020].md#phantomcache-obfuscating-cache-conflicts-with-localized-randomization) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2020].md#phantomcache-obfuscating-cache-conflicts-with-localized-randomization)**
 ### 作者
@@ -636,7 +625,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/mind-the-portability-a-warriors-guide-through-realistic-profiled-side-channel-analysis/](https://www.ndss-symposium.org/ndss-paper/mind-the-portability-a-warriors-guide-through-realistic-profiled-side-channel-analysis/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2020/02/24390-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2020/02/24390-paper.pdf)
 ## Hold the Door! Fingerprinting Your Car Key to Prevent Keyless Entry Car Theft.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2020].md#hold-the-door-fingerprinting-your-car-key-to-prevent-keyless-entry-car-theft) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2020].md#hold-the-door-fingerprinting-your-car-key-to-prevent-keyless-entry-car-theft)**
 ### 作者
@@ -703,7 +691,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/defrec-establishing-physical-function-virtualization-to-disrupt-reconnaissance-of-power-grids-cyber-physical-infrastructures/](https://www.ndss-symposium.org/ndss-paper/defrec-establishing-physical-function-virtualization-to-disrupt-reconnaissance-of-power-grids-cyber-physical-infrastructures/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2020/02/24365-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2020/02/24365-paper.pdf)
 ## Revisiting Leakage Abuse Attacks.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2020].md#revisiting-leakage-abuse-attacks) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2020].md#revisiting-leakage-abuse-attacks)**
 ### 作者
@@ -792,7 +779,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/withdrawing-the-bgp-re-routing-curtain-understanding-the-security-impact-of-bgp-poisoning-through-real-world-measurements/](https://www.ndss-symposium.org/ndss-paper/withdrawing-the-bgp-re-routing-curtain-understanding-the-security-impact-of-bgp-poisoning-through-real-world-measurements/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2020/02/24240-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2020/02/24240-paper.pdf)
 ## IMP4GT: IMPersonation Attacks in 4G NeTworks.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2020].md#imp4gt-impersonation-attacks-in-4g-networks) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2020].md#imp4gt-impersonation-attacks-in-4g-networks)**
 ### 作者
@@ -919,7 +905,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/you-are-what-you-do-hunting-stealthy-malware-via-data-provenance-analysis/](https://www.ndss-symposium.org/ndss-paper/you-are-what-you-do-hunting-stealthy-malware-via-data-provenance-analysis/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2020/02/24167-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2020/02/24167-paper.pdf)
 ## OmegaLog: High-Fidelity Attack Investigation via Transparent Multi-layer Log Analysis.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2020].md#omegalog-high-fidelity-attack-investigation-via-transparent-multi-layer-log-analysis) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2020].md#omegalog-high-fidelity-attack-investigation-via-transparent-multi-layer-log-analysis)**
 ### 作者
@@ -948,7 +933,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/trident-efficient-4pc-framework-for-privacy-preserving-machine-learning/](https://www.ndss-symposium.org/ndss-paper/trident-efficient-4pc-framework-for-privacy-preserving-machine-learning/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2020/02/23005-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2020/02/23005-paper.pdf)
 ## Secure Sublinear Time Differentially Private Median Computation.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2020].md#secure-sublinear-time-differentially-private-median-computation) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2020].md#secure-sublinear-time-differentially-private-median-computation)**
 ### 作者
@@ -992,7 +976,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/blaze-blazing-fast-privacy-preserving-machine-learning/](https://www.ndss-symposium.org/ndss-paper/blaze-blazing-fast-privacy-preserving-machine-learning/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2020/02/24202-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2020/02/24202-paper.pdf)
 ## Prevalence and Impact of Low-Entropy Packing Schemes in the Malware Ecosystem.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2020].md#prevalence-and-impact-of-low-entropy-packing-schemes-in-the-malware-ecosystem) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2020].md#prevalence-and-impact-of-low-entropy-packing-schemes-in-the-malware-ecosystem)**
 ### 作者
@@ -1022,7 +1005,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/when-malware-is-packin-heat-limits-of-machine-learning-classifiers-based-on-static-analysis-features/](https://www.ndss-symposium.org/ndss-paper/when-malware-is-packin-heat-limits-of-machine-learning-classifiers-based-on-static-analysis-features/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2020/02/24310-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2020/02/24310-paper.pdf)
 ## UIScope: Accurate, Instrumentation-free, and Visible Attack Investigation for GUI Applications.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2020].md#uiscope-accurate-instrumentation-free-and-visible-attack-investigation-for-gui-applications) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2020].md#uiscope-accurate-instrumentation-free-and-visible-attack-investigation-for-gui-applications)**
 ### 作者
@@ -1079,7 +1061,6 @@
 
 ### 链接
 - **URL:** [https://www.ndss-symposium.org/ndss-paper/strong-authentication-without-temper-resistant-hardware-and-application-to-federated-identities/](https://www.ndss-symposium.org/ndss-paper/strong-authentication-without-temper-resistant-hardware-and-application-to-federated-identities/)
-- **PDF:** [https://www.ndss-symposium.org/wp-content/uploads/2020/02/24462-paper.pdf](https://www.ndss-symposium.org/wp-content/uploads/2020/02/24462-paper.pdf)
 ## A View from the Cockpit: Exploring Pilot Reactions to Attacks on Avionic Systems.
 🌍 [English](../../../docs/en/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2020].md#a-view-from-the-cockpit-exploring-pilot-reactions-to-attacks-on-avionic-systems) | **[简体中文](../../../docs/zh-CN/Network%20and%20Distributed%20System%20Security%20Symposium/Network%20and%20Distributed%20System%20Security%20Symposium[2020].md#a-view-from-the-cockpit-exploring-pilot-reactions-to-attacks-on-avionic-systems)**
 ### 作者

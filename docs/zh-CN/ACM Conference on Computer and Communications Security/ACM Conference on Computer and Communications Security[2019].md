@@ -2631,6 +2631,17 @@
 
 ### 链接
 - **URL:** [https://doi.org/10.1145/3319535.3353550](https://doi.org/10.1145/3319535.3353550)
+## WAHC'19: 7th Workshop on Encrypted Computing & Applied Homomorphic Cryptograph.
+🌍 [English](../../../docs/en/ACM%20Conference%20on%20Computer%20and%20Communications%20Security/ACM%20Conference%20on%20Computer%20and%20Communications%20Security[2019].md#wahc19-7th-workshop-on-encrypted-computing-applied-homomorphic-cryptograph) | **[简体中文](../../../docs/zh-CN/ACM%20Conference%20on%20Computer%20and%20Communications%20Security/ACM%20Conference%20on%20Computer%20and%20Communications%20Security[2019].md#wahc19-7th-workshop-on-encrypted-computing-applied-homomorphic-cryptograph)**
+### 作者
+* Michael Brenner, Leibniz Universität Hannover, Hannover, NY, Germany
+* Tancrède Lepoint, Google, New York, NY, USA
+* Kurt Rohloff, New Jersey Institute of Technology and Duality Technologies, Newark, NJ, USA
+### 摘要
+> 第七届加密计算与应用同态密码学研讨会（WAHC）将于2019年11月11日在英国伦敦与ACM计算机与通信安全会议（CCS）同时举办。WAHC 2019研讨会的目的是汇集来自学术界、工业界和政府的专业人士、研究人员和从业者，展示、讨论和共享加密计算领域的最新进展。加密计算是计算机安全和应用密码学领域的一个特定子领域，对同态加密、多方计算、功能加密、安全功能评估、私密信息检索和可搜索加密等实际应用感兴趣。研讨会将包括一次邀请演讲，讨论先进密码学在实践中的应用，一个同态加密评估平台的演示，以及6个关于不同加密计算主题的精彩演讲：同态加密标准化、多方计算和应用。
+
+### 链接
+- **URL:** [https://doi.org/10.1145/3319535.3353554](https://doi.org/10.1145/3319535.3353554)
 ## AISec'19: 12th ACM Workshop on Artificial Intelligence and Security.
 🌍 [English](../../../docs/en/ACM%20Conference%20on%20Computer%20and%20Communications%20Security/ACM%20Conference%20on%20Computer%20and%20Communications%20Security[2019].md#aisec19-12th-acm-workshop-on-artificial-intelligence-and-security) | **[简体中文](../../../docs/zh-CN/ACM%20Conference%20on%20Computer%20and%20Communications%20Security/ACM%20Conference%20on%20Computer%20and%20Communications%20Security[2019].md#aisec19-12th-acm-workshop-on-artificial-intelligence-and-security)**
 ### 作者
@@ -2678,14 +2689,3 @@
 
 ### 链接
 - **URL:** [https://doi.org/10.1145/3319535.3353563](https://doi.org/10.1145/3319535.3353563)
-## WAHC'19: 7th Workshop on Encrypted Computing & Applied Homomorphic Cryptograph.
-🌍 [English](../../../docs/en/ACM%20Conference%20on%20Computer%20and%20Communications%20Security/ACM%20Conference%20on%20Computer%20and%20Communications%20Security[2019].md#wahc19-7th-workshop-on-encrypted-computing-applied-homomorphic-cryptograph) | **[简体中文](../../../docs/zh-CN/ACM%20Conference%20on%20Computer%20and%20Communications%20Security/ACM%20Conference%20on%20Computer%20and%20Communications%20Security[2019].md#wahc19-7th-workshop-on-encrypted-computing-applied-homomorphic-cryptograph)**
-### 作者
-* Michael Brenner, Leibniz Universität Hannover, Hannover, NY, Germany
-* Tancrède Lepoint, Google, New York, NY, USA
-* Kurt Rohloff, New Jersey Institute of Technology and Duality Technologies, Newark, NJ, USA
-### 摘要
-> 第七届加密计算与应用同态密码学研讨会（WAHC）将于2019年11月11日在英国伦敦与ACM计算机与通信安全会议（CCS）同时举办。WAHC 2019研讨会的目的是汇集来自学术界、工业界和政府的专业人士、研究人员和从业者，展示、讨论和共享加密计算领域的最新进展。加密计算是计算机安全和应用密码学领域的一个特定子领域，对同态加密、多方计算、功能加密、安全功能评估、私密信息检索和可搜索加密等实际应用感兴趣。研讨会将包括一次邀请演讲，讨论先进密码学在实践中的应用，一个同态加密评估平台的演示，以及6个关于不同加密计算主题的精彩演讲：同态加密标准化、多方计算和应用。
-
-### 链接
-- **URL:** [https://doi.org/10.1145/3319535.3353554](https://doi.org/10.1145/3319535.3353554)

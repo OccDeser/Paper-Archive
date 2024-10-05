@@ -1,60 +1,4 @@
 # Eurocrypt[2023-1]
-## Black-Box Separations for Non-interactive Classical Commitments in a Quantum World.
-🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2023-1].md#black-box-separations-for-non-interactive-classical-commitments-in-a-quantum-world) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2023-1].md#black-box-separations-for-non-interactive-classical-commitments-in-a-quantum-world)**
-### 作者
-* Kai-Min Chung, Academia Sinica, New Taipei, Taiwan
-* Yao-Ting Lin, UCSB, Santa Barbara, USA
-* Mohammad Mahmoody, University of Virginia, Charlottesville, USA
-### 摘要
-> 承诺在密码学中是基本的。在经典世界中，承诺与单向函数的存在是等价的。众所周知，就其轮延迟而言，最理想的承诺形式（即非交互承诺）不能从单向函数中以黑盒方式构建[Mahmoody-Pass，Crypto'12]。然而，如果允许各方使用量子计算和通信，则已知可以实际构建（用于经典位）非交互承诺[Koshiba-Odaira，Arxiv'11和Bitansky-Brakerski，TCC'21]。
-> 
-> 我们重新审视在量子世界中进行非交互承诺的假设，并研究是否可以通过对单向函数进行黑盒使用来使用量子计算和经典通信实现。我们证明除非在多项式兼容猜想[Austrin等，Crypto'22]错误的情况下，否则这样做是不可能的。我们进一步将我们的不可能性扩展到具有量子解承诺的协议。这补充了Bitansky和Brakerski [TCC'21]的积极结果，因为他们仅要求经典解承诺消息。由于非交互承诺可以基于可逆单向函数，假设多项式兼容猜想，因此即使允许构造和安全约简为量子，我们也可以在单向函数和可逆单向函数（例如一次性密码）之间获得黑盒分离。这改善了曹和薛[理论计算机科学'21]的分离，其中他们仅允许安全约简为量子。
-> 
-> 在技术层面上，我们证明从“足够大”的集合（即调用者）中随机抽取抽样预言机将使它们针对多项式量子查询对手成为单向函数，后者还会获得关于预言机的任意多项式大小的量子建议。这给出了Hhan等人最近结果[Asiacrypt
-
-### 链接
-- **URL:** [https://doi.org/10.1007/978-3-031-30545-0_6](https://doi.org/10.1007/978-3-031-30545-0_6)
-## Non-uniformity and Quantum Advice in the Quantum Random Oracle Model.
-🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2023-1].md#non-uniformity-and-quantum-advice-in-the-quantum-random-oracle-model) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2023-1].md#non-uniformity-and-quantum-advice-in-the-quantum-random-oracle-model)**
-### 作者
-* Qipeng Liu, Simons Institute for the Theory of Computing, Berkeley, USA
-### 摘要
-> QROM（量子随机预言机模型），由Boneh等人在Asiacrypt 2011中引入，涵盖了所有通用算法。然而，它未能描述具有预处理能力的非均匀量子算法，该算法接收有限的经典或量子建议。
-> 
-> 由于普遍认为非均匀算法是攻击者的正确模型，从Nayebi、Aaronson、Belovs和Trevisan（QIC 2015）的工作开始，一系列研究探讨了在随机预言机模型中的非均匀安全性。Chung、Guo、Liu和Qian（FOCS 2020）提供了一个框架，并为许多密码应用确立了非均匀安全性。尽管他们在许多应用程序中使用经典建议达到了几乎最优的界限，但他们对量子建议的界限远非紧凑。
-> 
-> 在这项工作中，我们继续研究QROM中的量子建议。我们提出了一个新的想法，推广了先前的多实例框架，我们认为这更加友好于量子，并且应该是多实例游戏的量子模拟。为此，我们将Chung等人关于量子建议的界限与其在经典建议下的界限相匹配，表明在QROM中，对于许多自然的安全游戏来说，量子建议几乎与经典建议一样好/坏。
-> 
-> 最后，我们展示了在QROM中的一些虚构游戏中，相对于非结构化的预言机，量子建议在某些参数范围内可以比经典建议好上指数倍。据我们所知，这为量子建议相对于经典建议在未结构化预言机方面存在一般性的差异提供了证据。
-
-### 链接
-- **URL:** [https://doi.org/10.1007/978-3-031-30545-0_5](https://doi.org/10.1007/978-3-031-30545-0_5)
-## Worst-Case Subexponential Attacks on PRGs of Constant Degree or Constant Locality.
-🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2023-1].md#worst-case-subexponential-attacks-on-prgs-of-constant-degree-or-constant-locality) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2023-1].md#worst-case-subexponential-attacks-on-prgs-of-constant-degree-or-constant-locality)**
-### 作者
-* Akın Ünal, Department of Computer Science, ETH Zurich, Zurich, Switzerland
-### 摘要
-> 在这项工作中，我们将对多项式延伸的代数伪随机数生成器（PRGs）的伪随机性提出新的攻击。我们的算法适用于广泛的PRGs类别，并且在一般的本地PRGs的情况下比目前已知的攻击更快。与大多数代数攻击不同，在我们的攻击中，我们将证明亚指数时间和空间限制，而不对PRGs做任何假设或假设任何进一步的猜想。因此，我们在这篇文章中首次提出了对常数次数多项式PRGs的亚指数区分攻击，并且弥补了轻量级PRGs亚指数密码分析中的当前差距。
-> 
-> 具体而言，对于通过\(F : \mathbb {Z}_q^{n} \rightarrow \mathbb {Z}_q^{m}\)计算的PRGs，其由\(Z_q\)上的d次多项式计算，并且具有\(m = n^{1+e}\)的延伸，我们提供了一个攻击，其空间和时间复杂度分别为\(n^{O(n^{1 - \frac{e}{d-1}})}\)和显著优势\(1 - {O(n^{1 - \frac{e}{d-1}}/{q})}\)。如果q位于\(O(n^{1 - \frac{e}{d-1}})\)，我们提供了一个具有相同空间和时间复杂度的第二个攻击，其优势至少为\(q^{-O(n^{1 - \frac{e}{d-1}})}\)。如果F具有常数局部性d且q是常数，我们构造了一个第三个攻击，其空间和时间复杂度为\(\exp (O(n^{1 - \frac{e'}{(q-1)d-1}}))\)，显著优势为\(1-O(n^{-\frac{e'}{(q-1)d-1}})\)，其中\(e'<e\)为常数。
-
-### 链接
-- **URL:** [https://doi.org/10.1007/978-3-031-30545-0_2](https://doi.org/10.1007/978-3-031-30545-0_2)
-## Speak Much, Remember Little: Cryptography in the Bounded Storage Model, Revisited.
-🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2023-1].md#speak-much-remember-little-cryptography-in-the-bounded-storage-model-revisited) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2023-1].md#speak-much-remember-little-cryptography-in-the-bounded-storage-model-revisited)**
-### 作者
-* Yevgeniy Dodis, New York University, New York, NY, 10012, USA
-* Willy Quach, Northeastern University, Boston, MA, 02115, USA
-* Daniel Wichs, NTT Research, Sunnyvale, CA, 94085, USA
-### 摘要
-> 有界存储模型（BSM）的目标是通过仅限制对手的存储容量来构建无条件安全的加密协议，但同时给予对手无限的计算能力。在这里，我们考虑了BSM的流式变体，诚实的参与方可以相互传输大量数据以压倒对手的存储，即使他们自己的存储容量明显小于对手的存储容量。以前的工作在这个模型中展示了一些令人印象深刻的结果，包括密钥协商和无意传递，但前提是对手的存储\(m=O(n^2)\)最多是正比于诚实用户存储n的二次方倍。此外，Dziembowski和Maurer（DM）的工作也给出了一个似乎匹配的下界，表明当\(m>n^2\)时，BSM中的密钥协商是不可能的。
-> 
-> 在这项工作中，我们观察到DM的下界只适用于更受限制的BSM版本，并不适用于流式变体。令人惊讶的是，我们展示了在流式BSM中可以构建密钥协商和无意传递协议，其中对手的存储可以更大，甚至指数级\(m=2^{O(n)}\)。容纳更大的m值的唯一代价是我们的协议的轮数和通信复杂性相应增长，我们提供了下界来表明增加轮数和通信是必要的。
-> 
-> 作为我们工作的额外好处，我们还展示了我们在BSM中的无意传递（OT）协议满足基于仿真的安全概念。相比之下，即使对于\(m=O(n^2)\)的受限情况，之前的解决方案也只满足较弱的区分性定义。作为我们OT协议的一个应用，我们获得了在BSM中的通用多方计算（MPC），允许m和n之间出现指数级的差距，同时实现基于仿真的安全性。
-
-### 链接
-- **URL:** [https://doi.org/10.1007/978-3-031-30545-0_4](https://doi.org/10.1007/978-3-031-30545-0_4)
 ## Indistinguishable Predictions and Multi-group Fair Learning.
 🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2023-1].md#indistinguishable-predictions-and-multi-group-fair-learning) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2023-1].md#indistinguishable-predictions-and-multi-group-fair-learning)**
 ### 作者
@@ -68,6 +12,17 @@
 
 ### 链接
 - **URL:** [https://doi.org/10.1007/978-3-031-30545-0_1](https://doi.org/10.1007/978-3-031-30545-0_1)
+## Worst-Case Subexponential Attacks on PRGs of Constant Degree or Constant Locality.
+🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2023-1].md#worst-case-subexponential-attacks-on-prgs-of-constant-degree-or-constant-locality) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2023-1].md#worst-case-subexponential-attacks-on-prgs-of-constant-degree-or-constant-locality)**
+### 作者
+* Akın Ünal, Department of Computer Science, ETH Zurich, Zurich, Switzerland
+### 摘要
+> 在这项工作中，我们将对多项式延伸的代数伪随机数生成器（PRGs）的伪随机性提出新的攻击。我们的算法适用于广泛的PRGs类别，并且在一般的本地PRGs的情况下比目前已知的攻击更快。与大多数代数攻击不同，在我们的攻击中，我们将证明亚指数时间和空间限制，而不对PRGs做任何假设或假设任何进一步的猜想。因此，我们在这篇文章中首次提出了对常数次数多项式PRGs的亚指数区分攻击，并且弥补了轻量级PRGs亚指数密码分析中的当前差距。
+> 
+> 具体而言，对于通过\(F : \mathbb {Z}_q^{n} \rightarrow \mathbb {Z}_q^{m}\)计算的PRGs，其由\(Z_q\)上的d次多项式计算，并且具有\(m = n^{1+e}\)的延伸，我们提供了一个攻击，其空间和时间复杂度分别为\(n^{O(n^{1 - \frac{e}{d-1}})}\)和显著优势\(1 - {O(n^{1 - \frac{e}{d-1}}/{q})}\)。如果q位于\(O(n^{1 - \frac{e}{d-1}})\)，我们提供了一个具有相同空间和时间复杂度的第二个攻击，其优势至少为\(q^{-O(n^{1 - \frac{e}{d-1}})}\)。如果F具有常数局部性d且q是常数，我们构造了一个第三个攻击，其空间和时间复杂度为\(\exp (O(n^{1 - \frac{e'}{(q-1)d-1}}))\)，显著优势为\(1-O(n^{-\frac{e'}{(q-1)d-1}})\)，其中\(e'<e\)为常数。
+
+### 链接
+- **URL:** [https://doi.org/10.1007/978-3-031-30545-0_2](https://doi.org/10.1007/978-3-031-30545-0_2)
 ## Fine-Grained Non-interactive Key-Exchange: Constructions and Lower Bounds.
 🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2023-1].md#fine-grained-non-interactive-key-exchange-constructions-and-lower-bounds) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2023-1].md#fine-grained-non-interactive-key-exchange-constructions-and-lower-bounds)**
 ### 作者
@@ -86,29 +41,51 @@
 
 ### 链接
 - **URL:** [https://doi.org/10.1007/978-3-031-30545-0_3](https://doi.org/10.1007/978-3-031-30545-0_3)
-## Half-Tree: Halving the Cost of Tree Expansion in COT and DPF.
-🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2023-1].md#half-tree-halving-the-cost-of-tree-expansion-in-cot-and-dpf) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2023-1].md#half-tree-halving-the-cost-of-tree-expansion-in-cot-and-dpf)**
+## Speak Much, Remember Little: Cryptography in the Bounded Storage Model, Revisited.
+🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2023-1].md#speak-much-remember-little-cryptography-in-the-bounded-storage-model-revisited) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2023-1].md#speak-much-remember-little-cryptography-in-the-bounded-storage-model-revisited)**
 ### 作者
-* Xiaojie Guo, State Key Laboratory of Cryptology, Beijing, China
-* Kang Yang, State Key Laboratory of Cryptology, Beijing, China
-* Jiang Zhang, State Key Laboratory of Cryptology, Beijing, China
-* Xiaojie Guo, Nankai University, Tianjin, China
-* Zheli Liu, Nankai University, Tianjin, China
-* Xiao Wang, Northwestern University, Evanston, USA
-* Wenhao Zhang, Northwestern University, Evanston, USA
-* Xiang Xie, Shanghai Qi Zhi Institute, Shanghai, China
-* Xiang Xie, PADO Labs, Hong Kong, China
+* Yevgeniy Dodis, New York University, New York, NY, 10012, USA
+* Willy Quach, Northeastern University, Boston, MA, 02115, USA
+* Daniel Wichs, NTT Research, Sunnyvale, CA, 94085, USA
 ### 摘要
-> GGM树广泛应用于相关遗忘传输（COT）、子域向量遗忘线性评估（sVOLE）、分布式点函数（DPF）和分布式比较函数（DCF）的设计中。通常，GGM树带来的计算和通信开销在这些协议中占主导地位。本文提出了一系列优化方法，可以将这些开销减少一半。
+> 有界存储模型（BSM）的目标是通过仅限制对手的存储容量来构建无条件安全的加密协议，但同时给予对手无限的计算能力。在这里，我们考虑了BSM的流式变体，诚实的参与方可以相互传输大量数据以压倒对手的存储，即使他们自己的存储容量明显小于对手的存储容量。以前的工作在这个模型中展示了一些令人印象深刻的结果，包括密钥协商和无意传递，但前提是对手的存储\(m=O(n^2)\)最多是正比于诚实用户存储n的二次方倍。此外，Dziembowski和Maurer（DM）的工作也给出了一个似乎匹配的下界，表明当\(m>n^2\)时，BSM中的密钥协商是不可能的。
 > 
-> 减半COT和sVOLE的开销。我们的COT协议在最先进的COT协议使用的每个GGM树层级中引入了额外的相关性。因此，它将AES调用的数量和通信开销减少了一半。将这个想法推广到sVOLE，我们能够通过减半计算或减半通信实现类似的改进。
+> 在这项工作中，我们观察到DM的下界只适用于更受限制的BSM版本，并不适用于流式变体。令人惊讶的是，我们展示了在流式BSM中可以构建密钥协商和无意传递协议，其中对手的存储可以更大，甚至指数级\(m=2^{O(n)}\)。容纳更大的m值的唯一代价是我们的协议的轮数和通信复杂性相应增长，我们提供了下界来表明增加轮数和通信是必要的。
 > 
-> 减半DPF和DCF的开销。我们提出了改进的两方协议，用于分布式生成DPF/DCF密钥。我们这些协议背后的树结构可以实现更高效的全域评估，并将最先进的DPF/DCF协议的通信和轮次复杂性减半。
-> 
-> 所有协议都在随机置换模型下可以被证明是安全的，并且可以基于固定密钥的AES-NI进行加速。我们还改进了针对可提供的交易者场景的近似伪随机函数（PPRF）、DPF和DCF的最先进方案，这在独立利益方面具有重要意义。
+> 作为我们工作的额外好处，我们还展示了我们在BSM中的无意传递（OT）协议满足基于仿真的安全概念。相比之下，即使对于\(m=O(n^2)\)的受限情况，之前的解决方案也只满足较弱的区分性定义。作为我们OT协议的一个应用，我们获得了在BSM中的通用多方计算（MPC），允许m和n之间出现指数级的差距，同时实现基于仿真的安全性。
 
 ### 链接
-- **URL:** [https://doi.org/10.1007/978-3-031-30545-0_12](https://doi.org/10.1007/978-3-031-30545-0_12)
+- **URL:** [https://doi.org/10.1007/978-3-031-30545-0_4](https://doi.org/10.1007/978-3-031-30545-0_4)
+## Non-uniformity and Quantum Advice in the Quantum Random Oracle Model.
+🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2023-1].md#non-uniformity-and-quantum-advice-in-the-quantum-random-oracle-model) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2023-1].md#non-uniformity-and-quantum-advice-in-the-quantum-random-oracle-model)**
+### 作者
+* Qipeng Liu, Simons Institute for the Theory of Computing, Berkeley, USA
+### 摘要
+> QROM（量子随机预言机模型），由Boneh等人在Asiacrypt 2011中引入，涵盖了所有通用算法。然而，它未能描述具有预处理能力的非均匀量子算法，该算法接收有限的经典或量子建议。
+> 
+> 由于普遍认为非均匀算法是攻击者的正确模型，从Nayebi、Aaronson、Belovs和Trevisan（QIC 2015）的工作开始，一系列研究探讨了在随机预言机模型中的非均匀安全性。Chung、Guo、Liu和Qian（FOCS 2020）提供了一个框架，并为许多密码应用确立了非均匀安全性。尽管他们在许多应用程序中使用经典建议达到了几乎最优的界限，但他们对量子建议的界限远非紧凑。
+> 
+> 在这项工作中，我们继续研究QROM中的量子建议。我们提出了一个新的想法，推广了先前的多实例框架，我们认为这更加友好于量子，并且应该是多实例游戏的量子模拟。为此，我们将Chung等人关于量子建议的界限与其在经典建议下的界限相匹配，表明在QROM中，对于许多自然的安全游戏来说，量子建议几乎与经典建议一样好/坏。
+> 
+> 最后，我们展示了在QROM中的一些虚构游戏中，相对于非结构化的预言机，量子建议在某些参数范围内可以比经典建议好上指数倍。据我们所知，这为量子建议相对于经典建议在未结构化预言机方面存在一般性的差异提供了证据。
+
+### 链接
+- **URL:** [https://doi.org/10.1007/978-3-031-30545-0_5](https://doi.org/10.1007/978-3-031-30545-0_5)
+## Black-Box Separations for Non-interactive Classical Commitments in a Quantum World.
+🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2023-1].md#black-box-separations-for-non-interactive-classical-commitments-in-a-quantum-world) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2023-1].md#black-box-separations-for-non-interactive-classical-commitments-in-a-quantum-world)**
+### 作者
+* Kai-Min Chung, Academia Sinica, New Taipei, Taiwan
+* Yao-Ting Lin, UCSB, Santa Barbara, USA
+* Mohammad Mahmoody, University of Virginia, Charlottesville, USA
+### 摘要
+> 承诺在密码学中是基本的。在经典世界中，承诺与单向函数的存在是等价的。众所周知，就其轮延迟而言，最理想的承诺形式（即非交互承诺）不能从单向函数中以黑盒方式构建[Mahmoody-Pass，Crypto'12]。然而，如果允许各方使用量子计算和通信，则已知可以实际构建（用于经典位）非交互承诺[Koshiba-Odaira，Arxiv'11和Bitansky-Brakerski，TCC'21]。
+> 
+> 我们重新审视在量子世界中进行非交互承诺的假设，并研究是否可以通过对单向函数进行黑盒使用来使用量子计算和经典通信实现。我们证明除非在多项式兼容猜想[Austrin等，Crypto'22]错误的情况下，否则这样做是不可能的。我们进一步将我们的不可能性扩展到具有量子解承诺的协议。这补充了Bitansky和Brakerski [TCC'21]的积极结果，因为他们仅要求经典解承诺消息。由于非交互承诺可以基于可逆单向函数，假设多项式兼容猜想，因此即使允许构造和安全约简为量子，我们也可以在单向函数和可逆单向函数（例如一次性密码）之间获得黑盒分离。这改善了曹和薛[理论计算机科学'21]的分离，其中他们仅允许安全约简为量子。
+> 
+> 在技术层面上，我们证明从“足够大”的集合（即调用者）中随机抽取抽样预言机将使它们针对多项式量子查询对手成为单向函数，后者还会获得关于预言机的任意多项式大小的量子建议。这给出了Hhan等人最近结果[Asiacrypt
+
+### 链接
+- **URL:** [https://doi.org/10.1007/978-3-031-30545-0_6](https://doi.org/10.1007/978-3-031-30545-0_6)
 ## On Non-uniform Security for Black-Box Non-interactive CCA Commitments.
 🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2023-1].md#on-non-uniform-security-for-black-box-non-interactive-cca-commitments) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2023-1].md#on-non-uniform-security-for-black-box-non-interactive-cca-commitments)**
 ### 作者
@@ -144,25 +121,25 @@
 
 ### 链接
 - **URL:** [https://doi.org/10.1007/978-3-031-30545-0_8](https://doi.org/10.1007/978-3-031-30545-0_8)
-## Endemic Oblivious Transfer via Random Oracles, Revisited.
-🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2023-1].md#endemic-oblivious-transfer-via-random-oracles-revisited) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2023-1].md#endemic-oblivious-transfer-via-random-oracles-revisited)**
+## Reverse Firewalls for Oblivious Transfer Extension and Applications to Zero-Knowledge.
+🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2023-1].md#reverse-firewalls-for-oblivious-transfer-extension-and-applications-to-zero-knowledge) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2023-1].md#reverse-firewalls-for-oblivious-transfer-extension-and-applications-to-zero-knowledge)**
 ### 作者
-* Zhelei Zhou, Zhejiang University, Hangzhou, China
-* Bingsheng Zhang, Zhejiang University, Hangzhou, China
-* Kui Ren, Zhejiang University, Hangzhou, China
-* Zhelei Zhou, ZJU-Hangzhou Global Scientific and Technological Innovation Center, Hangzhou, China
-* Bingsheng Zhang, ZJU-Hangzhou Global Scientific and Technological Innovation Center, Hangzhou, China
-* Kui Ren, ZJU-Hangzhou Global Scientific and Technological Innovation Center, Hangzhou, China
-* Hong-Sheng Zhou, Virginia Commonwealth University, Richmond, USA
+* Suvradip Chakraborty, Visa Research, Palo Alto, USA
+* Chaya Ganesh, Indian Institute of Science, Bengaluru, India
+* Pratik Sarkar, Department of Computer Science, Boston University, Boston, USA
 ### 摘要
-> 亚型遗忘传输（Endemic Oblivious Transfer，简称EOT）的概念是由Masny和Rindal（CCS'19）引入的。EOT相较于传统的随机OT提供了较弱的安全性保证，即恶意方可以任意固定它们的输出。作者们提出了一个在RO模型下基于量身定制和非标准假设Choose-and-Open DDH的1轮UC安全EOT协议。
+> 在颠覆的环境中，对手通过篡改诚实方的机器来通过协议记录中泄露诚实方的秘密。Mironov和Stephens-Davidowitz（EUROCRYPT'15）的工作引入了反向防火墙（RF）的概念，以防止对诚实方机器的篡改。RF框架中的所有已知构造都依赖底层操作的可塑性，以便RF对协议记录进行重新随机化/消毒。因此，RF受限于提供一定结构的协议，并且基于公钥操作。在这项工作中，我们开始研究存在篡改的高效多方计算（MPC）协议。在这方面上，
 > 
-> 在这项工作中，我们系统地研究了在UC/GUC框架下的EOT。我们在RO模型下提出了一个新的1轮UC安全EOT构造，在DDH假设下成立。在GUC框架下，我们提出了第一个在Canetti等人（CCS'14）提出的全局受限观察RO（GroRO）模型下基于CDH假设的1轮EOT构造。我们还提供了一个不可能性结果，证明了在Camenisch等人（Eurocrypt'18）提出的全局受限可编程RO（GrpRO）模型中不存在1轮GUC安全的EOT协议。随后，在GrpRO模型中，我们提供了第一个轮数最优（2轮）的基于DDH假设的EOT协议，并对EOT与其他密码学原语之间的关系进行了研究。
+> 我们在RF框架中构建了第一个Oblivious Transfer（OT）扩展协议。我们使用\(\mathcal {O}(\kappa )\)公钥操作和\(\mathcal {O}(1)\)廉价对称密钥操作获得\(\textsf {poly}(\kappa )\)恶意安全OTs，其中\(\kappa \)是安全参数。
 > 
-> 作为附加产物，我们还在GroRO模型中提出了第一个2轮GUC安全的承诺方案，并且展示了GroRO模型与GrpRO模型之间的差异，这可能具有独立的研究价值。
+> 我们在RF设置中构建了第一个零知识协议，在该协议中，每个乘法门可以使用\(\mathcal {O}(1)\)对称密钥操作进行证明。我们通过使用我们的OT扩展协议以及将Quicksilver（Yang，Sarkar，Weng和Wang，CCS'21）的ZK协议扩展到RF设置来实现这一点。
+> 
+> 在此过程中，我们介绍了可修饰交互证明的新思想，这可能是独立感兴趣的。我们为Sigma协议定义了一种全可塑性概念，与先前的概念不同，它允许修改实例以及协议记录。我们构建了满足这个概念的新协议，为这样的协议构建了RF，并将它们用于构建我们的OT扩展。
+> 
+> 我们工作的关键思想是展示如何以RF友好的方式获得相关随机性，而无需对整个协议记录进行重新随机化。这使我们能够避免随着电路规模增长而变得昂贵的公钥操作。
 
 ### 链接
-- **URL:** [https://doi.org/10.1007/978-3-031-30545-0_11](https://doi.org/10.1007/978-3-031-30545-0_11)
+- **URL:** [https://doi.org/10.1007/978-3-031-30545-0_9](https://doi.org/10.1007/978-3-031-30545-0_9)
 ## Oblivious Transfer with Constant Computational Overhead.
 🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2023-1].md#oblivious-transfer-with-constant-computational-overhead) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2023-1].md#oblivious-transfer-with-constant-computational-overhead)**
 ### 作者
@@ -186,6 +163,132 @@
 
 ### 链接
 - **URL:** [https://doi.org/10.1007/978-3-031-30545-0_10](https://doi.org/10.1007/978-3-031-30545-0_10)
+## Endemic Oblivious Transfer via Random Oracles, Revisited.
+🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2023-1].md#endemic-oblivious-transfer-via-random-oracles-revisited) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2023-1].md#endemic-oblivious-transfer-via-random-oracles-revisited)**
+### 作者
+* Zhelei Zhou, Zhejiang University, Hangzhou, China
+* Bingsheng Zhang, Zhejiang University, Hangzhou, China
+* Kui Ren, Zhejiang University, Hangzhou, China
+* Zhelei Zhou, ZJU-Hangzhou Global Scientific and Technological Innovation Center, Hangzhou, China
+* Bingsheng Zhang, ZJU-Hangzhou Global Scientific and Technological Innovation Center, Hangzhou, China
+* Kui Ren, ZJU-Hangzhou Global Scientific and Technological Innovation Center, Hangzhou, China
+* Hong-Sheng Zhou, Virginia Commonwealth University, Richmond, USA
+### 摘要
+> 亚型遗忘传输（Endemic Oblivious Transfer，简称EOT）的概念是由Masny和Rindal（CCS'19）引入的。EOT相较于传统的随机OT提供了较弱的安全性保证，即恶意方可以任意固定它们的输出。作者们提出了一个在RO模型下基于量身定制和非标准假设Choose-and-Open DDH的1轮UC安全EOT协议。
+> 
+> 在这项工作中，我们系统地研究了在UC/GUC框架下的EOT。我们在RO模型下提出了一个新的1轮UC安全EOT构造，在DDH假设下成立。在GUC框架下，我们提出了第一个在Canetti等人（CCS'14）提出的全局受限观察RO（GroRO）模型下基于CDH假设的1轮EOT构造。我们还提供了一个不可能性结果，证明了在Camenisch等人（Eurocrypt'18）提出的全局受限可编程RO（GrpRO）模型中不存在1轮GUC安全的EOT协议。随后，在GrpRO模型中，我们提供了第一个轮数最优（2轮）的基于DDH假设的EOT协议，并对EOT与其他密码学原语之间的关系进行了研究。
+> 
+> 作为附加产物，我们还在GroRO模型中提出了第一个2轮GUC安全的承诺方案，并且展示了GroRO模型与GrpRO模型之间的差异，这可能具有独立的研究价值。
+
+### 链接
+- **URL:** [https://doi.org/10.1007/978-3-031-30545-0_11](https://doi.org/10.1007/978-3-031-30545-0_11)
+## Half-Tree: Halving the Cost of Tree Expansion in COT and DPF.
+🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2023-1].md#half-tree-halving-the-cost-of-tree-expansion-in-cot-and-dpf) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2023-1].md#half-tree-halving-the-cost-of-tree-expansion-in-cot-and-dpf)**
+### 作者
+* Xiaojie Guo, State Key Laboratory of Cryptology, Beijing, China
+* Kang Yang, State Key Laboratory of Cryptology, Beijing, China
+* Jiang Zhang, State Key Laboratory of Cryptology, Beijing, China
+* Xiaojie Guo, Nankai University, Tianjin, China
+* Zheli Liu, Nankai University, Tianjin, China
+* Xiao Wang, Northwestern University, Evanston, USA
+* Wenhao Zhang, Northwestern University, Evanston, USA
+* Xiang Xie, Shanghai Qi Zhi Institute, Shanghai, China
+* Xiang Xie, PADO Labs, Hong Kong, China
+### 摘要
+> GGM树广泛应用于相关遗忘传输（COT）、子域向量遗忘线性评估（sVOLE）、分布式点函数（DPF）和分布式比较函数（DCF）的设计中。通常，GGM树带来的计算和通信开销在这些协议中占主导地位。本文提出了一系列优化方法，可以将这些开销减少一半。
+> 
+> 减半COT和sVOLE的开销。我们的COT协议在最先进的COT协议使用的每个GGM树层级中引入了额外的相关性。因此，它将AES调用的数量和通信开销减少了一半。将这个想法推广到sVOLE，我们能够通过减半计算或减半通信实现类似的改进。
+> 
+> 减半DPF和DCF的开销。我们提出了改进的两方协议，用于分布式生成DPF/DCF密钥。我们这些协议背后的树结构可以实现更高效的全域评估，并将最先进的DPF/DCF协议的通信和轮次复杂性减半。
+> 
+> 所有协议都在随机置换模型下可以被证明是安全的，并且可以基于固定密钥的AES-NI进行加速。我们还改进了针对可提供的交易者场景的近似伪随机函数（PPRF）、DPF和DCF的最先进方案，这在独立利益方面具有重要意义。
+
+### 链接
+- **URL:** [https://doi.org/10.1007/978-3-031-30545-0_12](https://doi.org/10.1007/978-3-031-30545-0_12)
+## A New Framework for Quantum Oblivious Transfer.
+🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2023-1].md#a-new-framework-for-quantum-oblivious-transfer) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2023-1].md#a-new-framework-for-quantum-oblivious-transfer)**
+### 作者
+* Amit Agarwal, University of Illinois Urbana-Champaign, Champaign, USA
+* Dakshita Khurana, University of Illinois Urbana-Champaign, Champaign, USA
+* Nishant Kumar, University of Illinois Urbana-Champaign, Champaign, USA
+* James Bartusek, University of California Berkeley, Berkeley, USA
+### 摘要
+> 我们提出了一种从量子信息构建遗忘转移的新模板，我们称之为“固定基础”框架。我们的框架与之前的研究（例如Crepeau和Kilian，FOCS'88）不同之处在于，除了一些故意用共轭基础测量的隐藏陷阱量子比特外，每个参与者都固定了正确的测量基础的选择。我们在量子随机预言机模型（QROM）中实例化了这个模板，以获得具有安全性的简单协议，以抵御恶意对手：
+> 
+> 在参与方事先共享EPR对的模型中进行的非交互式随机输入比特OT。
+> 
+> 无需设置的两轮随机输入比特OT，通过展示上述协议即使（潜在恶意的）OT接收者设置了EPR对也仍然安全。
+> 
+> 没有纠缠或设置时的BB84态的三轮选择性输入字符串OT。这改进了需要至少五轮的CK88模板的自然变体。
+> 
+> 在此过程中，我们开发了一些可能具有独立兴趣的技术工具。我们证明自然函数（如XOR）使得从某些量子熵源中无需种子的随机抽取成为可能。我们还使用理想化的（即可提取和模棱两可的）二进制承诺，通过证明QROM中简单高效的构造的安全性而获得。
+
+### 链接
+- **URL:** [https://doi.org/10.1007/978-3-031-30545-0_13](https://doi.org/10.1007/978-3-031-30545-0_13)
+## Optimal Single-Server Private Information Retrieval.
+🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2023-1].md#optimal-single-server-private-information-retrieval) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2023-1].md#optimal-single-server-private-information-retrieval)**
+### 作者
+* Mingxun Zhou, Carnegie Mellon University, Pittsburgh, USA
+* Yiannis Tselekounis, Carnegie Mellon University, Pittsburgh, USA
+* Elaine Shi, Carnegie Mellon University, Pittsburgh, USA
+* Wei-Kai Lin, Northeastern University, Boston, USA
+### 摘要
+> 我们构建了一个具有最优带宽和服务器计算量（多对数因子）的单服务器预处理私密信息检索（PIR）方案，假设学习困难（LWE）问题具有难度。我们的方案实现了分摊\(\widetilde{O}_{\lambda }(\sqrt{n})\)服务器和客户端计算以及\(\widetilde{O}_\lambda (1)\)每个查询的带宽，完成一个往返的通信，并需要\(\widetilde{O}_\lambda (\sqrt{n})\)客户端存储。特别地，相比Corrigan-Gibbs，Henzinger和Kogan（Eurocrypt'22）的最先进方案，我们实现了带宽的显著减少：他们的方案每个查询需要\(\widetilde{O}_{\lambda }(\sqrt{n})\)的带宽，与我们的计算和存储的开销相当。
+
+### 链接
+- **URL:** [https://doi.org/10.1007/978-3-031-30545-0_14](https://doi.org/10.1007/978-3-031-30545-0_14)
+## Weighted Oblivious RAM, with Applications to Searchable Symmetric Encryption.
+🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2023-1].md#weighted-oblivious-ram-with-applications-to-searchable-symmetric-encryption) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2023-1].md#weighted-oblivious-ram-with-applications-to-searchable-symmetric-encryption)**
+### 作者
+* Léonard Assouline, École Normale Supérieure, PSL University, CNRS, Inria, Paris, France
+* Brice Minaud, École Normale Supérieure, PSL University, CNRS, Inria, Paris, France
+### 摘要
+> 现有的混淆随机访问内存（ORAM）协议不能以非平凡的方式支持可变大小的数据项存储。虽然研究可变大小数据项的ORAM本身就很有意义，但也受到对更高性能和更安全的可搜索对称加密（SSE）方案的需求的推动。
+> 
+> 在本文中，我们介绍了加权ORAM的概念，以支持不同大小的数据块存储。我们提出了一个基于满足某种适用性准则的底层标准ORAM的高效加权ORAM方案建立框架。这一准则适用于各种树状ORAM方案，包括简单ORAM和路径ORAM。我们推导出了几种加权ORAM的实例，与标准ORAM相比，开销极小。作为直接应用，我们获得了具有有吸引力安全性特性的高效SSE构建。
+
+### 链接
+- **URL:** [https://doi.org/10.1007/978-3-031-30545-0_15](https://doi.org/10.1007/978-3-031-30545-0_15)
+## NanoGRAM: Garbled RAM with $\widetilde{O}(\log N)$ Overhead.
+🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2023-1].md#nanogram-garbled-ram-with-widetilde-o-log-n-overhead) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2023-1].md#nanogram-garbled-ram-with-widetilde-o-log-n-overhead)**
+### 作者
+* Andrew Park, Carnegie Mellon University, Pittsburgh, USA
+* Elaine Shi, Carnegie Mellon University, Pittsburgh, USA
+* Wei-Kai Lin, Northeastern University, Boston, USA
+### 摘要
+> 我们提出了一种名为NanoGRAM的新的加密RAM构造，其实现了每次内存访问的摊销成本为\(\widetilde{O}(\lambda \cdot (W \log N + \log ^3 N))\)比特，其中\(\lambda \)是安全参数，W是块大小，N是总块数，\(\widetilde{O}(\cdot )\)隐藏着\({\textsf{poly}} \log \log \)因子。对于足够大的块大小，其中\(W = \varOmega (\log ^2 N)\)，我们的方案实现了每次内存访问的\(\widetilde{O}(\lambda \cdot W \log N)\)成本，其中对N的依赖是最优的（除了\({\textsf{poly}} \log \log \)因子），就评估程序的运行时间而言。我们的渐近性能甚至与最先进的互动式方案相匹配（模除\({\textsf{poly}} \log \log \)因子），即在加密电路上运行Circuit ORAM，并且我们消除了基线方案中必要的对数次交互。此外，我们在Heath等人最近的作品（Eurocrypt '22）的渐近性能上也有改进。我们的方案采用了与实际加密电路主流文献相同的假设，即循环相关性鲁棒哈希或随机预言。我们评估了NanoGRAM的具体性能，并将其与一些渐近性能较差的基线进行了比较。我们展示了在内存大小为\(N = 2^9\)时，NanoGRAM开始优于天真的线性扫描加密RAM，并且在\(N = 2^{13}\)时开始优于Heath等人的最近构造。
+> 
+> 最后，作为一个副产品，我们还展示了假设只有单向函数的情况下存在一种加密RAM方案，每次内存访问的摊销成本为\(\widetilde{O}(\lambda ^2 \cdot (W \log N + \log ^3 N))\)。同样，对于块大小为\(W = \varOmega (\log ^2 N)\)比特的情况，对N的依赖几乎是最优的。
+
+### 链接
+- **URL:** [https://doi.org/10.1007/978-3-031-30545-0_16](https://doi.org/10.1007/978-3-031-30545-0_16)
+## Lower Bound Framework for Differentially Private and Oblivious Data Structures.
+🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2023-1].md#lower-bound-framework-for-differentially-private-and-oblivious-data-structures) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2023-1].md#lower-bound-framework-for-differentially-private-and-oblivious-data-structures)**
+### 作者
+* Giuseppe Persiano, Universitá di Salerno and Google, Fisciano, Italy
+* Kevin Yeo, Google and Columbia University, New York, USA
+### 摘要
+> 近年来，对执行操作提供隐私的数据结构的研究取得了重要进展。这些基本构件旨在确保对物理内存的可观察访问模式不会泄露有关查询和更新的重要信息。包括Larsen和Nielsen [Crypto’18]、Persiano和Yeo [Eurocrypt’19]、Hubácek等人[ TCC’19]和Komargodski和Lin [Crypto’21]在内的多篇最近的研究表明，即使针对包括混淆和差分隐私在内不同RAM块b和存储单元ω大小选择的各种隐私概念，也需要对数开销支持基本的RAM（数组）操作。
+> 
+> 我们沿着这条研究路线继续前进，并提出了第一个即便对块数b和存储单元ω的大小没有限制也适用的差分隐私RAM（DPRAMs）的对数下界。这是差分隐私RAM在块远小于存储单元的情况下\(b \ll \omega \)的第一个对数下界。此外，我们还提出了差分隐私变种的经典数据结构问题，包括集合、前驱（后继）和不相交集合（并查集），这些问题已知存在亚对数明文构造。我们的所有下界都适用于多个非勾结服务器的设置。
+> 
+> 此外，我们还解决了这一丰富研究领域中的一个不幸问题，即下界技术难以使用，并且需要针对每个新结果进行定制。为了使技术更易于使用，我们将证明通用化为一个框架，将证明对数下界简化为证明一个特定问题满足两个简单且最小的条件。我们展示了我们的框架易于使用，因为我们论文中的所有下界都利用了这个框架，并且我们希望我们的框架将激发更多对这些下界技术的使用。
+
+### 链接
+- **URL:** [https://doi.org/10.1007/978-3-031-30545-0_17](https://doi.org/10.1007/978-3-031-30545-0_17)
+## Lower Bounds for (Batch) PIR with Private Preprocessing.
+🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2023-1].md#lower-bounds-for-batch-pir-with-private-preprocessing) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2023-1].md#lower-bounds-for-batch-pir-with-private-preprocessing)**
+### 作者
+* Kevin Yeo, Google and Columbia University, New York, USA
+### 摘要
+> 在本论文中，我们研究带有私有预处理的（批量）私密信息检索。私密信息检索（PIR）是一个问题，其中一个或多个服务器持有一个包含 n 位的数据库，并且客户端希望从服务器检索数据库中的第 i 位。在带有私有预处理的 PIR（也称为离线-在线 PIR）中，客户端能够在离线阶段计算出一个私有的 r 位提示，并可利用该提示执行检索，最多访问 t 项。为了保护隐私，客户端希望对一个已被某些服务器泄漏的对手隐藏索引 i。在批量 PIR 设置中，客户端同时执行查询以检索多个条目的内容。
+> 
+> 我们对提示大小 r 和查询期间所访问的条目数 t 之间的权衡关系进行了精确描述。对于任何使客户端能够执行批量检索 k 项的 PIR 方案，当 \(r \geq k\) 时，我们证明下界 \(tr = \varOmega (nk)\)。当 \(r < k\) 时，我们证明 \(t = \varOmega (n)\)。我们的下界适用于方案出错概率至多为 1/15，并且针对只泄露 O(1) 个服务器中的一个的 PPT 对手成立。我们的工作还解决了单个查询设置 \((k = 1)\) 的乘法对数差距问题，因为我们的下界与已知构建相匹配。我们的下界适用于每个数据库条目存储时没有修改，但可以任意复制每个条目的模型。
+> 
+> 最后，我们展示了私密信息检索和细粒度复杂性中的在线矩阵-向量（\(\textsf{OMV}\)）猜想之间的联系。我们提供了在一般计算模型中证明双服务器 PIR 方案下界的障碍，因为它们将立即推导出 \(\textsf{OMV}\) 猜想。
+
+### 链接
+- **URL:** [https://doi.org/10.1007/978-3-031-30545-0_18](https://doi.org/10.1007/978-3-031-30545-0_18)
 ## How to Compress Encrypted Data.
 🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2023-1].md#how-to-compress-encrypted-data) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2023-1].md#how-to-compress-encrypted-data)**
 ### 作者
@@ -201,18 +304,6 @@
 
 ### 链接
 - **URL:** [https://doi.org/10.1007/978-3-031-30545-0_19](https://doi.org/10.1007/978-3-031-30545-0_19)
-## Weighted Oblivious RAM, with Applications to Searchable Symmetric Encryption.
-🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2023-1].md#weighted-oblivious-ram-with-applications-to-searchable-symmetric-encryption) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2023-1].md#weighted-oblivious-ram-with-applications-to-searchable-symmetric-encryption)**
-### 作者
-* Léonard Assouline, École Normale Supérieure, PSL University, CNRS, Inria, Paris, France
-* Brice Minaud, École Normale Supérieure, PSL University, CNRS, Inria, Paris, France
-### 摘要
-> 现有的混淆随机访问内存（ORAM）协议不能以非平凡的方式支持可变大小的数据项存储。虽然研究可变大小数据项的ORAM本身就很有意义，但也受到对更高性能和更安全的可搜索对称加密（SSE）方案的需求的推动。
-> 
-> 在本文中，我们介绍了加权ORAM的概念，以支持不同大小的数据块存储。我们提出了一个基于满足某种适用性准则的底层标准ORAM的高效加权ORAM方案建立框架。这一准则适用于各种树状ORAM方案，包括简单ORAM和路径ORAM。我们推导出了几种加权ORAM的实例，与标准ORAM相比，开销极小。作为直接应用，我们获得了具有有吸引力安全性特性的高效SSE构建。
-
-### 链接
-- **URL:** [https://doi.org/10.1007/978-3-031-30545-0_15](https://doi.org/10.1007/978-3-031-30545-0_15)
 ## Public Key Encryption with Secure Key Leasing.
 🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2023-1].md#public-key-encryption-with-secure-key-leasing) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2023-1].md#public-key-encryption-with-secure-key-leasing)**
 ### 作者
@@ -251,65 +342,6 @@
 
 ### 链接
 - **URL:** [https://doi.org/10.1007/978-3-031-30545-0_21](https://doi.org/10.1007/978-3-031-30545-0_21)
-## Reverse Firewalls for Oblivious Transfer Extension and Applications to Zero-Knowledge.
-🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2023-1].md#reverse-firewalls-for-oblivious-transfer-extension-and-applications-to-zero-knowledge) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2023-1].md#reverse-firewalls-for-oblivious-transfer-extension-and-applications-to-zero-knowledge)**
-### 作者
-* Suvradip Chakraborty, Visa Research, Palo Alto, USA
-* Chaya Ganesh, Indian Institute of Science, Bengaluru, India
-* Pratik Sarkar, Department of Computer Science, Boston University, Boston, USA
-### 摘要
-> 在颠覆的环境中，对手通过篡改诚实方的机器来通过协议记录中泄露诚实方的秘密。Mironov和Stephens-Davidowitz（EUROCRYPT'15）的工作引入了反向防火墙（RF）的概念，以防止对诚实方机器的篡改。RF框架中的所有已知构造都依赖底层操作的可塑性，以便RF对协议记录进行重新随机化/消毒。因此，RF受限于提供一定结构的协议，并且基于公钥操作。在这项工作中，我们开始研究存在篡改的高效多方计算（MPC）协议。在这方面上，
-> 
-> 我们在RF框架中构建了第一个Oblivious Transfer（OT）扩展协议。我们使用\(\mathcal {O}(\kappa )\)公钥操作和\(\mathcal {O}(1)\)廉价对称密钥操作获得\(\textsf {poly}(\kappa )\)恶意安全OTs，其中\(\kappa \)是安全参数。
-> 
-> 我们在RF设置中构建了第一个零知识协议，在该协议中，每个乘法门可以使用\(\mathcal {O}(1)\)对称密钥操作进行证明。我们通过使用我们的OT扩展协议以及将Quicksilver（Yang，Sarkar，Weng和Wang，CCS'21）的ZK协议扩展到RF设置来实现这一点。
-> 
-> 在此过程中，我们介绍了可修饰交互证明的新思想，这可能是独立感兴趣的。我们为Sigma协议定义了一种全可塑性概念，与先前的概念不同，它允许修改实例以及协议记录。我们构建了满足这个概念的新协议，为这样的协议构建了RF，并将它们用于构建我们的OT扩展。
-> 
-> 我们工作的关键思想是展示如何以RF友好的方式获得相关随机性，而无需对整个协议记录进行重新随机化。这使我们能够避免随着电路规模增长而变得昂贵的公钥操作。
-
-### 链接
-- **URL:** [https://doi.org/10.1007/978-3-031-30545-0_9](https://doi.org/10.1007/978-3-031-30545-0_9)
-## Lower Bounds for (Batch) PIR with Private Preprocessing.
-🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2023-1].md#lower-bounds-for-batch-pir-with-private-preprocessing) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2023-1].md#lower-bounds-for-batch-pir-with-private-preprocessing)**
-### 作者
-* Kevin Yeo, Google and Columbia University, New York, USA
-### 摘要
-> 在本论文中，我们研究带有私有预处理的（批量）私密信息检索。私密信息检索（PIR）是一个问题，其中一个或多个服务器持有一个包含 n 位的数据库，并且客户端希望从服务器检索数据库中的第 i 位。在带有私有预处理的 PIR（也称为离线-在线 PIR）中，客户端能够在离线阶段计算出一个私有的 r 位提示，并可利用该提示执行检索，最多访问 t 项。为了保护隐私，客户端希望对一个已被某些服务器泄漏的对手隐藏索引 i。在批量 PIR 设置中，客户端同时执行查询以检索多个条目的内容。
-> 
-> 我们对提示大小 r 和查询期间所访问的条目数 t 之间的权衡关系进行了精确描述。对于任何使客户端能够执行批量检索 k 项的 PIR 方案，当 \(r \geq k\) 时，我们证明下界 \(tr = \varOmega (nk)\)。当 \(r < k\) 时，我们证明 \(t = \varOmega (n)\)。我们的下界适用于方案出错概率至多为 1/15，并且针对只泄露 O(1) 个服务器中的一个的 PPT 对手成立。我们的工作还解决了单个查询设置 \((k = 1)\) 的乘法对数差距问题，因为我们的下界与已知构建相匹配。我们的下界适用于每个数据库条目存储时没有修改，但可以任意复制每个条目的模型。
-> 
-> 最后，我们展示了私密信息检索和细粒度复杂性中的在线矩阵-向量（\(\textsf{OMV}\)）猜想之间的联系。我们提供了在一般计算模型中证明双服务器 PIR 方案下界的障碍，因为它们将立即推导出 \(\textsf{OMV}\) 猜想。
-
-### 链接
-- **URL:** [https://doi.org/10.1007/978-3-031-30545-0_18](https://doi.org/10.1007/978-3-031-30545-0_18)
-## Lower Bound Framework for Differentially Private and Oblivious Data Structures.
-🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2023-1].md#lower-bound-framework-for-differentially-private-and-oblivious-data-structures) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2023-1].md#lower-bound-framework-for-differentially-private-and-oblivious-data-structures)**
-### 作者
-* Giuseppe Persiano, Universitá di Salerno and Google, Fisciano, Italy
-* Kevin Yeo, Google and Columbia University, New York, USA
-### 摘要
-> 近年来，对执行操作提供隐私的数据结构的研究取得了重要进展。这些基本构件旨在确保对物理内存的可观察访问模式不会泄露有关查询和更新的重要信息。包括Larsen和Nielsen [Crypto’18]、Persiano和Yeo [Eurocrypt’19]、Hubácek等人[ TCC’19]和Komargodski和Lin [Crypto’21]在内的多篇最近的研究表明，即使针对包括混淆和差分隐私在内不同RAM块b和存储单元ω大小选择的各种隐私概念，也需要对数开销支持基本的RAM（数组）操作。
-> 
-> 我们沿着这条研究路线继续前进，并提出了第一个即便对块数b和存储单元ω的大小没有限制也适用的差分隐私RAM（DPRAMs）的对数下界。这是差分隐私RAM在块远小于存储单元的情况下\(b \ll \omega \)的第一个对数下界。此外，我们还提出了差分隐私变种的经典数据结构问题，包括集合、前驱（后继）和不相交集合（并查集），这些问题已知存在亚对数明文构造。我们的所有下界都适用于多个非勾结服务器的设置。
-> 
-> 此外，我们还解决了这一丰富研究领域中的一个不幸问题，即下界技术难以使用，并且需要针对每个新结果进行定制。为了使技术更易于使用，我们将证明通用化为一个框架，将证明对数下界简化为证明一个特定问题满足两个简单且最小的条件。我们展示了我们的框架易于使用，因为我们论文中的所有下界都利用了这个框架，并且我们希望我们的框架将激发更多对这些下界技术的使用。
-
-### 链接
-- **URL:** [https://doi.org/10.1007/978-3-031-30545-0_17](https://doi.org/10.1007/978-3-031-30545-0_17)
-## NanoGRAM: Garbled RAM with $\widetilde{O}(\log N)$ Overhead.
-🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2023-1].md#nanogram-garbled-ram-with-widetilde-o-log-n-overhead) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2023-1].md#nanogram-garbled-ram-with-widetilde-o-log-n-overhead)**
-### 作者
-* Andrew Park, Carnegie Mellon University, Pittsburgh, USA
-* Elaine Shi, Carnegie Mellon University, Pittsburgh, USA
-* Wei-Kai Lin, Northeastern University, Boston, USA
-### 摘要
-> 我们提出了一种名为NanoGRAM的新的加密RAM构造，其实现了每次内存访问的摊销成本为\(\widetilde{O}(\lambda \cdot (W \log N + \log ^3 N))\)比特，其中\(\lambda \)是安全参数，W是块大小，N是总块数，\(\widetilde{O}(\cdot )\)隐藏着\({\textsf{poly}} \log \log \)因子。对于足够大的块大小，其中\(W = \varOmega (\log ^2 N)\)，我们的方案实现了每次内存访问的\(\widetilde{O}(\lambda \cdot W \log N)\)成本，其中对N的依赖是最优的（除了\({\textsf{poly}} \log \log \)因子），就评估程序的运行时间而言。我们的渐近性能甚至与最先进的互动式方案相匹配（模除\({\textsf{poly}} \log \log \)因子），即在加密电路上运行Circuit ORAM，并且我们消除了基线方案中必要的对数次交互。此外，我们在Heath等人最近的作品（Eurocrypt '22）的渐近性能上也有改进。我们的方案采用了与实际加密电路主流文献相同的假设，即循环相关性鲁棒哈希或随机预言。我们评估了NanoGRAM的具体性能，并将其与一些渐近性能较差的基线进行了比较。我们展示了在内存大小为\(N = 2^9\)时，NanoGRAM开始优于天真的线性扫描加密RAM，并且在\(N = 2^{13}\)时开始优于Heath等人的最近构造。
-> 
-> 最后，作为一个副产品，我们还展示了假设只有单向函数的情况下存在一种加密RAM方案，每次内存访问的摊销成本为\(\widetilde{O}(\lambda ^2 \cdot (W \log N + \log ^3 N))\)。同样，对于块大小为\(W = \varOmega (\log ^2 N)\)比特的情况，对N的依赖几乎是最优的。
-
-### 链接
-- **URL:** [https://doi.org/10.1007/978-3-031-30545-0_16](https://doi.org/10.1007/978-3-031-30545-0_16)
 ## From the Hardness of Detecting Superpositions to Cryptography: Quantum Public Key Encryption and Commitments.
 🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2023-1].md#from-the-hardness-of-detecting-superpositions-to-cryptography-quantum-public-key-encryption-and-commitments) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2023-1].md#from-the-hardness-of-detecting-superpositions-to-cryptography-quantum-public-key-encryption-and-commitments)**
 ### 作者
@@ -326,35 +358,3 @@
 
 ### 链接
 - **URL:** [https://doi.org/10.1007/978-3-031-30545-0_22](https://doi.org/10.1007/978-3-031-30545-0_22)
-## A New Framework for Quantum Oblivious Transfer.
-🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2023-1].md#a-new-framework-for-quantum-oblivious-transfer) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2023-1].md#a-new-framework-for-quantum-oblivious-transfer)**
-### 作者
-* Amit Agarwal, University of Illinois Urbana-Champaign, Champaign, USA
-* Dakshita Khurana, University of Illinois Urbana-Champaign, Champaign, USA
-* Nishant Kumar, University of Illinois Urbana-Champaign, Champaign, USA
-* James Bartusek, University of California Berkeley, Berkeley, USA
-### 摘要
-> 我们提出了一种从量子信息构建遗忘转移的新模板，我们称之为“固定基础”框架。我们的框架与之前的研究（例如Crepeau和Kilian，FOCS'88）不同之处在于，除了一些故意用共轭基础测量的隐藏陷阱量子比特外，每个参与者都固定了正确的测量基础的选择。我们在量子随机预言机模型（QROM）中实例化了这个模板，以获得具有安全性的简单协议，以抵御恶意对手：
-> 
-> 在参与方事先共享EPR对的模型中进行的非交互式随机输入比特OT。
-> 
-> 无需设置的两轮随机输入比特OT，通过展示上述协议即使（潜在恶意的）OT接收者设置了EPR对也仍然安全。
-> 
-> 没有纠缠或设置时的BB84态的三轮选择性输入字符串OT。这改进了需要至少五轮的CK88模板的自然变体。
-> 
-> 在此过程中，我们开发了一些可能具有独立兴趣的技术工具。我们证明自然函数（如XOR）使得从某些量子熵源中无需种子的随机抽取成为可能。我们还使用理想化的（即可提取和模棱两可的）二进制承诺，通过证明QROM中简单高效的构造的安全性而获得。
-
-### 链接
-- **URL:** [https://doi.org/10.1007/978-3-031-30545-0_13](https://doi.org/10.1007/978-3-031-30545-0_13)
-## Optimal Single-Server Private Information Retrieval.
-🌍 [English](../../../docs/en/Eurocrypt/Eurocrypt[2023-1].md#optimal-single-server-private-information-retrieval) | **[简体中文](../../../docs/zh-CN/Eurocrypt/Eurocrypt[2023-1].md#optimal-single-server-private-information-retrieval)**
-### 作者
-* Mingxun Zhou, Carnegie Mellon University, Pittsburgh, USA
-* Yiannis Tselekounis, Carnegie Mellon University, Pittsburgh, USA
-* Elaine Shi, Carnegie Mellon University, Pittsburgh, USA
-* Wei-Kai Lin, Northeastern University, Boston, USA
-### 摘要
-> 我们构建了一个具有最优带宽和服务器计算量（多对数因子）的单服务器预处理私密信息检索（PIR）方案，假设学习困难（LWE）问题具有难度。我们的方案实现了分摊\(\widetilde{O}_{\lambda }(\sqrt{n})\)服务器和客户端计算以及\(\widetilde{O}_\lambda (1)\)每个查询的带宽，完成一个往返的通信，并需要\(\widetilde{O}_\lambda (\sqrt{n})\)客户端存储。特别地，相比Corrigan-Gibbs，Henzinger和Kogan（Eurocrypt'22）的最先进方案，我们实现了带宽的显著减少：他们的方案每个查询需要\(\widetilde{O}_{\lambda }(\sqrt{n})\)的带宽，与我们的计算和存储的开销相当。
-
-### 链接
-- **URL:** [https://doi.org/10.1007/978-3-031-30545-0_14](https://doi.org/10.1007/978-3-031-30545-0_14)

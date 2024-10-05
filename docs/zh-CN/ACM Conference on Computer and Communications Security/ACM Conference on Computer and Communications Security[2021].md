@@ -2836,6 +2836,21 @@
 
 ### 链接
 - **URL:** [https://doi.org/10.1145/3460120.3484790](https://doi.org/10.1145/3460120.3484790)
+## WristPrint: Characterizing User Re-identification Risks from Wrist-worn Accelerometry Data.
+🌍 [English](../../../docs/en/ACM%20Conference%20on%20Computer%20and%20Communications%20Security/ACM%20Conference%20on%20Computer%20and%20Communications%20Security[2021].md#wristprint-characterizing-user-re-identification-risks-from-wrist-worn-accelerometry-data) | **[简体中文](../../../docs/zh-CN/ACM%20Conference%20on%20Computer%20and%20Communications%20Security/ACM%20Conference%20on%20Computer%20and%20Communications%20Security[2021].md#wristprint-characterizing-user-re-identification-risks-from-wrist-worn-accelerometry-data)**
+### 作者
+* Nazir Saleheen, University of Memphis, Memphis, TN, USA
+* Md Azim Ullah, University of Memphis, Memphis, TN, USA
+* Supriyo Chakraborty, IBM T. J. Watson Research Center, NY, NY, USA
+* Deniz S. Ones, University of Minnesota, Minneapolis , MN, USA
+* Mani Srivastava, University of California, Los Angeles, LA, CA, USA
+* Santosh Kumar, University of Memphis, Memphis, TN, USA
+### 摘要
+> 手腕佩戴的运动传感器数据的公开发布正在增加。它们能够促进研究，开发新算法来
+
+### 链接
+- **URL:** [https://doi.org/10.1145/3460120.3484799](https://doi.org/10.1145/3460120.3484799)
+- **PDF:** [https://dl.acm.org/doi/pdf/10.1145/3460120.3484799](https://dl.acm.org/doi/pdf/10.1145/3460120.3484799)
 ## Consistency Analysis of Data-Usage Purposes in Mobile Apps.
 🌍 [English](../../../docs/en/ACM%20Conference%20on%20Computer%20and%20Communications%20Security/ACM%20Conference%20on%20Computer%20and%20Communications%20Security[2021].md#consistency-analysis-of-data-usage-purposes-in-mobile-apps) | **[简体中文](../../../docs/zh-CN/ACM%20Conference%20on%20Computer%20and%20Communications%20Security/ACM%20Conference%20on%20Computer%20and%20Communications%20Security[2021].md#consistency-analysis-of-data-usage-purposes-in-mobile-apps)**
 ### 作者
@@ -2977,18 +2992,3 @@
 ### 链接
 - **URL:** [https://doi.org/10.1145/3460120.3484556](https://doi.org/10.1145/3460120.3484556)
 - **PDF:** [https://dl.acm.org/doi/pdf/10.1145/3460120.3484556](https://dl.acm.org/doi/pdf/10.1145/3460120.3484556)
-## WristPrint: Characterizing User Re-identification Risks from Wrist-worn Accelerometry Data.
-🌍 [English](../../../docs/en/ACM%20Conference%20on%20Computer%20and%20Communications%20Security/ACM%20Conference%20on%20Computer%20and%20Communications%20Security[2021].md#wristprint-characterizing-user-re-identification-risks-from-wrist-worn-accelerometry-data) | **[简体中文](../../../docs/zh-CN/ACM%20Conference%20on%20Computer%20and%20Communications%20Security/ACM%20Conference%20on%20Computer%20and%20Communications%20Security[2021].md#wristprint-characterizing-user-re-identification-risks-from-wrist-worn-accelerometry-data)**
-### 作者
-* Nazir Saleheen, University of Memphis, Memphis, TN, USA
-* Md Azim Ullah, University of Memphis, Memphis, TN, USA
-* Supriyo Chakraborty, IBM T. J. Watson Research Center, NY, NY, USA
-* Deniz S. Ones, University of Minnesota, Minneapolis , MN, USA
-* Mani Srivastava, University of California, Los Angeles, LA, CA, USA
-* Santosh Kumar, University of Memphis, Memphis, TN, USA
-### 摘要
-> 手腕佩戴的运动传感器数据的公开发布正在增加。它们能够促进研究，开发新算法来
-
-### 链接
-- **URL:** [https://doi.org/10.1145/3460120.3484799](https://doi.org/10.1145/3460120.3484799)
-- **PDF:** [https://dl.acm.org/doi/pdf/10.1145/3460120.3484799](https://dl.acm.org/doi/pdf/10.1145/3460120.3484799)
